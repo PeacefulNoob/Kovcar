@@ -4,76 +4,52 @@
         <!-- .container -->
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-xl-3"><!-- footer widget -->
-                    <div class="left-55">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-xl-6"><!-- footer widget -->
+                    <div class="left-55 text-center">
                         <div class="f-widget-title">
-                            <h4>Lokacija</h4>
+                            <h4>Danilovgrad</h4>
                         </div>
                         <div class="sigle-address">
-                            <p>Adresa <br>
-                                AdresaAdresaAdresa
+                            <p>Nikšićki put <br>
+                                bb
                             </p>
                         </div>
                         <div class="sigle-address">
-                            <p>support@gmail.com</p>
+                            <p>kov-car@t-com.me</p>
                         </div>
                         <div class="sigle-address">
-                            <p>+012 (4567) 789</p>
+                            <p>069 09 55 81</p>
+                            
+                        </div>
+                        <div class="sigle-address">
+                            <p>077 20 00 50</p>
+                            
                         </div>
                     </div>
                 </div><!-- footer widget -->
-                <div class="col-xs-12 col-sm-6 col-md-6 col-xl-3"><!-- footer widget -->
-                    <div class="left-55">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-xl-6"><!-- footer widget -->
+                    <div class="left-55 text-center">
                         <div class="f-widget-title">
-                            <h4>Lokacija</h4>
+                            <h4>Kotor</h4>
                         </div>
                         <div class="sigle-address">
-                            <p>Adresa <br>
-                                AdresaAdresaAdresa
+                            <p>Radanovići <br>
+                                bb
                             </p>
                         </div>
                         <div class="sigle-address">
-                            <p>support@gmail.com</p>
+                            <p>kov-car@t-com.me</p>
                         </div>
                         <div class="sigle-address">
-                            <p>+012 (4567) 789</p>
+                            <p>069 09 55 81</p>
+                            
+                        </div>
+                        <div class="sigle-address">
+                            <p>077 20 00 50</p>
+                            
                         </div>
                     </div>
-                </div><!-- footer widget -->  <div class="col-xs-12 col-sm-6 col-md-6 col-xl-3"><!-- footer widget -->
-                    <div class="left-55">
-                        <div class="f-widget-title">
-                            <h4>Lokacija</h4>
-                        </div>
-                        <div class="sigle-address">
-                            <p>Adresa <br>
-                                AdresaAdresaAdresa
-                            </p>
-                        </div>
-                        <div class="sigle-address">
-                            <p>support@gmail.com</p>
-                        </div>
-                        <div class="sigle-address">
-                            <p>+012 (4567) 789</p>
-                        </div>
-                    </div>
-                </div><!-- footer widget -->  <div class="col-xs-12 col-sm-6 col-md-6 col-xl-3"><!-- footer widget -->
-                    <div class="left-55">
-                        <div class="f-widget-title">
-                            <h4>Lokacija</h4>
-                        </div>
-                        <div class="sigle-address">
-                            <p>Adresa <br>
-                                AdresaAdresaAdresa
-                            </p>
-                        </div>
-                        <div class="sigle-address">
-                            <p>support@gmail.com</p>
-                        </div>
-                        <div class="sigle-address">
-                            <p>+012 (4567) 789</p>
-                        </div>
-                    </div>
-                </div><!-- footer widget -->
+                </div><!-- footer widget -->  
             
             </div>
             <!-- to top -->
@@ -89,10 +65,8 @@
                 <div class="footer-social text-center">
 
                     <div class="icon-round-white footer-social mt-25">
-                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
-                        <a href="#" title="Youtube"><i class="fab fa-youtube"></i></a>
-                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a target=”_blank” href="https://www.facebook.com/AC-KOV-CAR-822606494588109/" title="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a target=”_blank” href="https://www.instagram.com/kov_car/" title="Instagram"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
                 <div class="copyright text-center">

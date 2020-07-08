@@ -27,6 +27,10 @@
     <link rel="stylesheet" href="assets/css/jquery.fancybox.css">
     <!-- Magnific Popup core CSS file -->
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 <body>
 @include('layouts.header')
@@ -35,58 +39,8 @@
 
 @yield('content')
 
-<div class="sticky-cta clearfix " style="top: 155px; display: block;">
-    <ul> 
-     
-     	<li class="sticky-cta-item visible-mobile">
-            <!--  /content/jeep/jeep-rs/sr/car-configurator -->
-             <a href="http://carconfigurator.jeep.com/rs_RS/" data-adobe="cta:shopping-tools:configurator" target="_self">
-                 <span class="sticky-cta-item-info" style="display: none;">KONFIGURATOR</span>
-                 <span class="sticky-cta-item-icon"><img src="/content/dam/jeep/crossmarket/shopping-tools/sticky-cta-car-configurator.png"></span>
-             </a>
-         </li>
-     
-     	<li class="sticky-cta-item visible-mobile">
-            <!--  /content/jeep/jeep-rs/sr/jeep-brosure-i-cenovnici -->
-             <a href="/jeep-brosure-i-cenovnici" data-adobe="cta:editorial:brochures" target="_self">
-                 <span class="sticky-cta-item-info" style="display: none;">BROŠURA</span>
-                 <span class="sticky-cta-item-icon"><img src="/content/dam/jeep/crossmarket/shopping-tools/sticky-cta-brochure.png"></span>
-             </a>
-         </li>
-     
-     	<li class="sticky-cta-item visible-mobile">
-            <!--  /content/jeep/jeep-rs/sr/jeep-brosure-i-cenovnici -->
-             <a href="/jeep-brosure-i-cenovnici" data-adobe="cta:editorial:brochures" target="_self">
-                 <span class="sticky-cta-item-info" style="display: none;">CENOVNIK</span>
-                 <span class="sticky-cta-item-icon"><img src="/content/dam/jeep/crossmarket/shopping-tools/sticky-cta-request-a-quote-new.png"></span>
-             </a>
-         </li>
-     
-     	<li class="sticky-cta-item visible-mobile">
-            <!--  /content/jeep/jeep-rs/sr/test-drive -->
-             <a href="/redirecting/redirect-test-drive#modelCode=684" data-adobe="cta:contact:test-drive-request" target="_self">
-                 <span class="sticky-cta-item-info" style="display: none;">TEST VOŽNJA</span>
-                 <span class="sticky-cta-item-icon"><img src="/content/dam/jeep/crossmarket/shopping-tools/sticky-cta-test-drive.png"></span>
-             </a>
-         </li>
-     
-     	<li class="sticky-cta-item visible-mobile">
-            <!--  /content/jeep/jeep-rs/sr/dealer-locator -->
-             <a href="/redirecting/redirect-dealer-locator" data-adobe="cta:shopping-tools:dealer-locator" target="_self">
-                 <span class="sticky-cta-item-info" style="display: none;">PRONAĐITE DILERA</span>
-                 <span class="sticky-cta-item-icon"><img src="/content/dam/jeep/crossmarket/shopping-tools/sticky-cta-dealer-locator.png"></span>
-             </a>
-         </li>
-     
-     	
-     
-     	
-     
-     	
-     
-    </ul>
-</div>
 
+@include('layouts.test_drive')
 @include('layouts.footer')
 
 

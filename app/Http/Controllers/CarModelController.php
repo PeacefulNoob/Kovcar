@@ -46,7 +46,8 @@ class CarModelController extends Controller
      */
     public function show(Car_Model $car_Model)
     {
-        //
+        $model = Car_Model::findOrFail($car_Model->id);
+        return view('site.car_model',compact('model'));
     }
 
     /**

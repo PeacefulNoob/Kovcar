@@ -3,13 +3,13 @@
     <div class="topheader hidemobile">
         <div class="row">
             <div class="col-lg-7">
-                <div class="address-icon"><a href="contact.html">Adresa</a></div><div class="address-icon"><a href="mailto:mail@domain.com">mail@domain.com</a></div><div class="address-icon"><a class="bold" href="tel:123-456-7890">+1 (234) 567 891 234</a></div>    </div>
+                <div class="address-icon"><a href="/contact">Nikšićki put bb</a></div><div class="address-icon"><a href="mailto:mail@domain.com">kov-car@t-com.me</a></div><div class="address-icon"><a class="bold" href="tel:069095581">+382 69 09 55 81</a></div>    </div>
             <div class="col-lg-5 text-right">
                 <div class="custom-page-top">
-                   <a href="/services/">FAQ</a>            </div>
+                   <a href="/faq">FAQ</a>            </div>
 
                 <div class="social_top_header">
-                    <a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a><a href="#"><i class="fab fa-pinterest" aria-hidden="true"></i></a><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></div>
+                    <a target=”_blank” href="https://www.facebook.com/AC-KOV-CAR-822606494588109/"><i class="fab fa-facebook-f" aria-hidden="true"></i></a><a target=”_blank” href="https://www.instagram.com/kov_car/"><i class="fab fa-instagram" aria-hidden="true"></i></a></div>
             </div>
         </div>
     </div>
@@ -19,7 +19,7 @@
         <div class="container">
             <!-- Logo and Menu -->
             <div class="navbar-header">
-                <div class="navbar-brand"><a href="index.html"><img src="images/logo.png" alt="Logo"/></a></div>
+                <div class="navbar-brand"><a href="/"><img src="images/logo.png" alt="Logo"/></a></div>
                 <!-- site logo -->
             </div>
             <!-- Menu Toogle -->
@@ -32,7 +32,7 @@
                 <ul class="nav navbar-nav ml-auto">
                     <!-- Menu Link -->
                     <li >
-                        <a href="index.html">Home</a>
+                        <a href="/">Početna</a>
                       
                     </li>
                     <li class="subnav">
@@ -47,12 +47,14 @@
                     </li>
                  
                    
-                     <li><a href="#">About</a></li>
-                     <li><a href="#" class="nav-link ">Contact</a></li>
+                     <li><a href="/about">O nama</a></li>
+
+                     <li><a href="/contact" class="nav-link ">Kontakt</a></li>
+                     <li><a href="/faq">FAQ</a></li>
                        
                 </ul>
                 <div class="header-cta">
-                    <a href="contact.html" class="btn btn-1c">Get Appointment</a>
+                    <a href="/contact" class="btn btn-1c">Get Appointment</a>
                 </div>
             </div>
             <!-- Menu Toogle end -->

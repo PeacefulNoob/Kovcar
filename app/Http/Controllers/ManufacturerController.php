@@ -14,7 +14,9 @@ class ManufacturerController extends Controller
      */
     public function index()
     {
-        //
+     /*    $manufacturer = Manufacturer::all(); */
+        return view('site.index2'/* ,compact('manuf') */);
+
     }
 
     /**
@@ -46,7 +48,9 @@ class ManufacturerController extends Controller
      */
     public function show(Manufacturer $manufacturer)
     {
-        //
+    /*     $manufa = Manufacturer::findOrFail($manufacturer->id);
+        $models = Car_Model::all(); */
+        return view('site.manufacturer'/* ,compact('manufa','models') */);
     }
 
     /**
