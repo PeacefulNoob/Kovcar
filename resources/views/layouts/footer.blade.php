@@ -4,7 +4,12 @@
         <!-- .container -->
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-xl-6"><!-- footer widget -->
+                <div class="col-xs-12 col-sm-0 col-md-3 col-xl-3"><!-- footer widget -->
+                    <div class="left-55 text-center">
+                        
+                    </div>
+                </div><!-- footer widget -->  
+                <div class="col-xs-12 col-sm-6 col-md-3 col-xl-3"><!-- footer widget -->
                     <div class="left-55 text-center">
                         <div class="f-widget-title">
                             <h4>Danilovgrad</h4>
@@ -27,7 +32,7 @@
                         </div>
                     </div>
                 </div><!-- footer widget -->
-                <div class="col-xs-12 col-sm-6 col-md-6 col-xl-6"><!-- footer widget -->
+                <div class="col-xs-12 col-sm-6 col-md-3 col-xl-3"><!-- footer widget -->
                     <div class="left-55 text-center">
                         <div class="f-widget-title">
                             <h4>Kotor</h4>
@@ -78,8 +83,7 @@
 
         <!-- to top -->
         <div class="cd-top">Top</div>
-        <div class="cursor"></div>
-        <div class="cursor2"></div>
+
 
     </div>
     <!-- #footer bottom end -->

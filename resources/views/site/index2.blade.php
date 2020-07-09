@@ -71,13 +71,12 @@
                 <div class="themeioan_services">
                     <article><!-- single services -->
                         <div class="blog-photo">
-                            <a href="/manufacturer/1"><img src="images/content/realestate/1.jpg" alt=""></a>
+                            <a href="/manufacturer/1"><img src="/assets/images/content/manuf_logo/fiat.jpg" alt=""></a>
                         </div>
                         <div class="blog-content">
-                            <h5 class="title"><a href="/manufacturer/1">Naziv</a></h5>
-                            <div class="estate-content">
-                                <span>Marka</span>
-                               
+                            <h5 class="title"><a href="/manufacturer/1">Fiat</a></h5>
+                            <div class="mt-25">
+                                <a href="services-detail.html" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
                             </div>
                         
                         </div>
@@ -90,13 +89,12 @@
                 <div class="themeioan_services">
                     <article><!-- single services -->
                         <div class="blog-photo">
-                            <a href="portfolio-detail.html"><img src="images/content/realestate/1.jpg" alt=""></a>
+                            <a href="portfolio-detail.html"><img src="/assets/images/content/manuf_logo/fiatp.jpg" alt=""></a>
                         </div>
                         <div class="blog-content">
-                            <h5 class="title"><a href="portfolio-detail.html">Naziv</a></h5>
-                            <div class="estate-content">
-                                <span>Marka</span>
-                               
+                            <h5 class="title"><a href="portfolio-detail.html">Fiat Professional</a></h5>
+                            <div class="mt-25">
+                                <a href="services-detail.html" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
                             </div>
                         
                         </div>
@@ -108,13 +106,12 @@
                 <div class="themeioan_services">
                     <article><!-- single services -->
                         <div class="blog-photo">
-                            <a href="portfolio-detail.html"><img src="images/content/realestate/1.jpg" alt=""></a>
+                            <a href="portfolio-detail.html"><img src="/assets/images/content/manuf_logo/ar.jpg" alt=""></a>
                         </div>
                         <div class="blog-content">
-                            <h5 class="title"><a href="portfolio-detail.html">Naziv</a></h5>
-                            <div class="estate-content">
-                                <span>Marka</span>
-                               
+                            <h5 class="title"><a href="portfolio-detail.html">Alfa Romeo</a></h5>
+                            <div class="mt-25">
+                                <a href="services-detail.html" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
                             </div>
                         
                         </div>
@@ -126,13 +123,12 @@
                 <div class="themeioan_services">
                     <article><!-- single services -->
                         <div class="blog-photo">
-                            <a href="portfolio-detail.html"><img src="images/content/realestate/1.jpg" alt=""></a>
+                            <a href="portfolio-detail.html"><img src="/assets/images/content/manuf_logo/abarth.jpg" alt=""></a>
                         </div>
                         <div class="blog-content">
-                            <h5 class="title"><a href="portfolio-detail.html">Naziv</a></h5>
-                            <div class="estate-content">
-                                <span>Marka</span>
-                               
+                            <h5 class="title"><a href="portfolio-detail.html">Abarth</a></h5>
+                            <div class="mt-25">
+                                <a href="services-detail.html" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
                             </div>
                         
                         </div>
@@ -144,15 +140,13 @@
                 <div class="themeioan_services">
                     <article><!-- single services -->
                         <div class="blog-photo">
-                            <a href="portfolio-detail.html"><img src="images/content/realestate/1.jpg" alt=""></a>
+                            <a href="portfolio-detail.html"><img src="/assets/images/content/realestate/1.jpg" alt=""></a>
                         </div>
                         <div class="blog-content">
                             <h5 class="title"><a href="portfolio-detail.html">Naziv</a></h5>
-                            <div class="estate-content">
-                                <span>Marka</span>
-                               
+                            <div class="mt-25">
+                                <a href="services-detail.html" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
                             </div>
-                        
                         </div>
                     </article><!-- end single services -->
                 </div>
@@ -162,13 +156,12 @@
                 <div class="themeioan_services">
                     <article><!-- single services -->
                         <div class="blog-photo">
-                            <a href="portfolio-detail.html"><img src="images/content/realestate/1.jpg" alt=""></a>
+                            <a href="portfolio-detail.html"><img src="/assets/images/content/realestate/1.jpg" alt=""></a>
                         </div>
                         <div class="blog-content">
                             <h5 class="title"><a href="portfolio-detail.html">Naziv</a></h5>
-                            <div class="estate-content">
-                                <span>Marka</span>
-                               
+                            <div class="mt-25">
+                                <a href="services-detail.html" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
                             </div>
                         
                         </div>

@@ -16,18 +16,18 @@ window.jQuery(document).ready(function ($) {
     // End Script for Header Background - Height 100% //
 
 
-/*     // jQuery smooth scrolling //
-    $('a[href*="#"]').on('click', function (e) {
-        e.preventDefault();
-        var target = this.hash;
-        var $target = $(target);
-        $('html, body').stop().animate({
-            'scrollTop': $target.offset().top
-        }, 900, 'swing', function () {
-            window.location.hash = target;
+    /*     // jQuery smooth scrolling //
+        $('a[href*="#"]').on('click', function (e) {
+            e.preventDefault();
+            var target = this.hash;
+            var $target = $(target);
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top
+            }, 900, 'swing', function () {
+                window.location.hash = target;
+            });
         });
-    });
-    // End jQuery smooth scrolling // */
+        // End jQuery smooth scrolling // */
 
     jQuery(document).ready(function ($) {
         // Scroll to top button
@@ -304,7 +304,7 @@ window.jQuery(document).ready(function ($) {
     });
     // Slider End
 
-   
+
     $('.tabgroup > div').hide();
     $('.tabgroup > div:first-of-type').show();
     $('.tabs a').click(function (e) {
