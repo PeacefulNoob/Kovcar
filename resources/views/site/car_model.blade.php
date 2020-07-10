@@ -4,7 +4,7 @@
 
 <main>
     <!-- why-us area start -->
-    <div id="slider-modern" class=" services-detail-why">
+    <div id="slider-modern" class="">
             <img src="/assets/images/content/model/renegadeCover.jpg" alt="" class="sliderImg">
 
             <div class="row">
@@ -33,7 +33,7 @@
 <section id="first-tab-group" class="tabgroup">
   <div id="tab1">
     <div  class="wrap-bg">
-                    <!-- .row -->
+                    
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mbt30">
                             <!-- 1 -->
@@ -44,28 +44,28 @@
                                 <p>Udobnost, snaga i zabava. Jeep® Renegade Sport poseduje sve sto možete da poželite, od personalizovane instrument table, preko premijum sedišta, sve do Unconnect™ 5.0 DAB radija i Bluetooth® handsfree kontrole. Napredne sigurnosne i karakteristike udobnosti kao što su upozorenje o napuštanje trake, potpuno novo prepoznavanje saobraćajnih znakova i tempomat su standard i na ovom i na ostalim paketima opreme.</p>
                             </div><!-- end single features -->
                         </div>
+                      </div>
+                   
                     </div>
-                    <!-- .row end -->
-    </div>
-  </div>
-  <div id="tab2">
-    <div  class="wrap-bg">
-        <!-- .row -->
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mbt30">
-                <!-- 1 -->
-                <div class="single-features-light"><!-- single features -->
-                    <!-- uses solid style -->
-                    <img class="icon-svg" alt="icon" src="/assets/images/content/model/s.cherokee.png">
-                    <h4>RENEGADE LONGITUDE
-                    </h4>
-                    <p>Sloboda je na putu. Vozite Jeep® Renegade Longitude i otkrijte kako da spremni dočekate sva Vaša putovanja pomoću svetala za maglu, LED ambijentalnih svetala, naprednih bezbednosnih sistema, modernih i komfornih karakteristika kao što su zadnji parking senzor, retrovizori u boji i dodatni USB ulaz.</p>
-                </div><!-- end single features -->
-            </div>
-        </div>
-        <!-- .row end -->
-</div>
-  </div>
+                </div>
+                <div id="tab2">
+                    <div  class="wrap-bg">
+                            <!-- .row -->
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mbt30">
+                                    <!-- 1 -->
+                                    <div class="single-features-light"><!-- single features -->
+                                        <!-- uses solid style -->
+                                        <img class="icon-svg" alt="icon" src="/assets/images/content/model/s.cherokee.png">
+                                        <h4>RENEGADE LONGITUDE
+                                        </h4>
+                                        <p>Sloboda je na putu. Vozite Jeep® Renegade Longitude i otkrijte kako da spremni dočekate sva Vaša putovanja pomoću svetala za maglu, LED ambijentalnih svetala, naprednih bezbednosnih sistema, modernih i komfornih karakteristika kao što su zadnji parking senzor, retrovizori u boji i dodatni USB ulaz.</p>
+                                    </div><!-- end single features -->
+                                </div>
+                            </div>
+                            <!-- .row end -->
+                        </div>
+                        </div>
   <div id="tab3">
     <div  class="wrap-bg">
         <!-- .row -->
@@ -104,7 +104,7 @@
 </section>
 </div>
 <!-- projects area end -->
-<div id="slider-modern" class=" services-detail-why position-relative">
+<div id="slider-modern" class="  position-relative">
     <img src="/assets/images/content/model/renegade.ext.jpg" alt="" class="sliderImg">
         <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-7 naSliderCarLeft">
             <div class="section-title">
@@ -128,10 +128,7 @@
 
         <div class="row">
             <div class="col-lg-12">
-                <div class="section-title with-p">
-                    <span class="bg-start-light">Detalji</span>
-                 
-                </div>
+              
             </div>
             <div class="col-lg-12">
                 <!-- .row -->
@@ -155,7 +152,7 @@
 </div>
 <!-- features area end -->
 {{-- /////// --}}
-<div id="slider-modern" class=" services-detail-why position-relative">
+<div id="slider-modern" class="  position-relative">
     <img src="/assets/images/content/model/renegade.ext.jpg" alt="" class="sliderImg">
         <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-7 naSliderCar">
             <div class="section-title">
@@ -180,12 +177,7 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-lg-12">
-                <div class="section-title with-p">
-                    <span class="bg-start-light">Detalji</span>
-                 
-                </div>
-            </div>
+            
             <div class="col-lg-12">
                 <!-- .row -->
                 <div class="row">
@@ -209,10 +201,9 @@
 
 
 
-<!-- why-us area start -->
 <div id="why-us" class="wrap-bg-dark py-3">
     <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-5 col-xl-6 col-lg-6 services-detail-why  image-margin-50">
+        <div class="col-xs-12 col-sm-12 col-md-5 col-xl-6 col-lg-6   image-margin-50">
             <img src="/assets/images/content/manuf/jeep.about.jpg" class="sliderImg" alt="">
 
         </div>
@@ -237,7 +228,65 @@
         </div>
     </div>
 </div>
-<!-- why-us area end -->
+<div id="widget-call" class="call-to-action-area py-3 bg-cta">
+    <div class="container opac">
+        <div class="row justify-content-xl-between justify-content-lg-center justify-content-center">
+            <div class="sticky-cta clearfix" style="top: 185.89px; display: block;">
+                <ul> 
+                        <li class="sticky-cta-item visible-mobile">
+                            <a href="/download_brochure" data-adobe="cta:editorial:brochures" target="_self">
+                                <span class="sticky-cta-item-info" style="display: none;">BROŠURA</span>
+                                <span class="sticky-cta-item-icon"><img src="/assets/images/content/buttons/sticky-cta-brochure.png"></span>
+                            </a>
+                        </li>
+                    
+                        <li class="sticky-cta-item visible-mobile">
+                            <a href="/download_price" data-adobe="cta:editorial:brochures" target="_self">
+                                <span class="sticky-cta-item-info" style="display: none;">CENOVNIK</span>
+                                <span class="sticky-cta-item-icon"><img src="/assets/images/content/buttons/sticky-cta-request-a-quote-new.png"></span>
+                            </a>
+                        </li>
+                    
+                        <li class="sticky-cta-item visible-mobile">
+                            <a href="/test_drive" data-adobe="cta:contact:test-drive-request" target="_self">
+                                <span class="sticky-cta-item-info" style="display: none;">TEST VOŽNJA</span>
+                                <span class="sticky-cta-item-icon"><img src="/assets/images/content/buttons/sticky-cta-test-drive.png"></span>
+                            </a>
+                        </li>
+                 
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="why-us" class="wrap-bg-dark py-3 my-5">
+    <div class="row">
+        
+        <div class="col-xs-12 col-sm-12 col-md-7 col-xl-6 col-lg-6 wrap-padding text-left">
+          
+                <div class="section-title with-p">
+                    <div>
+                        <h2>Dizajn</h2>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis.</p>
+                <div class="col-md-12">
+                    <h4>PREPOZNAVANJE SAOBRAĆAJNIH ZNAKOVA (TSR)</h4>
+                    <p>Potpuno nova funkcija koja koristi naprednu kameru za prepoznavanje ograničenja brzine i ostalih saobraćajnih znakova, a zatim pruža upozorenja vozaču. Za ovu funkciju nisu potrebne mape ili GPS podrška.
+                        Sigurnost dostiže viši nivo sa TSR standardom u novoj Renegade gami.</p>
+                    <br>
+                    <h4>AKTIVNA BEZBEDNOST I SIGURNOST
+                    </h4>
+                    <p>a biste uživali u jedinstvenoj vožnji, važno je biti bezbedan za volanom. Jeep® Renegade je dizajniran da obezbedi više od 60 dostupnih bezbednosnih i sigurnosnih funkcija, uključujući sistem upozorenja o čeonom sudaru i LaneSense™ upozorenje o skretanju sa trake.</p>
+                </div>
+        
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-5 col-xl-6 col-lg-6 services-detail-why  image-margin-50">
+            <img src="/assets/images/content/manuf/jeep.about.jpg" class="sliderImg" alt="">
+
+        </div>
+    </div>
+</div>
 
 
 
@@ -271,31 +320,7 @@
 <!-- Slider End-->
 
 
-<div class="sticky-cta clearfix" style="top: 185.89px; display: block;">
-    <ul> 
-            <li class="sticky-cta-item visible-mobile">
-                <a href="/download_brochure" data-adobe="cta:editorial:brochures" target="_self">
-                    <span class="sticky-cta-item-info" style="display: none;">BROŠURA</span>
-                    <span class="sticky-cta-item-icon"><img src="/assets/images/content/buttons/sticky-cta-brochure.png"></span>
-                </a>
-            </li>
-        
-            <li class="sticky-cta-item visible-mobile">
-                <a href="/download_price" data-adobe="cta:editorial:brochures" target="_self">
-                    <span class="sticky-cta-item-info" style="display: none;">CENOVNIK</span>
-                    <span class="sticky-cta-item-icon"><img src="/assets/images/content/buttons/sticky-cta-request-a-quote-new.png"></span>
-                </a>
-            </li>
-        
-            <li class="sticky-cta-item visible-mobile">
-                <a href="/test_drive" data-adobe="cta:contact:test-drive-request" target="_self">
-                    <span class="sticky-cta-item-info" style="display: none;">TEST VOŽNJA</span>
-                    <span class="sticky-cta-item-icon"><img src="/assets/images/content/buttons/sticky-cta-test-drive.png"></span>
-                </a>
-            </li>
-     
-    </ul>
-</div>
+
 
 </main>
 

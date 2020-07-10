@@ -4,7 +4,7 @@
 <main>
     <div class="headerspace"></div>
     <!-- why-us area start -->
-    <div id="slider-modern" class="slider-bg9 services-detail-why">
+    <div id="slider-modern" class="">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-5">

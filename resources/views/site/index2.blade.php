@@ -71,7 +71,8 @@
                 <div class="themeioan_services">
                     <article><!-- single services -->
                         <div class="blog-photo">
-                            <a href="/manufacturer/1"><img src="/assets/images/content/manuf_logo/fiat.jpg" alt=""></a>
+                            <div class="overlaylogo"></div>
+                            <a href="/manufacturer/1"><img src="/assets/images/content/manuf_logo/Fiat768x432.png" alt=""></a>
                         </div>
                         <div class="blog-content">
                             <h5 class="title"><a href="/manufacturer/1">Fiat</a></h5>
@@ -89,7 +90,9 @@
                 <div class="themeioan_services">
                     <article><!-- single services -->
                         <div class="blog-photo">
-                            <a href="portfolio-detail.html"><img src="/assets/images/content/manuf_logo/fiatp.jpg" alt=""></a>
+                            <div class="overlaylogo"></div>
+
+                            <a href="portfolio-detail.html"><img src="/assets/images/content/manuf_logo/fiatp1.png" alt=""></a>
                         </div>
                         <div class="blog-content">
                             <h5 class="title"><a href="portfolio-detail.html">Fiat Professional</a></h5>
@@ -106,7 +109,9 @@
                 <div class="themeioan_services">
                     <article><!-- single services -->
                         <div class="blog-photo">
-                            <a href="portfolio-detail.html"><img src="/assets/images/content/manuf_logo/ar.jpg" alt=""></a>
+                            <div class="overlaylogo"></div>
+
+                            <a href="portfolio-detail.html"><img src="/assets/images/content/manuf_logo/Alfa768x432.png" alt=""></a>
                         </div>
                         <div class="blog-content">
                             <h5 class="title"><a href="portfolio-detail.html">Alfa Romeo</a></h5>
@@ -123,7 +128,9 @@
                 <div class="themeioan_services">
                     <article><!-- single services -->
                         <div class="blog-photo">
-                            <a href="portfolio-detail.html"><img src="/assets/images/content/manuf_logo/abarth.jpg" alt=""></a>
+                            <div class="overlaylogo"></div>
+
+                            <a href="portfolio-detail.html"><img src="/assets/images/content/manuf_logo/abarth.png" alt=""></a>
                         </div>
                         <div class="blog-content">
                             <h5 class="title"><a href="portfolio-detail.html">Abarth</a></h5>
@@ -140,10 +147,10 @@
                 <div class="themeioan_services">
                     <article><!-- single services -->
                         <div class="blog-photo">
-                            <a href="portfolio-detail.html"><img src="/assets/images/content/realestate/1.jpg" alt=""></a>
+                            <a href="portfolio-detail.html"><img src="/assets/images/content/manuf_logo/Jeep768x432.png" alt=""></a>
                         </div>
                         <div class="blog-content">
-                            <h5 class="title"><a href="portfolio-detail.html">Naziv</a></h5>
+                            <h5 class="title"><a href="portfolio-detail.html">Jeep</a></h5>
                             <div class="mt-25">
                                 <a href="services-detail.html" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
                             </div>
@@ -151,23 +158,7 @@
                     </article><!-- end single services -->
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 course-single mb20">
-                <!-- 1 -->
-                <div class="themeioan_services">
-                    <article><!-- single services -->
-                        <div class="blog-photo">
-                            <a href="portfolio-detail.html"><img src="/assets/images/content/realestate/1.jpg" alt=""></a>
-                        </div>
-                        <div class="blog-content">
-                            <h5 class="title"><a href="portfolio-detail.html">Naziv</a></h5>
-                            <div class="mt-25">
-                                <a href="services-detail.html" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
-                            </div>
-                        
-                        </div>
-                    </article><!-- end single services -->
-                </div>
-            </div>
+        
             
             <!-- .row end -->
         </div>
@@ -256,8 +247,7 @@
 
   
 
-    <!-- why-us area start -->
-    <div id="why-us" class="slider-bg11 services-detail-why">
+    <div id="why-us" class="slider-bg11 ">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-5">
@@ -271,14 +261,15 @@
                             </h2>
                             <p>Kompanija KOV-CAR osnovana je 11.06.2012. godine sa sedištem u Tivtu, Industrijska zona bb. Firma je u vlasništvu porodice Kovinić, koja je privatnim biznisom počela da se bave još od 1990. godine, nakon povratka iz Švajcarske. Osnovna djelatnost firme je prodaja i servis vozila.</p>
 
-                       
+                            <div class="call-to-action-btn">
+                                <a href="/about" class="btn-custom">Opširnije <i class="fas fa-arrow-right"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- why-us area end -->
 
 
 </main>

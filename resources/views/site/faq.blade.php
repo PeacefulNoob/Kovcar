@@ -88,7 +88,7 @@
     <!-- why-us area start -->
     <div id="why-us" class="wrap-bg-dark">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-5 col-xl-6 col-lg-5 services-detail-why why-us-left-bg image-margin-50">
+            <div class="col-xs-12 col-sm-12 col-md-5 col-xl-6 col-lg-5  why-us-left-bg image-margin-50">
             </div>
             <div class="col-xs-12 col-sm-12 col-md-7 col-xl-6 col-lg-7 wrap-padding text-left ">
             <div class="width400">

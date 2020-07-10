@@ -318,6 +318,6 @@ window.jQuery(document).ready(function ($) {
         $(tabgroup).children('div').hide();
         $(target).show();
 
-    })
+    });
 
 });

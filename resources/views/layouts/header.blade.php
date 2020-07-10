@@ -19,7 +19,7 @@
         <div class="container">
             <!-- Logo and Menu -->
             <div class="navbar-header">
-                <div class="navbar-brand"><a href="/"><img src="images/logo.png" alt="Logo"/></a></div>
+                <div class="navbar-brand"><a href="/"><img src="assets/images/logo.png" alt="Logo"/></a></div>
                 <!-- site logo -->
             </div>
             <!-- Menu Toogle -->
