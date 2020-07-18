@@ -36,14 +36,14 @@
                       
                     </li>
                     <li class="subnav">
-                        <a href="about.html">Marke</a>
-                        <ul class="sub-menu">
+                        <a href="/m">Marke</a>
+                       {{--  <ul class="sub-menu">
                             <li><a href="about.html" class="nav-link ">About Us 1</a></li>
                             <li><a href="about2.html" class="nav-link ">About Us 2</a></li>
                             <li><a href="team.html" class="nav-link ">Team</a></li>
                             <li><a href="agent.html" class="nav-link ">Agent Single</a></li>
                             <li><a href="faq.html" class="nav-link ">FAQ</a></li>
-                        </ul>
+                        </ul> --}}
                     </li>
                  
                    

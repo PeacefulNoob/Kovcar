@@ -3,53 +3,57 @@
 @section('content')
 <main>
     <!-- Slider Start -->
-    <div class="owl-navigation owl-carousel owl-theme">
-        <!-- slider item 1 -->
-        <div class="item">
-            <div class="image-overly-dark-opacity header-content slider-bg10" role="banner">
-                <div class="container opac">
-                    <div class="col-xs-12 col-sm-12 header-area">
-                        <div class="header-area-inner header-text"> <!-- single content header -->
-                            <h1 class="title">OpisOpisOpisOpisOpis<br>
-                                OpisOpisOpisOpis</h1>
-                            <p>OpisOpisOpisOpisOpisOpisOpisOpisOpisOpisOpis</p>
-                            <div class="btn-section">
-                                <a href="/contact" class="color-two btn-custom">Kontakt <i class="fas fa-arrow-right"></i></a>
-                                <a href="/contact" class="join-button"><i class="fab fa-telegram-plane"></i> +382 69 09 55 81</a>
-                            </div>
+     <!-- slider item 3 -->
+     <div class="owl-navigation owl-carousel owl-theme ">
+
+     <div class="item">
+        <div class="position-center image-overly-dark-opacity header-content " role="banner">
+            <img src="/assets/images/content/manuf_cover/jeep_cover.jpg" alt="" class="sliderImg">
+
+            <div class="container tekstSlider opac">
+                <div class="col-xs-12 col-sm-8  header-area">
+                    <div class="header-area-inner header-text"> <!-- single content header -->
+                        <h1 class="title">SVET AVANTURA ČEKA NA NAS</h1>
+                        <p>Započnite vaše putovanje u vozilu koje je opremljeno za gotovo sve.</p>
+                        <div class="btn-section text-center">
+                            <a href="/contact" class="color-two btn-custom">Kontakt <i class="fas fa-arrow-right"></i></a>
+                            <a href="/contact" class="join-button"><i class="fab fa-telegram-plane"></i> +382 69 09 55 81</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div><!-- end slider item 1 -->
-        <!-- slider item 2 -->
-        <div class="item">
-            <div class="position-center image-overly-dark-opacity header-content slider-bg8" role="banner">
-                <div class="container opac">
-                    <div class="col-xs-12 col-sm-12 header-area">
-                        <div class="header-area-inner header-text"> <!-- single content header -->
-                            <h1 class="title">OpisOpisOpisOpisOpis<br>
-                                OpisOpisOpisOpis</h1>
-                            <p>OpisOpisOpisOpisOpisOpisOpisOpisOpisOpisOpis</p>
-                            <div class="btn-section">
-                                <a href="/contact" class="color-two btn-custom">Kontakt <i class="fas fa-arrow-right"></i></a>
-                                <a href="/contact" class="join-button"><i class="fab fa-telegram-plane"></i> +382 69 09 55 81</a>
-                            </div>
+        </div>
+    </div><!-- end slider item 3 -->
+     <!-- slider item 3 -->
+     <div class="item">
+        <div class="position-center image-overly-dark-opacity header-content " role="banner">
+            <img src="/assets/images/content/manuf_cover/jeep_cover.jpg" alt="" class="sliderImg">
+
+            <div class="container tekstSlider opac">
+                <div class="col-xs-12 col-sm-8  header-area">
+                    <div class="header-area-inner header-text"> <!-- single content header -->
+                        <h1 class="title">SVET AVANTURA ČEKA NA NAS</h1>
+                        <p>Započnite vaše putovanje u vozilu koje je opremljeno za gotovo sve.</p>
+                        <div class="btn-section text-center">
+                            <a href="/contact" class="color-two btn-custom">Kontakt <i class="fas fa-arrow-right"></i></a>
+                            <a href="/contact" class="join-button"><i class="fab fa-telegram-plane"></i> +382 69 09 55 81</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div><!-- end slider item 2 -->
+        </div>
+    </div><!-- end slider item 3 -->
         <!-- slider item 3 -->
         <div class="item">
-            <div class="header-content image-overly-dark-opacity slider-bg7" role="banner">
-                <div class="container opac">
-                    <div class="col-xs-12 col-sm-12 header-area">
+            <div class="position-center image-overly-dark-opacity header-content " role="banner">
+                <img src="/assets/images/content/manuf_cover/jeep_cover.jpg" alt="" class="sliderImg">
+    
+                <div class="container tekstSlider opac">
+                    <div class="col-xs-12 col-sm-8  header-area">
                         <div class="header-area-inner header-text"> <!-- single content header -->
-                            <h1 class="title">OpisOpisOpisOpisOpis<br>
-                                OpisOpisOpisOpis</h1>
-                            <p>OpisOpisOpisOpisOpisOpisOpisOpisOpisOpisOpis</p>
-                            <div class="btn-section">
+                            <h1 class="title">SVET AVANTURA ČEKA NA NAS</h1>
+                            <p>Započnite vaše putovanje u vozilu koje je opremljeno za gotovo sve.</p>
+                            <div class="btn-section text-center">
                                 <a href="/contact" class="color-two btn-custom">Kontakt <i class="fas fa-arrow-right"></i></a>
                                 <a href="/contact" class="join-button"><i class="fab fa-telegram-plane"></i> +382 69 09 55 81</a>
                             </div>
@@ -59,6 +63,7 @@
             </div>
         </div><!-- end slider item 3 -->
     </div>
+</div>
     <!-- Slider End-->
    <!-- projects area start -->
    <div id="projects-slider" class="wrap-bg  text-left">
@@ -72,12 +77,12 @@
                     <article><!-- single services -->
                         <div class="blog-photo">
                             <div class="overlaylogo"></div>
-                            <a href="/manufacturer/1"><img src="/assets/images/content/manuf_logo/Fiat768x432.png" alt=""></a>
+                            <a href="/m"><img src="/assets/images/content/manuf_logo/Fiat768x432.png" alt=""></a>
                         </div>
                         <div class="blog-content">
-                            <h5 class="title"><a href="/manufacturer/1">Fiat</a></h5>
+                            <h5 class="title"><a href="/m">Fiat</a></h5>
                             <div class="mt-25">
-                                <a href="services-detail.html" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
+                                <a href="/m" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
                             </div>
                         
                         </div>
@@ -92,12 +97,12 @@
                         <div class="blog-photo">
                             <div class="overlaylogo"></div>
 
-                            <a href="portfolio-detail.html"><img src="/assets/images/content/manuf_logo/fiatp1.png" alt=""></a>
+                            <a href="/m"><img src="/assets/images/content/manuf_logo/fiatp1.png" alt=""></a>
                         </div>
                         <div class="blog-content">
-                            <h5 class="title"><a href="portfolio-detail.html">Fiat Professional</a></h5>
+                            <h5 class="title"><a href="/m">Fiat Professional</a></h5>
                             <div class="mt-25">
-                                <a href="services-detail.html" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
+                                <a href="/m" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
                             </div>
                         
                         </div>
@@ -111,12 +116,12 @@
                         <div class="blog-photo">
                             <div class="overlaylogo"></div>
 
-                            <a href="portfolio-detail.html"><img src="/assets/images/content/manuf_logo/Alfa768x432.png" alt=""></a>
+                            <a href="/m"><img src="/assets/images/content/manuf_logo/Alfa768x432.png" alt=""></a>
                         </div>
                         <div class="blog-content">
-                            <h5 class="title"><a href="portfolio-detail.html">Alfa Romeo</a></h5>
+                            <h5 class="title"><a href="/m">Alfa Romeo</a></h5>
                             <div class="mt-25">
-                                <a href="services-detail.html" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
+                                <a href="/m" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
                             </div>
                         
                         </div>
@@ -130,12 +135,12 @@
                         <div class="blog-photo">
                             <div class="overlaylogo"></div>
 
-                            <a href="portfolio-detail.html"><img src="/assets/images/content/manuf_logo/abarth.png" alt=""></a>
+                            <a href="/m"><img src="/assets/images/content/manuf_logo/abarth.png" alt=""></a>
                         </div>
                         <div class="blog-content">
-                            <h5 class="title"><a href="portfolio-detail.html">Abarth</a></h5>
+                            <h5 class="title"><a href="/m">Abarth</a></h5>
                             <div class="mt-25">
-                                <a href="services-detail.html" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
+                                <a href="/m" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
                             </div>
                         
                         </div>
@@ -147,12 +152,12 @@
                 <div class="themeioan_services">
                     <article><!-- single services -->
                         <div class="blog-photo">
-                            <a href="portfolio-detail.html"><img src="/assets/images/content/manuf_logo/Jeep768x432.png" alt=""></a>
+                            <a href="/m"><img src="/assets/images/content/manuf_logo/Jeep768x432.png" alt=""></a>
                         </div>
                         <div class="blog-content">
-                            <h5 class="title"><a href="portfolio-detail.html">Jeep</a></h5>
+                            <h5 class="title"><a href="/m">Jeep</a></h5>
                             <div class="mt-25">
-                                <a href="services-detail.html" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
+                                <a href="/m" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
                             </div>
                         </div>
                     </article><!-- end single services -->
@@ -251,6 +256,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-5">
+                    <img src="/assets/images/content/manuf/HP.jpg" alt="">
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-7">
                     <div class="section-title">

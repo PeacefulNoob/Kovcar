@@ -17,14 +17,21 @@ class CreateCarModelsTable extends Migration
             $table->id();
             $table->integer('manufacturers_id');
             $table->string('title')->nullable();
-            $table->string('description1')->nullable();
-            $table->string('description2')->nullable();
             $table->string('cover_image')->nullable();
             $table->string('logo_image')->nullable();
             $table->string('brochure_pdf')->nullable();
             $table->string('price_pdf')->nullable();
-            $table->string('video_url')->nullable();
-
+            $table->string('exterior_desc')->nullable();
+            $table->string('exterior_desc1')->nullable();
+            $table->string('exterior_image')->nullable();
+            $table->string('interior_desc')->nullable();
+            $table->string('interior_desc1')->nullable();
+            $table->string('interior_image')->nullable();
+            $table->string('sec_desc')->nullable();
+            $table->string('sec_image')->nullable();
+            $table->string('teh_image')->nullable();
+            $table->string('teh_desc')->nullable();
+            $table->tinyInteger('isActive')->default('1')->nullable();
             $table->timestamps();
         });
     }

@@ -3,7 +3,7 @@
 <head>
     <!-- Metas Basic -->
     <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-    <meta name="description" content="Lucru - Education Services School Template"/>
+    <meta name="description" content="Zvanična Kov-Car® stranica. Saznajte više o najnovijim Jeep® modelima i promocijama, specifikacijama i performansama. Zakažite test ..."/>
     <meta name="keywords" content="Landing Page, Services, Learning"/>
     <meta name="author" content="Ioan Drozd"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -34,7 +34,6 @@
 </head>
 <body>
 @include('layouts.header')
-
 
 
 @yield('content')

@@ -18,7 +18,10 @@
                         </div>
                     </div>
                 </div>
+             
+
             </div>
+            @include('components.message')
         </div>
     </div>
     <!-- end breadcrumb banner content area start -->
@@ -33,8 +36,8 @@
                     <p class="hide-on-submit"><span>Molimo popunite polja ispod kako bi zakazali test vožnju:</span>
                         <div class="success-div"></div>
                         <br>
-                        <form id="katalog" class="form-horizontal" role="form" method="post">
-  
+                        <form action="{{route('test.drive')}}" method="post">
+                            {{ csrf_field() }}  
                             <div class="form-group">
 
                                 <div class="col-md-12">
@@ -202,29 +205,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <p>Želim kontakt sa dilerom - probnu vožnju:</p>
                             <div class="form-group">
-                                <div class="col-md-6">
-                                    <div class="checkbox fiat-check float-left">
-                                        <input type="radio" value="Da" name="voznja" id="checkboxG4" class="css-checkbox">
-                                        <label for="checkboxG4" class="css-label radGroup1">Da</span></label>
-                                    </div>
+                                <div class="col-md-12">
 
-                                    <div class="checkbox fiat-check float-left">
-                                        <input type="radio" value="Ne" name="voznja" id="checkboxG5" class="css-checkbox">
-                                        <label for="checkboxG5" class="css-label radGroup1">Ne</label>
-                                    </div>
-                                </div>
-                                <div class="col-md-12" style="height: 0px; display: none;">
-                                    <div class="checkbox fiat-check">
-                                        <input type="radio" value="Da" name="voznja" id="checkboxG4" class="css-checkbox">
-                                        <label for="checkboxG4" class="css-label radGroup1">Da, želim da budem
-                                            kontaktiran. <span>(Predstavnici Kovcar-a će Vas kontaktirati radi
-                                                preciziranja termina.)</span></label>
-                                    </div>
-                                </div>
-                            </div>
-                        
+                            Predstavnici Kovcar-a će Vas kontaktirati radi
+                            preciziranja termina.
+                            </div>    </div>
                             <div class="form-group">
                                 <div class="col-md-12">
                                         <button type="submit" name="Submit" id="form-btn" class="btn btn-default form-btn">Pošalji

@@ -9,7 +9,7 @@
     <div class="item ">
         <div class="position-center image-overly-dark-opacity header-content " role="banner">
             <img src="/assets/images/content/manuf_cover/jeep_cover.jpg" alt="" class="sliderImg">
-            <div class="container opac">
+            <div class="container tekstSlider opac">
                 <div class="col-xs-12 col-sm-8  header-area">
                     <div class="header-area-inner header-text"> <!-- single content header -->
                         <h1 class="title">SVET AVANTURA ČEKA NA NAS</h1>
@@ -28,7 +28,7 @@
         <div class="position-center image-overly-dark-opacity header-content " role="banner">
             <img src="/assets/images/content/manuf_cover/jeep_cover.jpg" alt="" class="sliderImg">
 
-            <div class="container opac">
+            <div class="container tekstSlider opac">
                 <div class="col-xs-12 col-sm-8  header-area">
                     <div class="header-area-inner header-text"> <!-- single content header -->
                         <h1 class="title">SVET AVANTURA ČEKA NA NAS</h1>
@@ -47,7 +47,7 @@
         <div class="position-center image-overly-dark-opacity header-content " role="banner">
             <img src="/assets/images/content/manuf_cover/jeep_cover.jpg" alt="" class="sliderImg">
 
-            <div class="container opac">
+            <div class="container tekstSlider opac">
                 <div class="col-xs-12 col-sm-8  header-area">
                     <div class="header-area-inner header-text"> <!-- single content header -->
                         <h1 class="title">SVET AVANTURA ČEKA NA NAS</h1>
@@ -74,13 +74,13 @@
                 <div class="themeioan_services">
                     <article><!-- single services -->
                         <div class="blog-photo">
-                            <a href="portfolio-detail.html"><img src="/assets/images/content/model/s.renegade.png" alt=""></a>
+                            <a href="/car"><img src="/assets/images/content/model/s.renegade.png" alt=""></a>
                         </div>
                         <div class="blog-content">
-                            <h5 class="title"><a href="services-detail.html">Renegade</a>
+                            <h5 class="title"><a href="/car">Renegade</a>
                             </h5>
                             <div class="mt-25">
-                                <a href="services-detail.html" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
+                                <a href="/car" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
                             </div>
                         </div>
                     </article><!-- end single services -->
@@ -91,12 +91,12 @@
                 <div class="themeioan_services">
                     <article><!-- single services -->
                         <div class="blog-photo">
-                            <a href="portfolio-detail.html"><img src="/assets/images/content/model/s.compas.png" alt=""></a>
+                            <a href="/car"><img src="/assets/images/content/model/s.compas.png" alt=""></a>
                         </div>
                         <div class="blog-content">
-                            <h5 class="title"><a href="portfolio-detail.html">Compas</a></h5>
+                            <h5 class="title"><a href="/car">Compas</a></h5>
                             <div class="mt-25">
-                                <a href="services-detail.html" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
+                                <a href="/car" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
                             </div>
                         </div>
                     </article><!-- end single services -->
@@ -107,12 +107,12 @@
                 <div class="themeioan_services">
                     <article><!-- single services -->
                         <div class="blog-photo">
-                            <a href="portfolio-detail.html"><img src="/assets/images/content/model/s.gcherokee.jpg" alt=""></a>
+                            <a href="/car"><img src="/assets/images/content/model/s.gcherokee.jpg" alt=""></a>
                         </div>
                         <div class="blog-content">
-                            <h5 class="title"><a href="portfolio-detail.html">Grand Cherokee</a></h5>
+                            <h5 class="title"><a href="/car">Grand Cherokee</a></h5>
                             <div class="mt-25">
-                                <a href="services-detail.html" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
+                                <a href="/car" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
                             </div>
                         </div>
                     </article><!-- end single services -->
@@ -123,12 +123,12 @@
                 <div class="themeioan_services">
                     <article><!-- single services -->
                         <div class="blog-photo">
-                            <a href="portfolio-detail.html"><img src="/assets/images/content/model/s.cherokee.png" alt=""></a>
+                            <a href="/car"><img src="/assets/images/content/model/s.cherokee.png" alt=""></a>
                         </div>
                         <div class="blog-content">
-                            <h5 class="title"><a href="portfolio-detail.html">Cherokee</a></h5>
+                            <h5 class="title"><a href="/car">Cherokee</a></h5>
                             <div class="mt-25">
-                                <a href="services-detail.html" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
+                                <a href="/car" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
                             </div>
                         </div>
                     </article><!-- end single services -->
@@ -140,12 +140,12 @@
                 <div class="themeioan_services">
                     <article><!-- single services -->
                         <div class="blog-photo">
-                            <a href="portfolio-detail.html"><img src="/assets/images/content/model/s.wrangled.png" alt=""></a>
+                            <a href="/car"><img src="/assets/images/content/model/s.wrangled.png" alt=""></a>
                         </div>
                         <div class="blog-content">
-                            <h5 class="title"><a href="portfolio-detail.html">Wrangler</a></h5>
+                            <h5 class="title"><a href="/car">Wrangler</a></h5>
                             <div class="mt-25">
-                                <a href="services-detail.html" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
+                                <a href="/car" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
                             </div>
                         </div>
                     </article><!-- end single services -->

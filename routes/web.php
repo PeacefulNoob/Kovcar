@@ -35,4 +35,11 @@ Route::get('/test_drive', function () {
 });
 
 Route::get('/contact', "ContactMessageController@create");
-Route::post('/contact', "ContactMessageController@store");
+Route::post('Kovcar-Contact', [
+    'uses' => 'ContactMessageController@store',
+    'as' => 'contact.store.main'
+]);
+Route::post('Kovcar-Contact_testDrive', [
+    'uses' => 'ContactMessageController@test_drive',
+    'as' => 'test.drive'
+]);

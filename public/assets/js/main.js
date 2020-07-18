@@ -215,13 +215,13 @@ window.jQuery(document).ready(function ($) {
 
 
 
-    // Counter animation //
-    $('.counter-number > h4').counterUp({
-        delay: 10,
-        time: 3000
-    });
-    // End Counter animation //
-
+    /*     // Counter animation //
+        $('.counter-number > h4').counterUp({
+            delay: 10,
+            time: 3000
+        });
+        // End Counter animation //
+     */
 
     // Navigation Burger animation //
     $('.burger-icon').on('click touchstart', function (e) {
@@ -232,39 +232,6 @@ window.jQuery(document).ready(function ($) {
     // END Navigation Burger animation //
 
 
-    // Contact form submit process //
-    $('#contact-us-form').submit(function () {
-        var form = $(this),
-            hasError = false;
-
-        form.find('.error-msg, .success-msg').remove();
-
-        form.find('.required-field').each(function () {
-            $(this).removeClass('not-valid');
-            if ($.trim($(this).val()) === '') {
-                $(this).addClass('not-valid').parent().append('<div class="error-msg">This is a required field.</div>');
-                hasError = true;
-            } else if ($(this).hasClass('email-field')) {
-                var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
-                if (!emailReg.test($.trim($(this).val()))) {
-                    $(this).addClass('not-valid').parent().append('<div class="error-msg">You entered an invalid Email.</div>');
-                    hasError = true;
-                }
-            }
-        });
-        if (!hasError) {
-            var formData = $(this).serialize();
-            $.post('contact-process.php', formData, function (data) {
-                form.find('.required-field').val('');
-                form.append('<div class="success-msg">Thank you! We will contact you shortly.</div>');
-            }).fail(function () {
-                //form.find('.required-field').val('');
-                form.append('<div class="error-msg">Error occurred. Please try again later.</div>');
-            });
-        }
-        return false;
-    });
-    // End contact form submit process //
 
     // Slider Home 6 - with arrows Prev Next
     $('.owl-navigation ').owlCarousel({
