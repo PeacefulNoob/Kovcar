@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Car_Model;
+use App\Manufacturer;
+use DB;
 use Illuminate\Http\Request;
 
 class CarModelController extends Controller
@@ -44,10 +46,13 @@ class CarModelController extends Controller
      * @param  \App\Car_Model  $car_Model
      * @return \Illuminate\Http\Response
      */
-    public function show(Car_Model $car_Model)
+    public function show($id)
     {
-        $model = Car_Model::findOrFail($car_Model->id);
-        return view('site.car_model',compact('model'));
+        $images = DB::table('model_images')->where('car_models_id', '=', $id)->get();
+        $model = Car_Model::findOrFail($id);
+        return view('site.car_model',compact('model','images'));
+
+
     }
 
     /**

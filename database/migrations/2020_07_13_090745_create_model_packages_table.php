@@ -16,10 +16,12 @@ class CreateModelPackagesTable extends Migration
         Schema::create('model_packages', function (Blueprint $table) {
             $table->id();
             $table->string('title')->nullable();
-            $table->string('description')->nullable();
+            $table->text('description')->nullable();
+            $table->string('cover_image')->nullable();
             $table->string('image')->nullable();
             $table->string('image1')->nullable();
             $table->string('image2')->nullable();
+            $table->integer('car_models_id');
             $table->timestamps();
         });
     }

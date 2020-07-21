@@ -19,7 +19,7 @@
         <div class="container">
             <!-- Logo and Menu -->
             <div class="navbar-header">
-                <div class="navbar-brand"><a href="/"><img src="assets/images/logo.png" alt="Logo"/></a></div>
+                <div class="navbar-brand"><a href="/"><img src="/assets/images/content/site/output-onlinepngtools.png" alt="Logo"/></a></div>
                 <!-- site logo -->
             </div>
             <!-- Menu Toogle -->
@@ -29,21 +29,21 @@
                     <div class="bar3"></div>
                 </div>
             <div class="collapse navbar-collapse " id="navbarCollapse">
-                <ul class="nav navbar-nav ml-auto">
+                <ul class="nav navbar-nav ml-auto mr-0">
                     <!-- Menu Link -->
                     <li >
                         <a href="/">Početna</a>
                       
                     </li>
                     <li class="subnav">
-                        <a href="/m">Marke</a>
-                       {{--  <ul class="sub-menu">
-                            <li><a href="about.html" class="nav-link ">About Us 1</a></li>
-                            <li><a href="about2.html" class="nav-link ">About Us 2</a></li>
-                            <li><a href="team.html" class="nav-link ">Team</a></li>
-                            <li><a href="agent.html" class="nav-link ">Agent Single</a></li>
-                            <li><a href="faq.html" class="nav-link ">FAQ</a></li>
-                        </ul> --}}
+                        <a href="#">Marke</a>
+                        <ul class="sub-menu">
+                            <li><a href="/manufacturer/1" class="nav-link ">Fiat</a></li>
+                            <li><a href="/manufacturer/1" class="nav-link ">Fiat Professional</a></li>
+                            <li><a href="/manufacturer/1" class="nav-link ">Jepp</a></li>
+                            <li><a href="/manufacturer/1" class="nav-link ">Abarth</a></li>
+                            <li><a href="/manufacturer/1" class="nav-link ">Alfa Romeo</a></li>
+                        </ul>
                     </li>
                  
                    
@@ -53,9 +53,9 @@
                      <li><a href="/faq">FAQ</a></li>
                        
                 </ul>
-                <div class="header-cta">
+                {{-- <div class="header-cta">
                     <a href="/contact" class="btn btn-1c">Get Appointment</a>
-                </div>
+                </div> --}}
             </div>
             <!-- Menu Toogle end -->
         </div>

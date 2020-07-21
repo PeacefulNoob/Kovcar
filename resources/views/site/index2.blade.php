@@ -9,7 +9,7 @@
      <div class="item">
         <div class="position-center image-overly-dark-opacity header-content " role="banner">
             <img src="/assets/images/content/manuf_cover/jeep_cover.jpg" alt="" class="sliderImg">
-
+<div class="sliderOverlay"></div>
             <div class="container tekstSlider opac">
                 <div class="col-xs-12 col-sm-8  header-area">
                     <div class="header-area-inner header-text"> <!-- single content header -->
@@ -28,6 +28,7 @@
      <div class="item">
         <div class="position-center image-overly-dark-opacity header-content " role="banner">
             <img src="/assets/images/content/manuf_cover/jeep_cover.jpg" alt="" class="sliderImg">
+            <div class="sliderOverlay"></div>
 
             <div class="container tekstSlider opac">
                 <div class="col-xs-12 col-sm-8  header-area">
@@ -47,7 +48,8 @@
         <div class="item">
             <div class="position-center image-overly-dark-opacity header-content " role="banner">
                 <img src="/assets/images/content/manuf_cover/jeep_cover.jpg" alt="" class="sliderImg">
-    
+                <div class="sliderOverlay"></div>
+
                 <div class="container tekstSlider opac">
                     <div class="col-xs-12 col-sm-8  header-area">
                         <div class="header-area-inner header-text"> <!-- single content header -->
@@ -71,99 +73,28 @@
     <div class="fullcontainer">
         <div class="row carousel-slider projects-slider">
             <!-- .row -->
+            @foreach ($manufs as $manuf)
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 course-single mb20">
                 <!-- 1 -->
                 <div class="themeioan_services">
                     <article><!-- single services -->
                         <div class="blog-photo">
-                            <div class="overlaylogo"></div>
-                            <a href="/m"><img src="/assets/images/content/manuf_logo/Fiat768x432.png" alt=""></a>
+                           {{--  <div class="overlaylogo"></div> --}}
+                            <a href="/manufacturer/{{$manuf->id}}"><img src="/assets/images/content/manuf_logo/{{$manuf->logo_image}}" alt="Image {{$manuf->title}}"></a>
                         </div>
                         <div class="blog-content">
-                            <h5 class="title"><a href="/m">Fiat</a></h5>
+                            <h5 class="title"><a href="/manufacturer/{{$manuf->id}}">{{$manuf->title}}</a></h5>
                             <div class="mt-25">
-                                <a href="/m" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
+                                <a href="/manufacturer/{{$manuf->id}}" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
                             </div>
                         
                         </div>
                     </article><!-- end single services -->
                 </div>
             </div>
-            
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 course-single mb20">
-                <!-- 1 -->
-                <div class="themeioan_services">
-                    <article><!-- single services -->
-                        <div class="blog-photo">
-                            <div class="overlaylogo"></div>
-
-                            <a href="/m"><img src="/assets/images/content/manuf_logo/fiatp1.png" alt=""></a>
-                        </div>
-                        <div class="blog-content">
-                            <h5 class="title"><a href="/m">Fiat Professional</a></h5>
-                            <div class="mt-25">
-                                <a href="/m" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
-                            </div>
-                        
-                        </div>
-                    </article><!-- end single services -->
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 course-single mb20">
-                <!-- 1 -->
-                <div class="themeioan_services">
-                    <article><!-- single services -->
-                        <div class="blog-photo">
-                            <div class="overlaylogo"></div>
-
-                            <a href="/m"><img src="/assets/images/content/manuf_logo/Alfa768x432.png" alt=""></a>
-                        </div>
-                        <div class="blog-content">
-                            <h5 class="title"><a href="/m">Alfa Romeo</a></h5>
-                            <div class="mt-25">
-                                <a href="/m" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
-                            </div>
-                        
-                        </div>
-                    </article><!-- end single services -->
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 course-single mb20">
-                <!-- 1 -->
-                <div class="themeioan_services">
-                    <article><!-- single services -->
-                        <div class="blog-photo">
-                            <div class="overlaylogo"></div>
-
-                            <a href="/m"><img src="/assets/images/content/manuf_logo/abarth.png" alt=""></a>
-                        </div>
-                        <div class="blog-content">
-                            <h5 class="title"><a href="/m">Abarth</a></h5>
-                            <div class="mt-25">
-                                <a href="/m" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
-                            </div>
-                        
-                        </div>
-                    </article><!-- end single services -->
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 course-single mb20">
-                <!-- 1 -->
-                <div class="themeioan_services">
-                    <article><!-- single services -->
-                        <div class="blog-photo">
-                            <a href="/m"><img src="/assets/images/content/manuf_logo/Jeep768x432.png" alt=""></a>
-                        </div>
-                        <div class="blog-content">
-                            <h5 class="title"><a href="/m">Jeep</a></h5>
-                            <div class="mt-25">
-                                <a href="/m" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
-                            </div>
-                        </div>
-                    </article><!-- end single services -->
-                </div>
-            </div>
-        
+            @endforeach
+                      
+                                
             
             <!-- .row end -->
         </div>
@@ -256,7 +187,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-5">
-                    <img src="/assets/images/content/manuf/HP.jpg" alt="">
+                    
+                    <img src="/assets/images/content/site/IvecoFirma.jpg" class="aboutImage"alt="">
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-7">
                     <div class="section-title">

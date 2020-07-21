@@ -16,8 +16,8 @@ class CreateManufacturersTable extends Migration
         Schema::create('manufacturers', function (Blueprint $table) {
             $table->id();
             $table->string('title')->nullable();
-            $table->string('description1')->nullable();
-            $table->string('description2')->nullable();
+            $table->text('description1')->nullable();
+            $table->text('description2')->nullable();
             $table->string('cover_image')->nullable();
             $table->string('logo_image')->nullable();
             $table->string('brochure_pdf')->nullable();

@@ -20,10 +20,10 @@ Route::get('/', 'ManufacturerController@index');
 Route::get('/faq', function () {
     return view('site.faq');
 });
+
 Route::get('/m', function () {
     return view('site.manufacturer');
 });
-
 Route::get('/about', function () {
     return view('site.about2');
 });

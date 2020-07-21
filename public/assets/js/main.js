@@ -95,21 +95,12 @@ window.jQuery(document).ready(function ($) {
     /* End magnificPopup image view */
 
 
-    /* magnificPopup video view */
-    $('.popup-video').magnificPopup({
-        type: 'iframe',
-        gallery: {
-            enabled: true
-        }
-    });
-    /* End magnificPopup video view */
 
 
     // jQuery tooltips //
     $('.btn-tooltip').tooltip();
     $('.btn-popover').popover();
     // End jQuery tooltips //
-
 
 
     // Projects Slider Slick
@@ -119,7 +110,7 @@ window.jQuery(document).ready(function ($) {
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 10000,
         draggable: true,
         responsive: [{
                 breakpoint: 1200,
@@ -287,4 +278,20 @@ window.jQuery(document).ready(function ($) {
 
     });
 
+    $('.sticky-cta ul').hover(
+        function () {
+            $('.sticky-cta-item-info').css("display", "block");
+        });
+    $(window).scroll(function () {
+        $('.sticky-cta-item-info').css("display", "none");
+    });
+
+});
+$(window).on("scroll", function () {
+    if ($(window).scrollTop() > 60) {
+        $("#header").addClass("active");
+    } else {
+        //remove the background property so it comes transparent again (defined in your css)
+        $("#header").removeClass("active");
+    }
 });

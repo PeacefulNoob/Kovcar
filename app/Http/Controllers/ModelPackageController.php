@@ -46,7 +46,10 @@ class ModelPackageController extends Controller
      */
     public function show(model_package $model_package)
     {
-        //
+     /*    $images = DB::table('manuf_images')->where('maunfacturer_id', '=', $id)->get();
+        $manufa = Manufacturer::findOrFail($manufacturer->id);
+        return view('site.manufacturer',compact('manufa'));
+    } */
     }
 
     /**

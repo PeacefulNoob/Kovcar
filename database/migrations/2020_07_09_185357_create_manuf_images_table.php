@@ -16,6 +16,7 @@ class CreateManufImagesTable extends Migration
         Schema::create('manuf_images', function (Blueprint $table) {
             $table->id();
             $table->string('image')->nullable();
+            $table->integer('manufacturers_id');
 
             $table->timestamps();
         });

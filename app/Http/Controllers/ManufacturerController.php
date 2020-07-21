@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Manufacturer;
+use App\Car_model;
+use DB;
+
 use Illuminate\Http\Request;
 
 class ManufacturerController extends Controller
@@ -14,8 +17,8 @@ class ManufacturerController extends Controller
      */
     public function index()
     {
-     /*    $manufacturer = Manufacturer::all(); */
-        return view('site.index2'/* ,compact('manuf') */);
+        $manufs=Manufacturer::all();
+        return view('site.index2', compact('manufs'));
 
     }
 
@@ -48,9 +51,10 @@ class ManufacturerController extends Controller
      */
     public function show(Manufacturer $manufacturer)
     {
-    /*     $manufa = Manufacturer::findOrFail($manufacturer->id);
-        $models = Car_Model::all(); */
-        return view('site.manufacturer'/* ,compact('manufa','models') */);
+        $images = DB::table('manuf_images')->where('manufacturers_id', '=', $manufacturer->id)->get();
+        $models = DB::table('car_models')->where('manufacturers_id', '=', $manufacturer->id)->get();
+        $manuf = Manufacturer::findOrFail($manufacturer->id);
+        return view('site.manufacturer1',compact('manuf','images','models'));
     }
 
     /**
