@@ -80,11 +80,11 @@
                     <article><!-- single services -->
                         <div class="blog-photo">
                            {{--  <div class="overlaylogo"></div> --}}
-                            <a href="/manufacturer/{{$manuf->id}}"><img src="/assets/images/content/manuf_logo/{{$manuf->logo_image}}" alt="Image {{$manuf->title}}"></a>
+                            <a href="/manufacturer/{{$manuf->id}}"><img class="logoImg" src="/assets/images/content/manuf_logo/{{$manuf->logo_image}}" alt="Image {{$manuf->title}}"></a>
                         </div>
                         <div class="blog-content">
                             <h5 class="title"><a href="/manufacturer/{{$manuf->id}}">{{$manuf->title}}</a></h5>
-                            <div class="mt-25">
+                            <div class="my-2">
                                 <a href="/manufacturer/{{$manuf->id}}" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
                             </div>
                         
@@ -190,7 +190,7 @@
                     
                     <img src="/assets/images/content/site/IvecoFirma.jpg" class="aboutImage"alt="">
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-7">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-7 mt-4 mb-5">
                     <div class="section-title">
                         <div class="container-black">
                             <span>O nama</span>

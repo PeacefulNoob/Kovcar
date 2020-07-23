@@ -20,7 +20,8 @@ class CreateModelPackagesTable extends Migration
             $table->string('cover_image')->nullable();
             $table->string('image')->nullable();
             $table->string('image1')->nullable();
-            $table->string('image2')->nullable();
+            $table->string('image2')->nullable();  
+              $table->string('image3')->nullable();
             $table->integer('car_models_id');
             $table->timestamps();
         });

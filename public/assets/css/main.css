@@ -459,6 +459,12 @@ figure iframe {
     z-index: -1;
 }
 
+.logoImg {
+    height: 30vh;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
 .themeioan_services .blog-content {
     position: relative;
     display: inline-block;
@@ -470,7 +476,7 @@ figure iframe {
     margin-left: 30px;
     margin-right: 30px;
     background-color: #222222;
-    padding: 15px 30px 15px;
+    padding: 13px 30px 7px;
     -webkit-transition: transform 0.3s cubic-bezier(0, 0, 0.5, 0.99);
     -webkit-transition: -webkit-transform 0.3s cubic-bezier(0, 0, 0.5, 0.99);
     transition: -webkit-transform 0.3s cubic-bezier(0, 0, 0.5, 0.99);
@@ -1402,7 +1408,7 @@ select:focus {
     height: 5px;
     margin: 5px 2px;
     background: #fff;
-    border-radius: 0px;
+    border-radius: 5px;
 }
 
 .owl-theme .owl-dots .owl-dot.active span,
@@ -1436,9 +1442,10 @@ select:focus {
 .topheader {
     font-size: 15px;
     padding: 0px 30px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     font-weight: 400;
     color: #fff;
+    border-bottom: 2px solid #191919;
+    background-color: #19191985;
 }
 
 .topheader .address-icon a {
@@ -1610,6 +1617,16 @@ main {
     transition: all 0.2s ease-in-out;
 }
 
+.allTime {
+    background-color: #222222;
+    border-radius: 10px;
+}
+
+.allTime:hover {
+    background-color: #161616 !important;
+    color: #a33327;
+}
+
 /*end transition*/
 .single-features-light .icon-svg {
     max-width: 70px;
@@ -1634,7 +1651,8 @@ main {
 }
 
 .single-features-light {
-    padding: 20px;
+    padding: 1% 5%;
+    border-radius: 5px;
 }
 
 .single-features-light:hover {
@@ -1752,14 +1770,20 @@ main {
     position: relative !important;
 }
 
+.modelLogo {
+    height: 100%;
+    border-radius: 5px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
 .slick-slider {
     margin-bottom: 0px !important;
 }
 
 .slick-slider img {
-    height: 30vh;
-    -o-object-fit: contain;
-    object-fit: contain;
+    display: block;
+    width: 100%;
 }
 
 .carousel-slider {
@@ -3313,6 +3337,7 @@ main {
     display: block;
     width: 100%;
     height: 100%;
+    position: relative;
 }
 
 .themeioan_contact_map iframe {
@@ -3720,9 +3745,16 @@ h1+p {
     font-size: 16px;
 }
 
+.tabs {
+    width: 100%;
+    text-align: center;
+}
+
 .tabs li {
-    float: left;
-    width: 25%;
+    display: inline-block;
+    color: white;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 .tabs a {
@@ -3731,14 +3763,16 @@ h1+p {
     text-decoration: none;
     text-transform: uppercase;
     color: #888;
+    font-weight: bold;
     padding: 20px 0;
     border-bottom: 2px solid #888;
     background: #f7f7f7;
+    border-radius: 5px;
 }
 
-.tabs a:hover,
-.tabs a.active {
+.tabs a:hover {
     background: #ddd;
+    color: #a33327;
 }
 
 .tabgroup .wrap-bg {
@@ -3934,6 +3968,28 @@ h1+p {
     background-color: black;
 }
 
+.sliderOverlay1 {
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    opacity: 0.1;
+    bottom: 0;
+    background-color: black;
+}
+
+.sliderOverlaymap {
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    opacity: 0.2;
+    bottom: 0;
+    left: 0;
+    border-radius: 5px;
+    background-color: black;
+}
+
 .active {
     background: #191919;
 }
@@ -3941,6 +3997,20 @@ h1+p {
 .aboutImage {
     -webkit-transform: translate(0%, 25%);
     transform: translate(0%, 25%);
+}
+
+.packetImage {
+    border-radius: 5px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+
+.table {
+    display: table;
+    margin: 0 auto;
 }
 
 /*# sourceMappingURL=app.css.map */

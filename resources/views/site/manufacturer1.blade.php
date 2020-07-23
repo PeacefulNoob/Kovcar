@@ -77,12 +77,12 @@
                 <div class="themeioan_services">
                     <article><!-- single services -->
                         <div class="blog-photo">
-                            <a href="/model/{{$model->id}}"><img src="/assets/images/content/model/{{$model->logo_image}}" alt="Logo {{$model->title}}"></a>
+                            <a href="/model/{{$model->id}}"><img class="modelLogo" src="/assets/images/content/model/logo/{{$model->logo_image}}" alt="Logo {{$model->title}}"></a>
                         </div>
                         <div class="blog-content">
                             <h5 class="title"><a href="/model/{{$model->id}}">{{$model->title}}</a>
                             </h5>
-                            <div class="mt-25">
+                            <div class="my-2">
                                 <a href="/model/{{$model->id}}" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
                             </div>
                         </div>
@@ -111,7 +111,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mbt30">
                         <!-- 1 -->
-                        <div class="single-features-light"><!-- single features -->
+                        <div class="single-features-light allTime"><!-- single features -->
                          
 
                             <h4>Istorija</h4>
@@ -159,7 +159,7 @@
         <!-- slider item 1 -->
         <div class="item">
             <div class="header-content " role="banner">
-                <img src="/assets/images/content/All/{{$image->image}}" class="sliderImg" alt="">
+                <img src="/assets/images/content/manuf/{{$image->image}}" class="sliderImg" alt="">
 
             </div>
         </div><!-- end slider item 1 -->

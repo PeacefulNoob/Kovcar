@@ -12,8 +12,8 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-7 naSliderCar">
                     <div class="section-title">
                         <div class="container-black">
-                            <span>{{$model->title}}</span>
-                            <h2>Opis Marke</h2>
+                            <span>{{$model->manufacturer}}</span>
+                            <h2>{{$model->title}}</h2>
                             <p>Lorem ipsum dolor sit amet, quam felis adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme mus.</p>
 
                         </div>
@@ -24,14 +24,17 @@
     <!-- why-us area end -->
 
    <!-- projects area start -->
+   <div class="table">
+
 <ul class="tabs clearfix" data-tabgroup="first-tab-group">
-    @foreach ($model->packet as $packet)
-    <li><a href="#{{$packet->id}}" class="active"><img class="icon-svg" alt="icon" src="/assets/images/content/model/{{$packet->cover_image}}">
-        {{$packet->title}}</a></li>
-    @endforeach
-  
-             
-</ul>
+        @foreach ($model->packet as $packet)
+        <li><a href="#{{$packet->id}}" class="active"><img class="icon-svg" alt="icon" src="/assets/images/content/model/packet/{{$packet->cover_image}}">
+        <p> {{$packet->title}}</p>   </a></li>
+        @endforeach
+    
+                
+    </ul>
+</div>
 <section id="first-tab-group" class="tabgroup">
     @foreach ($model->packet as $packet)
         
@@ -43,9 +46,17 @@
                             <!-- 1 -->
                             <div class="single-features-light"><!-- single features -->
                                 <!-- uses solid style -->
-                                <img class="icon-svg" alt="icon" src="/assets/images/content/model/packet/ {{$packet->cover_image}}">
+                                <img class="icon-svg" alt="icon" src="/assets/images/content/model/packet/{{$packet->cover_image}}">
                                 <h4> {{$packet->title}}</h4>
-                                <p> {{$packet->description}}</p>
+                                <p> {!!$packet->description!!}</p>
+                                <div class="container my-5">
+                                    <div class="row">
+                                        <div class="col-sm-3"><img class="packetImage" alt="icon" src="/assets/images/content/model/packet/{{$packet->image}}"></div>
+                                        <div class="col-sm-3"><img class="packetImage" alt="icon" src="/assets/images/content/model/packet/{{$packet->image1}}"></div>
+                                        <div class="col-sm-3"><img class="packetImage" alt="icon" src="/assets/images/content/model/packet/{{$packet->image2}}"></div>
+                                        <div class="col-sm-3"><img class="packetImage" alt="icon" src="/assets/images/content/model/packet/{{$packet->image3}}"></div>
+                                    </div>
+                                </div>
                             </div><!-- end single features -->
                         </div>
                       </div>
@@ -67,12 +78,14 @@
 <!-- projects area end -->
 <div id="slider-modern" class="  position-relative">
     <img src="/assets/images/content/model/{{$model->exterior_image}}" alt="" class="sliderImg">
+    <div class="sliderOverlay1"></div>
+
         <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-7 naSliderCarLeft">
             <div class="section-title">
                 <div class="container-black">
                 <span>{{$model->title}}</span>
                     <h2>Spoljašnost</h2>
-                <p>{{$model->exterior_desc}}</p>
+                <p>{!!$model->exterior_desc!!}</p>
 
                
             </div>
@@ -99,8 +112,7 @@
                         <div class="single-features-light"><!-- single features -->
                             <!-- uses solid style -->
                             <img class="icon-svg" alt="icon" src="/assets/images/content/model/{{$model->exterior_image}}" >
-                            <h4>AUTENTIČAN DIZAJN POSTAJE MODERAN</h4>
-                            <p>{{$model->exterior_desc1}}</p>
+                            <p>{!!$model->exterior_desc1!!}</p>
                         </div><!-- end single features -->
                     </div>
                  
@@ -115,12 +127,14 @@
 {{-- /////// --}}
 <div id="slider-modern" class="  position-relative">
     <img src="/assets/images/content/model/{{$model->interior_image}}" alt="" class="sliderImg">
+    <div class="sliderOverlay1"></div>
+
         <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-7 naSliderCar">
             <div class="section-title">
                 <div class="container-black">
                 <span>{{$model->title}}</span>
                     <h2>Unutrašnjost</h2>
-                <p>{{$model->interior_desc}}</p>
+                <p>{!!$model->interior_desc!!}</p>
 
                
             </div>
@@ -147,8 +161,7 @@
                         <div class="single-features-light"><!-- single features -->
                             <!-- uses solid style -->
                             <img class="icon-svg" alt="icon" src="/assets/images/content/model/{{$model->interior_image}}">
-                            <h4>UDOBNOST NIKADA NIJE BILA TAKO FUNKCIONALNA</h4>
-                            <p>{{$model->interior_desc1}}</p>
+                            <p>{!!$model->interior_desc1!!}</p>
                         </div><!-- end single features -->
                     </div>
                  
@@ -166,6 +179,7 @@
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-5 col-xl-6 col-lg-6   image-margin-50">
             <img src="/assets/images/content/model/{{$model->sec_image}}" class="sliderImg" alt="">
+            <div class="sliderOverlay1"></div>
 
         </div>
         <div class="col-xs-12 col-sm-12 col-md-7 col-xl-6 col-lg-6 wrap-padding text-left">
@@ -176,7 +190,7 @@
                     </div>
                 </div>
                 <div class="col-md-12">
-                    <p>{{$model->sec_desc}}</p>
+                    <p>{!!$model->sec_desc!!}</p>
                     <br>
                 </div>
         
@@ -225,12 +239,13 @@
                     </div>
                 </div>
                 <div class="col-md-12">
-                    <p>{{$model->teh_desc}}</p>
+                    <p>{!!$model->teh_desc!!}</p>
                 </div>
         
         </div>
         <div class="col-xs-12 col-sm-12 col-md-5 col-xl-6 col-lg-6 services-detail-why  image-margin-50">
             <img src="/assets/images/content/model/{{$model->teh_image}}" class="sliderImg" alt="">
+            <div class="sliderOverlay1"></div>
 
         </div>
     </div>
@@ -247,7 +262,8 @@
         <!-- slider item 1 -->
         <div class="item">
             <div class="header-content " role="banner">
-                <img src="/assets/images/content/All/{{$image->image}}" class="sliderImg" alt="">
+                <img src="/assets/images/content/model/{{$image->image}}" class="sliderImg" alt="">
+                <div class="sliderOverlay1"></div>
 
             </div>
         </div><!-- end slider item 1 -->

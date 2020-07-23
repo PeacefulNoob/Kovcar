@@ -110,61 +110,26 @@ window.jQuery(document).ready(function ($) {
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 10000,
+        autoplaySpeed: 9000,
         draggable: true,
         responsive: [{
                 breakpoint: 1200,
-                settings: {
-                    slidesToShow: 3,
-                    draggable: true
-                }
-            },
-            {
-                breakpoint: 990,
-                settings: {
-                    slidesToShow: 2,
-                    draggable: true
-                }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 1,
-                    draggable: true
-                }
-
-            }
-        ]
-    });
-    // End Projects Slider Slick
-
-    // Sponsor Slider Slick
-    $('.carousel-slider.sponsor-slider').slick({
-        arrows: false,
-        dots: false,
-        slidesToShow: 6,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        draggable: true,
-        responsive: [{
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 6,
-                    draggable: true
-                }
-            },
-            {
-                breakpoint: 990,
                 settings: {
                     slidesToShow: 4,
                     draggable: true
                 }
             },
             {
-                breakpoint: 767,
+                breakpoint: 990,
                 settings: {
                     slidesToShow: 3,
+                    draggable: true
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 2,
                     draggable: true
                 }
 
@@ -173,29 +138,7 @@ window.jQuery(document).ready(function ($) {
     });
     // End Projects Slider Slick
 
-    // Students Review Slider Slick
-    $('.carousel-slider.general-slider').each(function () {
-        $(this).slick({
-            arrows: true,
-            dots: true,
-            prevArrow: $('.prev'),
-            nextArrow: $('.next'),
-            margin: 0,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 5000,
-            draggable: true,
-            responsive: [{
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 1,
-                    draggable: true
-                }
-            }]
-        });
-    });
-    // End Students Review Slider Slick
+
 
 
     // Preview images popup gallery with Fancybox //
@@ -205,14 +148,6 @@ window.jQuery(document).ready(function ($) {
     // End Preview images popup gallery with Fancybox //
 
 
-
-    /*     // Counter animation //
-        $('.counter-number > h4').counterUp({
-            delay: 10,
-            time: 3000
-        });
-        // End Counter animation //
-     */
 
     // Navigation Burger animation //
     $('.burger-icon').on('click touchstart', function (e) {
