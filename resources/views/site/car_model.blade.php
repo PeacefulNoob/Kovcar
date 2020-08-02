@@ -24,9 +24,11 @@
     <!-- why-us area end -->
 
    <!-- projects area start -->
-   <div class="table">
+   <div class="table my-3">
+    <div class="dx text-center">
 
 <ul class="tabs clearfix" data-tabgroup="first-tab-group">
+
         @foreach ($model->packet as $packet)
         <li><a href="#{{$packet->id}}" class="active"><img class="icon-svg" alt="icon" src="/assets/images/content/model/packet/{{$packet->cover_image}}">
         <p> {{$packet->title}}</p>   </a></li>
@@ -34,6 +36,7 @@
     
                 
     </ul>
+    </div>
 </div>
 <section id="first-tab-group" class="tabgroup">
     @foreach ($model->packet as $packet)
@@ -51,10 +54,10 @@
                                 <p> {!!$packet->description!!}</p>
                                 <div class="container my-5">
                                     <div class="row">
-                                        <div class="col-sm-3"><img class="packetImage" alt="icon" src="/assets/images/content/model/packet/{{$packet->image}}"></div>
-                                        <div class="col-sm-3"><img class="packetImage" alt="icon" src="/assets/images/content/model/packet/{{$packet->image1}}"></div>
-                                        <div class="col-sm-3"><img class="packetImage" alt="icon" src="/assets/images/content/model/packet/{{$packet->image2}}"></div>
-                                        <div class="col-sm-3"><img class="packetImage" alt="icon" src="/assets/images/content/model/packet/{{$packet->image3}}"></div>
+                                        <div class="col-sm-3"><img class="packetImage" alt="icon" src="/assets/images/content/model/packet/{{$packet->image}}">     <h5 class="paketTekst"> {{$packet->imageD}}</h5></div>
+                                        <div class="col-sm-3"><img class="packetImage" alt="icon" src="/assets/images/content/model/packet/{{$packet->image1}}"> <h5 class="paketTekst"> {{$packet->image1D}}</h5></div>
+                                        <div class="col-sm-3"><img class="packetImage" alt="icon" src="/assets/images/content/model/packet/{{$packet->image2}}"> <h5 class="paketTekst"> {{$packet->image2D}}</h5></div>
+                                        <div class="col-sm-3"><img class="packetImage" alt="icon" src="/assets/images/content/model/packet/{{$packet->image3}}"> <h5 class="paketTekst"> {{$packet->image3D}}</h5></div>
                                     </div>
                                 </div>
                             </div><!-- end single features -->
@@ -197,10 +200,10 @@
         </div>
     </div>
 </div>
-<div id="widget-call" class="call-to-action-area py-3 bg-cta">
+<div id="widget-call" class="call-to-action-area py-3 my-5 bg-cta">
     <div class="container opac">
         <div class="row justify-content-xl-between justify-content-lg-center justify-content-center">
-            <div class="sticky-cta clearfix" style="top: 185.89px; display: block;">
+            <div class="sticky-cta clearfix sideIcons" >
                 <ul> 
                         <li class="sticky-cta-item visible-mobile">
                             <a href="/assets/pdf/{{$model->brochure}}" download="HTML 5 PDF">
@@ -262,7 +265,7 @@
         <!-- slider item 1 -->
         <div class="item">
             <div class="header-content " role="banner">
-                <img src="/assets/images/content/model/{{$image->image}}" class="sliderImg" alt="">
+                <img src="/assets/images/content/model/{{$image->image}}" class="sliderImg slidfe" alt="">
                 <div class="sliderOverlay1"></div>
 
             </div>
