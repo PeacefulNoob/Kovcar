@@ -191,7 +191,7 @@
                                 Tržištu je predstavljen potpuno novi Jeep Cherokee (XJ) koji je donosi revoluciju na tržište vozila 4×4. Moćan model XJ po mnogočemu bio je prvi na svijetu, uključujući sljedeće: bio je prvo kompaktno SUV vozilo s 4-vrata, prvi s konstrukcijom karoserije na okviru (UniFrame), prvi s neprekidno uključenim sistemom 4×4 i brzim mijenjanjem brzina.
                             
                                 </p>
-                        </div><!-- end single features -->
+                        </div><!--   -->
                     </div>
                    
                 </div>

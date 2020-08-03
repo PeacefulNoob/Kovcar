@@ -102,10 +102,12 @@
 <!-- features area start -->
 <div id="features" class="wrap-bg">
     <!-- .container -->
+    <img src="/assets/images/content/manuf/{{$manuf->brochure_pdf}}" class="backgroundImage" alt="">
+
     <div class="container">
 
         <div class="row">
-  
+
             <div class="col-lg-12">
                 <!-- .row -->
                 <div class="row">
@@ -117,7 +119,7 @@
                             <h4>Istorija</h4>
                             <p>{{$manuf->description1}}
                                 </p>
-                        </div><!-- end single features -->
+                        </div><!--   -->
                     </div>
                    
                 </div>
@@ -133,7 +135,7 @@
 <div id="why-us" class="wrap-bg-dark my-5">
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-5 col-xl-6 col-lg-6 s  image-margin-50">
-            <img src="/assets/images/content/manuf/{{$manuf->cover_image}}" class="sliderImg" alt="">
+            <img src="/assets/images/content/manuf/{{$manuf->image2}}" class="sliderImg" alt="">
         </div>
         <div class="col-xs-12 col-sm-12 col-md-7 col-xl-6 col-lg-6 wrap-padding text-left">
             <div class="width400">
@@ -158,8 +160,8 @@
             
         <!-- slider item 1 -->
         <div class="item">
-            <div class="header-content " role="banner">
-                <img src="/assets/images/content/manuf/{{$image->image}}" class="sliderImg" alt="">
+            <div class="header-content galleryS " role="banner">
+                <img src="/assets/images/content/manuf/{{$image->image}}" class="sliderImg slidfe" alt="">
 
             </div>
         </div><!-- end slider item 1 -->

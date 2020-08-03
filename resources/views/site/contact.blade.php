@@ -100,7 +100,7 @@
                                 <a href="tel:069095581">Call Center <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
-                    </div><!-- end single features -->
+                    </div><!--   -->
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6">
                     <!-- 2 -->
@@ -113,7 +113,7 @@
                                 <a href="tel:069095581">Call Center <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
-                    </div><!-- end single features -->
+                    </div><!--   -->
                 </div>
            
             </div>

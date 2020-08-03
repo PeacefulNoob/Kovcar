@@ -115,14 +115,14 @@ window.jQuery(document).ready(function ($) {
         responsive: [{
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 3,
                     draggable: true
                 }
             },
             {
                 breakpoint: 990,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                     draggable: true
                 }
             },

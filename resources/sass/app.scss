@@ -403,8 +403,8 @@ figure iframe {
 }
 
 .bg-cta {
-    background: #1c1b1f;
-    padding: 100px 0px 0px 0px;
+    background: #191919;
+    padding: 100px 0px 40px 0px;
     margin-top: -20px;
 }
 
@@ -415,6 +415,15 @@ figure iframe {
 
 .bg-cta.bg-white h3 {
     color: #000 !important;
+}
+
+.PacketMain {
+    width: 100%;
+    max-width: 100% !important;
+}
+
+.op9 {
+    opacity: 0.9 !important;
 }
 
 /*tags course*/
@@ -1343,7 +1352,7 @@ select:focus {
     position: relative;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 100vh !important;
     background-position: center center;
     background-repeat: no-repeat no-repeat;
     z-index: 1;
@@ -1609,6 +1618,13 @@ main {
     padding-top: 40px;
 }
 
+.backgroundImage {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
 .row-custom .col-center {
     width: 24%;
 }
@@ -1675,7 +1691,7 @@ main {
     border-radius: 10px;
 
     &:hover {
-        color: $aHover;
+        background-color: transparent;
     }
 }
 
@@ -2776,6 +2792,24 @@ main {
 /* 6.4. ========================= Media Queries Tablet ========================= */
 
 @media (max-width: 767px) {
+    .fullcontainer {
+        padding: 0 15px !important;
+        margin: 0 6% !important;
+    }
+
+    .themeioan_services .blog-content {
+        margin-top: -10px !important;
+
+    }
+
+    .bg-cta {
+        padding: 40px 0px 0px 0px !important;
+    }
+
+    .oNama {
+        margin-top: 16px !important;
+        margin-bottom: 16px !important;
+    }
 
     .headerspace,
     .headerspace-small {
@@ -3082,6 +3116,9 @@ main {
         min-height: 400px;
     }
 
+
+
+
     .subscribe-text {
         margin-bottom: 25px;
     }
@@ -3269,17 +3306,19 @@ main {
 /* 6.8 ========================= Media Queries If Height is to Small ========================= */
 
 @media (max-height: 850px) {
-    .header-content {
+    .galleryS {
         min-height: 450px !important;
         height: 60vh !important;
     }
 
+
+
     .tabs li {
-        width: 100%;
+        width: 100vw;
     }
 
     .slidfe {
-        height: 75vh !important;
+        height: 70vh !important;
 
     }
 
@@ -3324,6 +3363,8 @@ main {
         padding-top: 17%;
         width: 70%;
     }
+
+
 }
 
 /* Services Detail */
@@ -3877,7 +3918,7 @@ h1+p {
     li {
         display: inline-block;
         color: white;
-        padding: 10px;
+        padding: 5px;
     }
 
     a {

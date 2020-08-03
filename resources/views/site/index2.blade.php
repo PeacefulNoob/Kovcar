@@ -119,28 +119,28 @@
                     <!-- 1 -->
                     <div class="single-features-light"><!-- single features -->
                         <!-- uses solid style -->
-                        <img class="icon-svg" alt="icon" src="images/content/flaticon/024-excavator.svg">
+                        <img class="icon-svg" alt="icon" src="">
                         <h4>Modern Construction Made by Lucru HTML.</h4>
                         <p>Lorem ipsum dolor sit amet, conset etur sadips cing elitr, sed diam nonumy eirmod tempor invi dunt ut labore buy it.</p>
-                    </div><!-- end single features -->
+                    </div><!--   -->
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mbt30">
                     <!-- 2 -->
                     <div class="single-features-light"><!-- single features -->
                         <!-- uses solid style -->
-                        <img class="icon-svg" alt="icon" src="images/content/flaticon/027-building.svg">
+                        <img class="icon-svg" alt="icon" src="">
                         <h4>Complex Problems Change House dramatically.</h4>
                         <p>Lorem ipsum dolor sit amet, conset etur sadips cing elitr, sed diam nonumy eirmod tempor invi dunt ut labore buy it.</p>
-                    </div><!-- end single features -->
+                    </div><!--   -->
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mbt30">
                     <!-- 3 -->
                     <div class="single-features-light"><!-- single features -->
                         <!-- uses solid style -->
-                        <img class="icon-svg" alt="icon" src="images/content/flaticon/019-engineer-1.svg">
+                        <img class="icon-svg" alt="icon" src="">
                         <h4>House Renovation Speed your Construction.</h4>
                         <p>Lorem ipsum dolor sit amet, conset etur sadips cing elitr, sed diam nonumy eirmod tempor invi dunt ut labore buy it.</p>
-                    </div><!-- end single features -->
+                    </div><!--   -->
                 </div>
             </div>
             <!-- .row end -->
@@ -150,28 +150,28 @@
                     <!-- 1 -->
                     <div class="single-features-light"><!-- single features -->
                         <!-- uses solid style -->
-                        <img class="icon-svg" alt="icon" src="images/content/flaticon/014-concrete-mixer.svg">
+                        <img class="icon-svg" alt="icon" src="">
                         <h4>Modern Construction Made by Lucru HTML.</h4>
                         <p>Lorem ipsum dolor sit amet, conset etur sadips cing elitr, sed diam nonumy eirmod tempor invi dunt ut labore buy it.</p>
-                    </div><!-- end single features -->
+                    </div><!--   -->
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mbt30">
                     <!-- 2 -->
                     <div class="single-features-light"><!-- single features -->
                         <!-- uses solid style -->
-                        <img class="icon-svg" alt="icon" src="images/content/flaticon/013-blueprint.svg">
+                        <img class="icon-svg" alt="icon" src="">
                         <h4>Complex Problems Change House dramatically.</h4>
                         <p>Lorem ipsum dolor sit amet, conset etur sadips cing elitr, sed diam nonumy eirmod tempor invi dunt ut labore buy it.</p>
-                    </div><!-- end single features -->
+                    </div><!--   -->
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mbt30">
                     <!-- 3 -->
                     <div class="single-features-light"><!-- single features -->
                         <!-- uses solid style -->
-                        <img class="icon-svg" alt="icon" src="images/content/flaticon/012-brickwall.svg">
+                        <img class="icon-svg" alt="icon" src="">
                         <h4>House Renovation Speed your Construction.</h4>
                         <p>Lorem ipsum dolor sit amet, conset etur sadips cing elitr, sed diam nonumy eirmod tempor invi dunt ut labore buy it.</p>
-                    </div><!-- end single features -->
+                    </div><!--   -->
                 </div>
             </div>
             <!-- .row end -->
@@ -192,7 +192,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-7 mt-4 mb-5">
                     <div class="section-title">
-                        <div class="container-black">
+                        <div class="container-black oNama">
                             <span>O nama</span>
                             <h2>Kov-Car
 

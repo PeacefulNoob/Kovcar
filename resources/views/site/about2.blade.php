@@ -54,7 +54,7 @@
                         <img class="icon-svg" alt="icon" src="images/content/flaticon/024-excavator.svg">
                         <h4>Modern Construction Made by Lucru HTML.</h4>
                         <p>Lorem ipsum dolor sit amet, conset etur sadips cing elitr, sed diam nonumy eirmod tempor invi dunt ut labore buy it.</p>
-                    </div><!-- end single features -->
+                    </div><!--   -->
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mbt30">
                     <!-- 2 -->
@@ -63,7 +63,7 @@
                         <img class="icon-svg" alt="icon" src="images/content/flaticon/027-building.svg">
                         <h4>Complex Problems Change House dramatically.</h4>
                         <p>Lorem ipsum dolor sit amet, conset etur sadips cing elitr, sed diam nonumy eirmod tempor invi dunt ut labore buy it.</p>
-                    </div><!-- end single features -->
+                    </div><!--   -->
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mbt30">
                     <!-- 3 -->
@@ -72,7 +72,7 @@
                         <img class="icon-svg" alt="icon" src="images/content/flaticon/019-engineer-1.svg">
                         <h4>House Renovation Speed your Construction.</h4>
                         <p>Lorem ipsum dolor sit amet, conset etur sadips cing elitr, sed diam nonumy eirmod tempor invi dunt ut labore buy it.</p>
-                    </div><!-- end single features -->
+                    </div><!--   -->
                 </div>
             </div>
             <!-- .row end -->
@@ -85,7 +85,7 @@
                         <img class="icon-svg" alt="icon" src="images/content/flaticon/014-concrete-mixer.svg">
                         <h4>Modern Construction Made by Lucru HTML.</h4>
                         <p>Lorem ipsum dolor sit amet, conset etur sadips cing elitr, sed diam nonumy eirmod tempor invi dunt ut labore buy it.</p>
-                    </div><!-- end single features -->
+                    </div><!--   -->
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mbt30">
                     <!-- 2 -->
@@ -94,7 +94,7 @@
                         <img class="icon-svg" alt="icon" src="images/content/flaticon/013-blueprint.svg">
                         <h4>Complex Problems Change House dramatically.</h4>
                         <p>Lorem ipsum dolor sit amet, conset etur sadips cing elitr, sed diam nonumy eirmod tempor invi dunt ut labore buy it.</p>
-                    </div><!-- end single features -->
+                    </div><!--   -->
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mbt30">
                     <!-- 3 -->
@@ -103,7 +103,7 @@
                         <img class="icon-svg" alt="icon" src="images/content/flaticon/012-brickwall.svg">
                         <h4>House Renovation Speed your Construction.</h4>
                         <p>Lorem ipsum dolor sit amet, conset etur sadips cing elitr, sed diam nonumy eirmod tempor invi dunt ut labore buy it.</p>
-                    </div><!-- end single features -->
+                    </div><!--   -->
                 </div>
             </div>
             <!-- .row end -->
