@@ -4,11 +4,11 @@
 
 <main>
   <!-- Slider Start -->
-  <div class="owl-navigation owl-carousel owl-theme ">
+  <div class="owl-navigation owl-carousel slider_owl owl-theme ">
     <!-- slider item 1 -->
     <div class="item ">
         <div class="position-center image-overly-dark-opacity header-content " role="banner">
-            <img src="/assets/images/content/manuf_cover/{{$manuf->cover_image}}" alt="" class="sliderImg">
+            <img src="/assets/images/content/slider/{{$slider->cover_image}}" alt="" class="sliderImg">
             <div class="container tekstSlider opac">
                 <div class="col-xs-12 col-sm-8  header-area">
                     <div class="header-area-inner header-text"> <!-- single content header -->
@@ -26,7 +26,7 @@
     <!-- slider item 2 -->
     <div class="item">
         <div class="position-center image-overly-dark-opacity header-content " role="banner">
-            <img src="/assets/images/content/manuf_cover/{{$manuf->cover_image}}" alt="" class="sliderImg">
+            <img src="/assets/images/content/slider/{{$slider->cover_image1}}" alt="" class="sliderImg">
 
             <div class="container tekstSlider opac">
                 <div class="col-xs-12 col-sm-8  header-area">
@@ -45,7 +45,7 @@
     <!-- slider item 3 -->
     <div class="item">
         <div class="position-center image-overly-dark-opacity header-content " role="banner">
-            <img src="/assets/images/content/manuf_cover/{{$manuf->cover_image}}" alt="" class="sliderImg">
+            <img src="/assets/images/content/slider/{{$slider->cover_image2}}" alt="" class="sliderImg">
 
             <div class="container tekstSlider opac">
                 <div class="col-xs-12 col-sm-8  header-area">
@@ -72,7 +72,7 @@
             @foreach ($models as $model)
                 
            
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 course-single mb20">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 course-single mb20">
                 <!-- 1 -->
                 <div class="themeioan_services">
                     <article><!-- single services -->
@@ -155,7 +155,7 @@
  <!-- Slider Start -->
 <div class="relative pt-5">
     <h2 class = "text-center pt-5">Galerija</h2>
-    <div class="owl-navigation owl-carousel owl-theme">
+    <div class="owl-navigation owl-carousel gallery_owl owl-theme">
         @foreach ($images as $image)
             
         <!-- slider item 1 -->

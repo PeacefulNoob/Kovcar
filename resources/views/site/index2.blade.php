@@ -4,7 +4,7 @@
 <main>
     <!-- Slider Start -->
      <!-- slider item 3 -->
-     <div class="owl-navigation owl-carousel owl-theme ">
+     <div class="owl-navigation owl-carousel home_owl owl-theme ">
 
      <div class="item">
         <div class="position-center image-overly-dark-opacity header-content " role="banner">

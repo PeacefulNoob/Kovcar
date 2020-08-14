@@ -51,10 +51,12 @@ class ManufacturerController extends Controller
      */
     public function show(Manufacturer $manufacturer)
     {
+        $slider = DB::table('slider')->where('manufacturers_id', '=', $manufacturer->id)->first();
         $images = DB::table('manuf_images')->where('manufacturers_id', '=', $manufacturer->id)->get();
         $models = DB::table('car_models')->where('manufacturers_id', '=', $manufacturer->id)->get();
         $manuf = Manufacturer::findOrFail($manufacturer->id);
-        return view('site.manufacturer1',compact('manuf','images','models'));
+       
+        return view('site.manufacturer1',compact('manuf','images','models','slider'));
     }
 
     /**

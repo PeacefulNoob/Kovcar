@@ -15,7 +15,10 @@ class Car_Model extends Model
         return $this->belongsTo('App\Manufacturer');
     }
 
-    
+    public function slider()
+    {
+        return $this->hasMany('App\Slider');
+    }
     public function packet()
     {
         return $this->hasMany('App\Model_package');

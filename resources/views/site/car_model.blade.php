@@ -285,7 +285,7 @@
     <!-- Slider Start -->
     <div class="relative pt-5">
         <h2 class="text-center pt-5">Galerija</h2>
-        <div class="owl-navigation owl-carousel owl-theme">
+        <div class="owl-navigation owl-carousel_gallery owl-theme">
             @foreach($images as $image)
 
                 <!-- slider item 1 -->

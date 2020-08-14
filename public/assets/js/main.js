@@ -179,7 +179,7 @@ window.jQuery(document).ready(function ($) {
     // Slider End
 
     // Slider Home 2
-    $('.owl-carousel').owlCarousel({
+    $('.home_owl').owlCarousel({
         loop: true,
         margin: 0,
         nav: false,
@@ -191,12 +191,43 @@ window.jQuery(document).ready(function ($) {
         autoplayHoverPause: true,
         responsive: {
             0: {
-                items: 1
+                items: 2
             }
         }
     });
     // Slider End
-
+    $('.slider_owl').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: false,
+        touchDrag: true,
+        mouseDrag: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        smartSpeed: 1000,
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: 2
+            }
+        }
+    });
+    $('.gallery_owl').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: false,
+        touchDrag: true,
+        mouseDrag: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        smartSpeed: 1000,
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: 2
+            }
+        }
+    });
 
     $('.tabgroup > div').hide();
     $('.tabgroup > div:first-of-type').show();

@@ -17,4 +17,8 @@ class Manufacturer extends Model
     {
         return $this->hasMany('App\ManufImage');
     }
+    public function slider()
+    {
+        return $this->hasMany('App\Slider');
+    }
 }

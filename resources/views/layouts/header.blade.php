@@ -39,15 +39,9 @@
                         <a href="#">Marke</a>
                         <ul class="sub-menu">
                             <li><a href="/manufacturer/1" class="nav-link ">Fiat</a></li>
-                              <li class="dropdown-submenu">
-                            <a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                            <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
-                            <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
-                            </ul>
-                        </li>
+                   
                             <li><a href="/manufacturer/4" class="nav-link ">Fiat Professional</a></li>
-                            <li><a href="/manufacturer/3" class="nav-link ">Jepp</a></li>
+                            <li><a href="/manufacturer/3" class="nav-link ">Jeep</a></li>
                             <li><a href="/manufacturer/2" class="nav-link ">Abarth</a></li>
                             <li><a href="/manufacturer/5" class="nav-link ">Alfa Romeo</a></li>
                         </ul>
