@@ -97,6 +97,8 @@
 
     </section>
     </div>
+    @if ($model->exterior_desc)
+
     <!-- projects area end -->
     <div id="slider-modern" class="  position-relative">
         <img src="/assets/images/content/model/{{ $model->exterior_image }}" alt="" class="sliderImg">
@@ -117,6 +119,9 @@
         </div>
     </div>
     </div>
+    @endif
+    @if ($model->exterior_desc1)
+
     <!-- features area start -->
     <div id="features" class="wrap-bg">
         <!-- .container -->
@@ -147,9 +152,12 @@
         </div>
         <!-- .container end -->
     </div>
+    @endif
     <!-- features area end -->
     {{-- /////// --}}
-    <div id="slider-modern" class="  position-relative">
+    @if ($model->interior_desc)
+
+    <div id="slider-modern" class="  position-relative py-3">
         <img src="/assets/images/content/model/{{ $model->interior_image }}" alt="" class="sliderImg">
         <div class="sliderOverlay1"></div>
 
@@ -167,11 +175,12 @@
     </div>
     </div>
     </div>
-
+@endif
 
     {{-- ///////////// --}}
+    @if ($model->interior_desc1)
 
-    <div id="features" class="wrap-bg">
+    <div id="features" class="wrap-bg py-3">
         <!-- .container -->
         <div class="container">
 
@@ -198,7 +207,8 @@
         </div>
         <!-- .container end -->
     </div>
-
+@endif
+    @if ($model->sec_desc)
 
 
     <div id="why-us" class="wrap-bg-dark py-3">
@@ -223,8 +233,31 @@
             </div>
         </div>
     </div>
+@endif
     <div id="widget-call" class="call-to-action-area py-3 my-5 bg-cta">
         <div class="container opac">
+            <div class="row items-cta">
+                <div class="cta-item col-3">
+                    <a href="/assets/pdf/" download="HTML 5 PDF">
+                        <span class="cta-item-info" >BROŠURA</span>
+                        <span class="cta-item-icon"><img src="/assets/images/content/buttons/sticky-cta-brochure.png"></span>
+                    </a>
+                </div>
+
+                <div class="cta-item col-3">
+                    <a href="/assets/pdf/" target="new">
+                        <span class="cta-item-info" >CENOVNIK</span>
+                        <span class="cta-item-icon"><img src="/assets/images/content/buttons/sticky-cta-request-a-quote-new.png"></span>
+                    </a>
+                </div>
+
+                <div class="cta-item col-3">
+                    <a href="/test_drive" target="new">
+                        <span class="cta-item-info" >TEST VOŽNJA</span>
+                        <span class="cta-item-icon"><img src="/assets/images/content/buttons/sticky-cta-test-drive.png"></span>
+                    </a>
+                </div>
+        </div>
             <div class="row justify-content-xl-between justify-content-lg-center justify-content-center">
                 <div class="sticky-cta clearfix sideIcons">
                     <ul>
@@ -254,9 +287,14 @@
 
                     </ul>
                 </div>
+
+
+
+              
             </div>
         </div>
     </div>
+    @if ($model->teh_desc)
     <div id="why-us" class="wrap-bg-dark py-3 my-5">
         <div class="row">
 
@@ -279,13 +317,13 @@
             </div>
         </div>
     </div>
-
+    @endif
 
 
     <!-- Slider Start -->
-    <div class="relative pt-5">
+    <div class="relative py-3">
         <h2 class="text-center pt-5">Galerija</h2>
-        <div class="owl-navigation owl-carousel_gallery owl-theme">
+        <div class="owl-navigation owl-carousel gallery_owl owl-theme">
             @foreach($images as $image)
 
                 <!-- slider item 1 -->

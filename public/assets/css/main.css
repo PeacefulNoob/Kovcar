@@ -1089,7 +1089,7 @@ select:focus {
 
 /* 2. ========================= Header ========================= */
 .header-area .header-area-inner h1.title {
-    font-size: 60px;
+    font-size: 55px;
     line-height: 70px;
     margin-bottom: 20px;
 }
@@ -3291,7 +3291,7 @@ main {
 @media (min-height: 800px) {
     .header-content .header-text {
         padding-top: 17%;
-        width: 70%;
+        width: 78%;
     }
 }
 
@@ -3924,6 +3924,7 @@ h1+p {
         box-sizing: border-box;
         text-align: center;
         right: 0;
+        border-radius: 2px;
     }
 
     .sticky-cta ul li.sticky-cta-item .sticky-cta-item-icon img {
@@ -3934,9 +3935,31 @@ h1+p {
     }
 }
 
+.cta-item .cta-item-icon {
+    display: block;
+    background: #ffba00;
+    height: 43px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.cta-item .cta-item-icon img {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.items-cta {
+    justify-content: center;
+}
+
 @media only screen and (max-width: 999px) {
     .sticky-cta {
         width: 80%;
+        display: none !important;
+
     }
 
     .sticky-cta ul li.sticky-cta-item.visible-mobile,
@@ -4105,4 +4128,30 @@ h1+p {
     transform: translate(27%, 15%);
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #222222;
+    border-radius: 5px;
+    border: 1px solid #55201c;
+}
+
 /*# sourceMappingURL=app.css.map */
+
+.aaad {
+    height: 80vh !important;
+
+}
+
+.desktop {
+    display: block !important;
+}

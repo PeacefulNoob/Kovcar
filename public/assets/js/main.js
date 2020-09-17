@@ -85,14 +85,6 @@ window.jQuery(document).ready(function ($) {
     // End sticky-menu on scroll
 
 
-    /* magnificPopup image view */
-    $('.popup-image').magnificPopup({
-        type: 'image',
-        gallery: {
-            enabled: true
-        }
-    });
-    /* End magnificPopup image view */
 
 
 
@@ -108,14 +100,14 @@ window.jQuery(document).ready(function ($) {
         arrows: false,
         dots: true,
         slidesToShow: 4,
-        slidesToScroll: 1,
+        slidesToScroll: 2,
         autoplay: true,
-        autoplaySpeed: 9000,
+        autoplaySpeed: 6000,
         draggable: true,
         responsive: [{
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                     draggable: true
                 }
             },
@@ -141,12 +133,6 @@ window.jQuery(document).ready(function ($) {
 
 
 
-    // Preview images popup gallery with Fancybox //
-    $('.fancybox').fancybox({
-        loop: false
-    });
-    // End Preview images popup gallery with Fancybox //
-
 
 
     // Navigation Burger animation //
@@ -159,24 +145,6 @@ window.jQuery(document).ready(function ($) {
 
 
 
-    // Slider Home 6 - with arrows Prev Next
-    $('.owl-navigation ').owlCarousel({
-        loop: true,
-        margin: 0,
-        nav: true,
-        touchDrag: true,
-        mouseDrag: true,
-        autoplay: true,
-        autoplayTimeout: 5000,
-        smartSpeed: 1000,
-        autoplayHoverPause: true,
-        responsive: {
-            0: {
-                items: 1
-            }
-        }
-    });
-    // Slider End
 
     // Slider Home 2
     $('.home_owl').owlCarousel({
@@ -191,7 +159,7 @@ window.jQuery(document).ready(function ($) {
         autoplayHoverPause: true,
         responsive: {
             0: {
-                items: 2
+                items: 1
             }
         }
     });
@@ -208,7 +176,7 @@ window.jQuery(document).ready(function ($) {
         autoplayHoverPause: true,
         responsive: {
             0: {
-                items: 2
+                items: 1
             }
         }
     });
@@ -218,15 +186,23 @@ window.jQuery(document).ready(function ($) {
         nav: false,
         touchDrag: true,
         mouseDrag: true,
-        autoplay: true,
+        autoplay: false,
         autoplayTimeout: 5000,
         smartSpeed: 1000,
         autoplayHoverPause: true,
         responsive: {
             0: {
-                items: 2
+                items: 1,
+                nav: true
+            },
+
+            850: {
+                items: 2,
+                nav: true,
             }
         }
+
+
     });
 
     $('.tabgroup > div').hide();

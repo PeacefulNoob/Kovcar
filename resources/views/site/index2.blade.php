@@ -4,57 +4,54 @@
 <main>
     <!-- Slider Start -->
      <!-- slider item 3 -->
-     <div class="owl-navigation owl-carousel home_owl owl-theme ">
-
-     <div class="item">
-        <div class="position-center image-overly-dark-opacity header-content " role="banner">
-            <img src="/assets/images/content/manuf_cover/jeep_cover.jpg" alt="" class="sliderImg">
-<div class="sliderOverlay"></div>
-            <div class="container tekstSlider opac">
-                <div class="col-xs-12 col-sm-8  header-area">
-                    <div class="header-area-inner header-text"> <!-- single content header -->
-                        <h1 class="title">SVET AVANTURA ČEKA NA NAS</h1>
-                        <p>Započnite vaše putovanje u vozilu koje je opremljeno za gotovo sve.</p>
-                        <div class="btn-section text-center">
-                            <a href="/contact" class="color-two btn-custom">Kontakt <i class="fas fa-arrow-right"></i></a>
-                            <a href="/contact" class="join-button"><i class="fab fa-telegram-plane"></i> +382 69 09 55 81</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- end slider item 3 -->
-     <!-- slider item 3 -->
-     <div class="item">
-        <div class="position-center image-overly-dark-opacity header-content " role="banner">
-            <img src="/assets/images/content/manuf_cover/jeep_cover.jpg" alt="" class="sliderImg">
-            <div class="sliderOverlay"></div>
-
-            <div class="container tekstSlider opac">
-                <div class="col-xs-12 col-sm-8  header-area">
-                    <div class="header-area-inner header-text"> <!-- single content header -->
-                        <h1 class="title">SVET AVANTURA ČEKA NA NAS</h1>
-                        <p>Započnite vaše putovanje u vozilu koje je opremljeno za gotovo sve.</p>
-                        <div class="btn-section text-center">
-                            <a href="/contact" class="color-two btn-custom">Kontakt <i class="fas fa-arrow-right"></i></a>
-                            <a href="/contact" class="join-button"><i class="fab fa-telegram-plane"></i> +382 69 09 55 81</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- end slider item 3 -->
-        <!-- slider item 3 -->
-        <div class="item">
+     <div class="owl-navigation owl-carousel slider_owl owl-theme ">
+        <!-- slider item 1 -->
+        <div class="item ">
             <div class="position-center image-overly-dark-opacity header-content " role="banner">
-                <img src="/assets/images/content/manuf_cover/jeep_cover.jpg" alt="" class="sliderImg">
-                <div class="sliderOverlay"></div>
-
+                <img src="/assets/images/content/slider/{{$slider->cover_image}}" alt="" class="sliderImg">
                 <div class="container tekstSlider opac">
                     <div class="col-xs-12 col-sm-8  header-area">
                         <div class="header-area-inner header-text"> <!-- single content header -->
-                            <h1 class="title">SVET AVANTURA ČEKA NA NAS</h1>
-                            <p>Započnite vaše putovanje u vozilu koje je opremljeno za gotovo sve.</p>
+                            <h1 class="title">{{$slider->cover_image_text}}</h1>
+                            <p>Započnite vaše putovanje u vozilu koje je opremljeno za gotovo sve. Kontaktirajte nas !</p>
+                            <div class="btn-section text-center">
+                                <a href="/contact" class="color-two btn-custom">Kontakt <i class="fas fa-arrow-right"></i></a>
+                                <a href="/contact" class="join-button"><i class="fab fa-telegram-plane"></i> +382 69 09 55 81</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- end slider item 1 -->
+        <!-- slider item 2 -->
+        <div class="item">
+            <div class="position-center image-overly-dark-opacity header-content " role="banner">
+                <img src="/assets/images/content/slider/{{$slider->cover_image1}}" alt="" class="sliderImg">
+    
+                <div class="container tekstSlider opac">
+                    <div class="col-xs-12 col-sm-8  header-area">
+                        <div class="header-area-inner header-text"> <!-- single content header -->
+                            <h1 class="title">{{$slider->cover_image1_text}}</h1>
+                            <p>Započnite vaše putovanje u vozilu koje je opremljeno za gotovo sve. Kontaktirajte nas !</p>
+                            <div class="btn-section text-center">
+                                <a href="/contact" class="color-two btn-custom">Kontakt <i class="fas fa-arrow-right"></i></a>
+                                <a href="/contact" class="join-button"><i class="fab fa-telegram-plane"></i> +382 69 09 55 81</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- end slider item 2 -->
+        <!-- slider item 3 -->
+        <div class="item">
+            <div class="position-center image-overly-dark-opacity header-content " role="banner">
+                <img src="/assets/images/content/slider/{{$slider->cover_image2}}" alt="" class="sliderImg">
+    
+                <div class="container tekstSlider opac">
+                    <div class="col-xs-12 col-sm-8  header-area">
+                        <div class="header-area-inner header-text"> <!-- single content header -->
+                            <h1 class="title">{{$slider->cover_image2_text}}</h1>
+                            <p>Započnite vaše putovanje u vozilu koje je opremljeno za gotovo sve. Kontaktirajte nas !</p>
                             <div class="btn-section text-center">
                                 <a href="/contact" class="color-two btn-custom">Kontakt <i class="fas fa-arrow-right"></i></a>
                                 <a href="/contact" class="join-button"><i class="fab fa-telegram-plane"></i> +382 69 09 55 81</a>
@@ -65,7 +62,6 @@
             </div>
         </div><!-- end slider item 3 -->
     </div>
-</div>
     <!-- Slider End-->
    <!-- projects area start -->
    <div id="projects-slider" class="wrap-bg  text-left">
@@ -119,27 +115,24 @@
                     <!-- 1 -->
                     <div class="single-features-light"><!-- single features -->
                         <!-- uses solid style -->
-                        <img class="icon-svg" alt="icon" src="">
-                        <h4>Modern Construction Made by Lucru HTML.</h4>
-                        <p>Lorem ipsum dolor sit amet, conset etur sadips cing elitr, sed diam nonumy eirmod tempor invi dunt ut labore buy it.</p>
+                        <img class="icon-svg" alt="icon" src="/assets/images/content/image001.png">
+                        <h4>PRODAJA NOVIH VOZILA</h4>
                     </div><!--   -->
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mbt30">
                     <!-- 2 -->
                     <div class="single-features-light"><!-- single features -->
                         <!-- uses solid style -->
-                        <img class="icon-svg" alt="icon" src="">
-                        <h4>Complex Problems Change House dramatically.</h4>
-                        <p>Lorem ipsum dolor sit amet, conset etur sadips cing elitr, sed diam nonumy eirmod tempor invi dunt ut labore buy it.</p>
+                        <img class="icon-svg m-auto" alt="icon" src="/assets/images/content/image002.png">
+                        <h4>PRODAJA POLOVNIH VOZILA</h4>
                     </div><!--   -->
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mbt30">
                     <!-- 3 -->
                     <div class="single-features-light"><!-- single features -->
                         <!-- uses solid style -->
-                        <img class="icon-svg" alt="icon" src="">
-                        <h4>House Renovation Speed your Construction.</h4>
-                        <p>Lorem ipsum dolor sit amet, conset etur sadips cing elitr, sed diam nonumy eirmod tempor invi dunt ut labore buy it.</p>
+                        <img class="icon-svg" alt="icon" src="/assets/images/content/image003.png">
+                        <h4>SERVIS VOZILA</h4>
                     </div><!--   -->
                 </div>
             </div>
@@ -150,27 +143,24 @@
                     <!-- 1 -->
                     <div class="single-features-light"><!-- single features -->
                         <!-- uses solid style -->
-                        <img class="icon-svg" alt="icon" src="">
-                        <h4>Modern Construction Made by Lucru HTML.</h4>
-                        <p>Lorem ipsum dolor sit amet, conset etur sadips cing elitr, sed diam nonumy eirmod tempor invi dunt ut labore buy it.</p>
+                        <img class="icon-svg" alt="icon" src="/assets/images/content/image004.png">
+                        <h4>POSTPRODAJNE USLUGE</h4>
                     </div><!--   -->
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mbt30">
                     <!-- 2 -->
                     <div class="single-features-light"><!-- single features -->
                         <!-- uses solid style -->
-                        <img class="icon-svg" alt="icon" src="">
-                        <h4>Complex Problems Change House dramatically.</h4>
-                        <p>Lorem ipsum dolor sit amet, conset etur sadips cing elitr, sed diam nonumy eirmod tempor invi dunt ut labore buy it.</p>
+                        <img class="icon-svg" alt="icon" src="/assets/images/content/image005.png">
+                        <h4>TEHNICKI PREGLED</h4>
                     </div><!--   -->
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mbt30">
                     <!-- 3 -->
                     <div class="single-features-light"><!-- single features -->
                         <!-- uses solid style -->
-                        <img class="icon-svg" alt="icon" src="">
-                        <h4>House Renovation Speed your Construction.</h4>
-                        <p>Lorem ipsum dolor sit amet, conset etur sadips cing elitr, sed diam nonumy eirmod tempor invi dunt ut labore buy it.</p>
+                        <img class="icon-svg" alt="icon" src="/assets/images/content/image006.png">
+                        <h4>REGISTRACIJA VOZILA</h4>
                     </div><!--   -->
                 </div>
             </div>

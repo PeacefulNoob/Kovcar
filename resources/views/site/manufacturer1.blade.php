@@ -102,7 +102,7 @@
 <!-- features area start -->
 <div id="features" class="wrap-bg">
     <!-- .container -->
-    <img src="/assets/images/content/manuf/{{$manuf->brochure_pdf}}" class="backgroundImage" alt="">
+    <img src="/assets/images/content/model/{{$manuf->brochure_pdf}}" class="backgroundImage" alt="">
 
     <div class="container">
 
@@ -117,7 +117,7 @@
                          
 
                             <h4>Istorija</h4>
-                            <p>{{$manuf->description1}}
+                            <p>{!!$manuf->description1!!}
                                 </p>
                         </div><!--   -->
                     </div>
@@ -135,13 +135,13 @@
 <div id="why-us" class="wrap-bg-dark my-5">
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-5 col-xl-6 col-lg-6 s  image-margin-50">
-            <img src="/assets/images/content/manuf/{{$manuf->image2}}" class="sliderImg" alt="">
+            <img src="/assets/images/content/model/{{$manuf->image2}}" class="sliderImg" alt="">
         </div>
         <div class="col-xs-12 col-sm-12 col-md-7 col-xl-6 col-lg-6 wrap-padding text-left">
             <div class="width400">
                 <div class="section-title with-p">
                     <div>
-                        <h2>Opis marke</h2>
+                        <h2>Opis brenda</h2>
                     </div>
                 </div>
                 <p>{{$manuf->description2}}</p>
@@ -159,9 +159,9 @@
         @foreach ($images as $image)
             
         <!-- slider item 1 -->
-        <div class="item">
+        <div class="item aaad">
             <div class="header-content galleryS " role="banner">
-                <img src="/assets/images/content/manuf/{{$image->image}}" class="sliderImg slidfe" alt="">
+                <img src="/assets/images/content/model/{{$image->image}}" class="sliderImg slidfe" alt="">
 
             </div>
         </div><!-- end slider item 1 -->

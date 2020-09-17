@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Manufacturer;
 use App\Car_model;
 use DB;
-
+use App\Slider;
 use Illuminate\Http\Request;
 
 class ManufacturerController extends Controller
@@ -18,7 +18,9 @@ class ManufacturerController extends Controller
     public function index()
     {
         $manufs=Manufacturer::all();
-        return view('site.index2', compact('manufs'));
+        $slider = DB::table('slider')->where('manufacturers_id', '=', '12345678')->first();
+
+        return view('site.index2', compact('manufs','slider'));
 
     }
 
