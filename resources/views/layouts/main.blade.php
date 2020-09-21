@@ -39,7 +39,6 @@
 @yield('content')
 
 
-@include('layouts.test_drive')
 @include('layouts.footer')
 
 

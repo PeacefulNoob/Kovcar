@@ -87,21 +87,17 @@
             </div>
 
         @endforeach
-
-
-
-
         <!-- .row end -->
         </div>
         </div>
 
     </section>
     </div>
+    @include('layouts.test_drive')
     @if ($model->exterior_desc)
-
     <!-- projects area end -->
     <div id="slider-modern" class="  position-relative">
-        <img src="/assets/images/content/model/{{ $model->exterior_image }}" alt="" class="sliderImg">
+        <img src="/assets/images/content/model/{{ $model->exterior_image }}" alt="" class="imageFull">
         <div class="sliderOverlay1"></div>
 
         <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-7 naSliderCarLeft">
@@ -158,7 +154,7 @@
     @if ($model->interior_desc)
 
     <div id="slider-modern" class="  position-relative py-3">
-        <img src="/assets/images/content/model/{{ $model->interior_image }}" alt="" class="sliderImg">
+        <img src="/assets/images/content/model/{{ $model->interior_image }}" alt="" class="imageFull">
         <div class="sliderOverlay1"></div>
 
         <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-7 naSliderCar">
@@ -214,7 +210,7 @@
     <div id="why-us" class="wrap-bg-dark py-3">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-5 col-xl-6 col-lg-6   image-margin-50">
-                <img src="/assets/images/content/model/{{ $model->sec_image }}" class="sliderImg" alt="">
+                <img src="/assets/images/content/model/{{ $model->sec_image }}" class="imageFull" alt="">
                 <div class="sliderOverlay1"></div>
 
             </div>
@@ -238,14 +234,14 @@
         <div class="container opac">
             <div class="row items-cta">
                 <div class="cta-item col-3">
-                    <a href="/assets/pdf/" download="HTML 5 PDF">
+                    <a href="/assets/pdf/{{ $model->brochure_pdf }}" target="new">
                         <span class="cta-item-info" >BROŠURA</span>
                         <span class="cta-item-icon"><img src="/assets/images/content/buttons/sticky-cta-brochure.png"></span>
                     </a>
                 </div>
 
                 <div class="cta-item col-3">
-                    <a href="/assets/pdf/" target="new">
+                    <a href="/assets/pdf/{{ $model->price_pdf }}" target="new">
                         <span class="cta-item-info" >CENOVNIK</span>
                         <span class="cta-item-icon"><img src="/assets/images/content/buttons/sticky-cta-request-a-quote-new.png"></span>
                     </a>
@@ -262,7 +258,7 @@
                 <div class="sticky-cta clearfix sideIcons">
                     <ul>
                         <li class="sticky-cta-item visible-mobile">
-                            <a href="/assets/pdf/{{ $model->brochure }}" download="HTML 5 PDF">
+                            <a href="/assets/pdf/{{ $model->brochure_pdf }}" target="new">
                                 <span class="sticky-cta-item-info" style="display: none;">BROŠURA</span>
                                 <span class="sticky-cta-item-icon"><img
                                         src="/assets/images/content/buttons/sticky-cta-brochure.png"></span>
@@ -311,7 +307,7 @@
 
             </div>
             <div class="col-xs-12 col-sm-12 col-md-5 col-xl-6 col-lg-6 services-detail-why  image-margin-50">
-                <img src="/assets/images/content/model/{{ $model->teh_image }}" class="sliderImg" alt="">
+                <img src="/assets/images/content/model/{{ $model->teh_image }}" class="imageFull" alt="">
                 <div class="sliderOverlay1"></div>
 
             </div>
@@ -329,7 +325,7 @@
                 <!-- slider item 1 -->
                 <div class="item">
                     <div class="header-content galleryS" role="banner">
-                        <img src="/assets/images/content/model/{{ $image->image }}" class="sliderImg slidfe" alt="">
+                        <img src="/assets/images/content/model/{{ $image->image }}" class="galeryFull slidfe" alt="">
                         <div class="sliderOverlay1"></div>
 
                     </div>

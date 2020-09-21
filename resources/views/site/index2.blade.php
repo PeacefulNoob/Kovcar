@@ -113,7 +113,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mbt30">
                     <!-- 1 -->
-                    <div class="single-features-light"><!-- single features -->
+                    <div class="single-features-light text-center"><!-- single features -->
                         <!-- uses solid style -->
                         <img class="icon-svg" alt="icon" src="/assets/images/content/image001.png">
                         <h4>PRODAJA NOVIH VOZILA</h4>
@@ -121,7 +121,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mbt30">
                     <!-- 2 -->
-                    <div class="single-features-light"><!-- single features -->
+                    <div class="single-features-light text-center"><!-- single features -->
                         <!-- uses solid style -->
                         <img class="icon-svg m-auto" alt="icon" src="/assets/images/content/image002.png">
                         <h4>PRODAJA POLOVNIH VOZILA</h4>
@@ -129,7 +129,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mbt30">
                     <!-- 3 -->
-                    <div class="single-features-light"><!-- single features -->
+                    <div class="single-features-light text-center"><!-- single features -->
                         <!-- uses solid style -->
                         <img class="icon-svg" alt="icon" src="/assets/images/content/image003.png">
                         <h4>SERVIS VOZILA</h4>
@@ -141,7 +141,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mbt30">
                     <!-- 1 -->
-                    <div class="single-features-light"><!-- single features -->
+                    <div class="single-features-light text-center"><!-- single features -->
                         <!-- uses solid style -->
                         <img class="icon-svg" alt="icon" src="/assets/images/content/image004.png">
                         <h4>POSTPRODAJNE USLUGE</h4>
@@ -149,7 +149,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mbt30">
                     <!-- 2 -->
-                    <div class="single-features-light"><!-- single features -->
+                    <div class="single-features-light text-center"><!-- single features -->
                         <!-- uses solid style -->
                         <img class="icon-svg" alt="icon" src="/assets/images/content/image005.png">
                         <h4>TEHNICKI PREGLED</h4>
@@ -157,9 +157,9 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mbt30">
                     <!-- 3 -->
-                    <div class="single-features-light"><!-- single features -->
+                    <div class="single-features-light text-center"><!-- single features -->
                         <!-- uses solid style -->
-                        <img class="icon-svg" alt="icon" src="/assets/images/content/image006.png">
+                        <img class="icon-svg" alt="icon" src="/assets/images/content/image005.png">
                         <h4>REGISTRACIJA VOZILA</h4>
                     </div><!--   -->
                 </div>
@@ -176,11 +176,11 @@
     <div id="why-us" class="slider-bg11 ">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-5">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-xl-7 col-lg-7">
                     
-                    <img src="/assets/images/content/site/IvecoFirma.jpg" class="aboutImage"alt="">
+                    <img src="/assets/images/content/firma.jpeg" class="aboutImage"alt="">
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-7 mt-4 mb-5">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-xl-5 col-lg-5 mt-4 mb-5">
                     <div class="section-title">
                         <div class="container-black oNama">
                             <span>O nama</span>

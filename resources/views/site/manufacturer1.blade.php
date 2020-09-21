@@ -63,16 +63,14 @@
     </div><!-- end slider item 3 -->
 </div>
 <!-- Slider End-->
+@if ($manuf->id=='5')
    <!-- projects area start -->
    <div id="projects-slider" class="wrap-bg wrap-bg-dark text-left">
- 
     <div class="fullcontainer">
-        <div class="row carousel-slider projects-slider">
+        <div class="row carousel-slider projects-slider-alfa">
             <!-- .row -->
             @foreach ($models as $model)
-                
-           
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 course-single mb20">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 course-single mb20">
                 <!-- 1 -->
                 <div class="themeioan_services">
                     <article><!-- single services -->
@@ -89,39 +87,60 @@
                     </article><!-- end single services -->
                 </div>
             </div>
-
             @endforeach
-        
-         
-         
             <!-- .row end -->
         </div>
     </div>
 </div>
-
+<!-- projects area end -->
+@else
+   <!-- projects area start -->
+   <div id="projects-slider" class="wrap-bg wrap-bg-dark text-left">
+        <div class="fullcontainer">
+            <div class="row carousel-slider projects-slider">
+                <!-- .row -->
+                @foreach ($models as $model)
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 course-single mb20">
+                    <!-- 1 -->
+                    <div class="themeioan_services">
+                        <article><!-- single services -->
+                            <div class="blog-photo">
+                                <a href="/model/{{$model->id}}"><img class="modelLogo" src="/assets/images/content/model/logo/{{$model->logo_image}}" alt="Logo {{$model->title}}"></a>
+                            </div>
+                            <div class="blog-content">
+                                <h5 class="title"><a href="/model/{{$model->id}}">{{$model->title}}</a>
+                                </h5>
+                                <div class="my-2">
+                                    <a href="/model/{{$model->id}}" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
+                                </div>
+                            </div>
+                        </article><!-- end single services -->
+                    </div>
+                </div>
+                @endforeach
+                <!-- .row end -->
+            </div>
+        </div>
+    </div>
+   <!-- projects area end -->
+   @endif
 <!-- features area start -->
 <div id="features" class="wrap-bg">
     <!-- .container -->
     <img src="/assets/images/content/model/{{$manuf->brochure_pdf}}" class="backgroundImage" alt="">
-
     <div class="container">
-
         <div class="row">
-
             <div class="col-lg-12">
                 <!-- .row -->
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mbt30">
                         <!-- 1 -->
                         <div class="single-features-light allTime"><!-- single features -->
-                         
-
                             <h4>Istorija</h4>
                             <p>{!!$manuf->description1!!}
                                 </p>
                         </div><!--   -->
                     </div>
-                   
                 </div>
                 <!-- .row end -->
             </div>
@@ -161,7 +180,7 @@
         <!-- slider item 1 -->
         <div class="item aaad">
             <div class="header-content galleryS " role="banner">
-                <img src="/assets/images/content/model/{{$image->image}}" class="sliderImg slidfe" alt="">
+                <img src="/assets/images/content/model/{{$image->image}}" class="galeryFull slidfe" alt="">
 
             </div>
         </div><!-- end slider item 1 -->
@@ -173,6 +192,7 @@
 </div>
 <!-- Slider End-->
 
+@include('layouts.test_drive')
 
 
 

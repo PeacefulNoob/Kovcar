@@ -18,7 +18,18 @@
         <!-- .container -->
         <div class="container">
             <!-- Logo and Menu -->
-            <div class="navbar-header">
+          
+            <div class="navbar-header logos">
+                <div class="navbar-brand logosB"><a href="/manufacturer/2"><img src="/assets/images/content/manuf_logo/logoAbarth.png" alt="Logo"/></a></div>
+                <div class="navbar-brand logosB"><a href="/manufacturer/5"><img src="/assets/images/content/manuf_logo/logoAF.png" alt="Logo"/></a></div>
+                <div class="navbar-brand logosB"><a href="/manufacturer/1"><img src="/assets/images/content/manuf_logo/logoFiat.png" alt="Logo"/></a></div>
+                <div class="navbar-brand logosB"><a href="/manufacturer/4"><img src="/assets/images/content/manuf_logo/logoFiatP.png" alt="Logo"/></a></div>
+                <div class="navbar-brand logosB"><a href="/manufacturer/3"><img src="/assets/images/content/manuf_logo/logoJeep.png" alt="Logo"/></a></div>
+                <div class="navbar-brand logosB"><a href="#"><img src="/assets/images/content/manuf_logo/signature (1) (1).png" alt="Logo"/></a></div>
+
+                <!-- site logo -->
+            </div>
+            <div class="navbar-header mainLogo">
                 <div class="navbar-brand"><a href="/"><img src="/assets/images/content/site/output-onlinepngtools.png" alt="Logo"/></a></div>
                 <!-- site logo -->
             </div>
@@ -33,13 +44,11 @@
                     <!-- Menu Link -->
                     <li >
                         <a href="/">Početna</a>
-                      
                     </li>
                     <li class="subnav">
                         <a href="#">Marke</a>
                         <ul class="sub-menu">
                             <li><a href="/manufacturer/1" class="nav-link ">Fiat</a></li>
-                   
                             <li><a href="/manufacturer/4" class="nav-link ">Fiat Professional</a></li>
                             <li><a href="/manufacturer/3" class="nav-link ">Jeep</a></li>
                             <li><a href="/manufacturer/2" class="nav-link ">Abarth</a></li>

@@ -129,6 +129,26 @@ window.jQuery(document).ready(function ($) {
         ]
     });
     // End Projects Slider Slick
+    // Projects Slider Slick
+    $('.carousel-slider.projects-slider-alfa').slick({
+        arrows: false,
+        dots: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 6000,
+        draggable: true,
+        responsive: [{
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 1,
+                draggable: true
+            }
+
+        }]
+    });
+    // End Projects Slider Slick
+
 
 
 
@@ -171,7 +191,7 @@ window.jQuery(document).ready(function ($) {
         touchDrag: true,
         mouseDrag: true,
         autoplay: true,
-        autoplayTimeout: 5000,
+        autoplayTimeout: 9000,
         smartSpeed: 1000,
         autoplayHoverPause: true,
         responsive: {
