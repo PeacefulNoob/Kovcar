@@ -17,7 +17,7 @@ class ManufacturerController extends Controller
      */
     public function index()
     {
-        $manufs=Manufacturer::all();
+        $manufs=Manufacturer::orderBy('orderM', 'ASC')->get();
         $slider = DB::table('slider')->where('manufacturers_id', '=', '12345678')->first();
 
         return view('site.index2', compact('manufs','slider'));
@@ -55,7 +55,7 @@ class ManufacturerController extends Controller
     {
         $slider = DB::table('slider')->where('manufacturers_id', '=', $manufacturer->id)->first();
         $images = DB::table('manuf_images')->where('manufacturers_id', '=', $manufacturer->id)->get();
-        $models = DB::table('car_models')->where('manufacturers_id', '=', $manufacturer->id)->get();
+        $models = DB::table('car_models')->where('manufacturers_id', '=', $manufacturer->id)->orderBy('orderM','ASC')->get();
         $manuf = Manufacturer::findOrFail($manufacturer->id);
        
         return view('site.manufacturer1',compact('manuf','images','models','slider'));

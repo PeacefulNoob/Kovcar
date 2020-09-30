@@ -9,7 +9,7 @@
 
         <div class="row">
 
-            <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-7 naSliderCar">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-xl-5 col-lg-5 naSliderCarH">
                 <div class="section-title">
                     <div class="container-black op9">
                         <span>{{ $model->manufacturer }}</span>
@@ -29,7 +29,7 @@
     <!-- why-us area end -->
 
     <!-- projects area start -->
-    <div class="table my-3">
+    <div class=" my-3">
         <div class="dx text-center">
 
             <ul class="tabs clearfix" data-tabgroup="first-tab-group">
@@ -51,38 +51,41 @@
             <div id="{{ $packet->id }}">
                 <div class="wrap-bg">
 
-                        <div class="row mbt30 single-features-light">
-                        
-                   
-                      
-                                <div class="col-3">                <img class="icon-svg PacketMain" alt="icon"
-                            
-                                    src="/assets/images/content/model/packet/{{ $packet->cover_image }}"></div>
-                <div class="col-8">    <h4> {{ $packet->title }}</h4>
-                    <p> {!!$packet->description!!}</p></div>
-                            
-                                <div class="container my-5">
-                                    <div class="row">
-                                        <div class="col-sm-3"><img class="packetImage" alt="icon"
-                                                src="/assets/images/content/model/packet/{{ $packet->image }}">
-                                            <h5 class="paketTekst"> {{ $packet->imageD }}</h5>
-                                        </div>
-                                        <div class="col-sm-3"><img class="packetImage" alt="icon"
-                                                src="/assets/images/content/model/packet/{{ $packet->image1 }}">
-                                            <h5 class="paketTekst"> {{ $packet->image1D }}</h5>
-                                        </div>
-                                        <div class="col-sm-3"><img class="packetImage" alt="icon"
-                                                src="/assets/images/content/model/packet/{{ $packet->image2 }}">
-                                            <h5 class="paketTekst"> {{ $packet->image2D }}</h5>
-                                        </div>
-                                        <div class="col-sm-3"><img class="packetImage" alt="icon"
-                                                src="/assets/images/content/model/packet/{{ $packet->image3 }}">
-                                            <h5 class="paketTekst"> {{ $packet->image3D }}</h5>
-                                        </div>
-                                    </div>
+                    <div class="row mbt30 single-features-light">
+
+
+
+                        <div class="carPack col-0 col-sm-2 col-md-4 col-lg-4 col-xl-4 ">
+                            <img class="icon-svg PacketMain" alt="icon"
+                                src="/assets/images/content/model/packet/{{ $packet->cover_image }}">
+                        </div>
+                        <div class="col-12 col-sm-10 col-md-8 col-lg-8 col-xl-8">
+                            <h4> {{ $packet->title }}</h4>
+                            <p> {!!$packet->description!!}</p>
+                        </div>
+
+                        <div class="container my-5">
+                            <div class="row">
+                                <div class="col-sm-3  "><img class="packetImage" alt="icon"
+                                        src="/assets/images/content/model/packet/{{ $packet->image }}">
+                                    <h5 class="paketTekst"> {{ $packet->imageD }}</h5>
                                 </div>
+                                <div class="col-sm-3"><img class="packetImage" alt="icon"
+                                        src="/assets/images/content/model/packet/{{ $packet->image1 }}">
+                                    <h5 class="paketTekst"> {{ $packet->image1D }}</h5>
+                                </div>
+                                <div class="col-sm-3"><img class="packetImage" alt="icon"
+                                        src="/assets/images/content/model/packet/{{ $packet->image2 }}">
+                                    <h5 class="paketTekst"> {{ $packet->image2D }}</h5>
+                                </div>
+                                <div class="col-sm-3"><img class="packetImage" alt="icon"
+                                        src="/assets/images/content/model/packet/{{ $packet->image3 }}">
+                                    <h5 class="paketTekst"> {{ $packet->image3D }}</h5>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                </div>
 
             </div>
 
@@ -93,167 +96,167 @@
 
     </section>
     </div>
-    @include('layouts.test_drive')
-    @if ($model->exterior_desc)
-    <!-- projects area end -->
-    <div id="slider-modern" class="  position-relative">
-        <img src="/assets/images/content/model/{{ $model->exterior_image }}" alt="" class="imageFull">
-        <div class="sliderOverlay1"></div>
+    @if($model->exterior_desc)
+        <!-- projects area end -->
+        <div id="slider-modern" class="  position-relative">
+            <img src="/assets/images/content/model/{{ $model->exterior_image }}" alt="" class="imageFull">
+            <div class="sliderOverlay12"></div>
 
-        <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-7 naSliderCarLeft">
-            <div class="section-title">
-                <div class="container-black">
-                    <span>{{ $model->title }}</span>
-                    <h2>Spoljašnost</h2>
-                    <p>{!!$model->exterior_desc!!}</p>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-4 naSliderCarLeft">
+                <div class="section-title">
+                    <div class="container-black">
+                        <span>{{ $model->title }}</span>
+                        <h2>Spoljašnost</h2>
+                        <p>{!!$model->exterior_desc!!}</p>
 
-
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-5">
-        </div>
-    </div>
-    </div>
-    @endif
-    @if ($model->exterior_desc1)
-
-    <!-- features area start -->
-    <div id="features" class="wrap-bg">
-        <!-- .container -->
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-12">
-
-                </div>
-                <div class="col-lg-12">
-                    <!-- .row -->
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mbt30">
-                            <!-- 1 -->
-                            <div class="single-features-light">
-                                <!-- single features -->
-                                <!-- uses solid style -->
-                                <img class="icon-svg" alt="icon"
-                                    src="/assets/images/content/model/{{ $model->exterior_image }}">
-                                <p>{!!$model->exterior_desc1!!}</p>
-                            </div><!--   -->
-                        </div>
 
                     </div>
-                    <!-- .row end -->
                 </div>
             </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-5">
+            </div>
         </div>
-        <!-- .container end -->
-    </div>
+        </div>
+    @endif
+    @if($model->exterior_desc1)
+
+        <!-- features area start -->
+        <div id="features" class="wrap-bg">
+            <!-- .container -->
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-12">
+
+                    </div>
+                    <div class="col-lg-12">
+                        <!-- .row -->
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mbt30">
+                                <!-- 1 -->
+                                <div class="single-features-light">
+                                    <!-- single features -->
+                                    <!-- uses solid style -->
+
+                                    <p>{!!$model->exterior_desc1!!}</p>
+                                </div><!--   -->
+                            </div>
+
+                        </div>
+                        <!-- .row end -->
+                    </div>
+                </div>
+            </div>
+            <!-- .container end -->
+        </div>
     @endif
     <!-- features area end -->
     {{-- /////// --}}
-    @if ($model->interior_desc)
+    @if($model->interior_desc)
 
-    <div id="slider-modern" class="  position-relative py-3">
-        <img src="/assets/images/content/model/{{ $model->interior_image }}" alt="" class="imageFull">
-        <div class="sliderOverlay1"></div>
+        <div id="slider-modern" class="  position-relative py-3">
+            <img src="/assets/images/content/model/{{ $model->interior_image }}" alt="" class="imageFull">
+            <div class="sliderOverlay12"></div>
 
-        <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-7 naSliderCar">
-            <div class="section-title">
-                <div class="container-black">
-                    <span>{{ $model->title }}</span>
-                    <h2>Unutrašnjost</h2>
-                    <p>{!!$model->interior_desc!!}</p>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-7 naSliderCar">
+                <div class="section-title">
+                    <div class="container-black">
+                        <span>{{ $model->title }}</span>
+                        <h2>Unutrašnjost</h2>
+                        <p>{!!$model->interior_desc!!}</p>
 
 
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    </div>
-    </div>
-@endif
+        </div>
+        </div>
+    @endif
 
     {{-- ///////////// --}}
-    @if ($model->interior_desc1)
+    @if($model->interior_desc1)
 
-    <div id="features" class="wrap-bg py-3">
-        <!-- .container -->
-        <div class="container">
+        <div id="features" class="wrap-bg ">
+            <!-- .container -->
+            <div class="container">
 
-            <div class="row">
+                <div class="row">
 
-                <div class="col-lg-12">
-                    <!-- .row -->
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mbt30">
-                            <!-- 1 -->
-                            <div class="single-features-light">
-                                <!-- single features -->
-                                <!-- uses solid style -->
-                                <img class="icon-svg" alt="icon"
-                                    src="/assets/images/content/model/{{ $model->interior_image }}">
-                                <p>{!!$model->interior_desc1!!}</p>
-                            </div><!--   -->
+                    <div class="col-lg-12">
+                        <!-- .row -->
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mbt30">
+                                <!-- 1 -->
+                                <div class="single-features-light">
+                                    <!-- single features -->
+                                    <!-- uses solid style -->
+
+                                    <p>{!!$model->interior_desc1!!}</p>
+                                </div><!--   -->
+                            </div>
+
                         </div>
-
+                        <!-- .row end -->
                     </div>
-                    <!-- .row end -->
+                </div>
+            </div>
+            <!-- .container end -->
+        </div>
+    @endif
+    @if($model->sec_desc)
+
+
+        <div id="why-us" class="wrap-bg-dark py-3">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-5 col-xl-6 col-lg-6   image-margin-50">
+                    <img src="/assets/images/content/model/{{ $model->sec_image }}" class="imageFullS" alt="">
+                    <div class="sliderOverlay1"></div>
+
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-7 col-xl-6 col-lg-6 wrap-padding text-left">
+
+                    <div class="section-title with-p">
+                        <div>
+                            <h2>BEZBJEDNOST & SIGURNOST</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <p>{!!$model->sec_desc!!}</p>
+                        <br>
+                    </div>
+
                 </div>
             </div>
         </div>
-        <!-- .container end -->
-    </div>
-@endif
-    @if ($model->sec_desc)
-
-
-    <div id="why-us" class="wrap-bg-dark py-3">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-5 col-xl-6 col-lg-6   image-margin-50">
-                <img src="/assets/images/content/model/{{ $model->sec_image }}" class="imageFull" alt="">
-                <div class="sliderOverlay1"></div>
-
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-7 col-xl-6 col-lg-6 wrap-padding text-left">
-
-                <div class="section-title with-p">
-                    <div>
-                        <h2>BEZBJEDNOST & SIGURNOST</h2>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <p>{!!$model->sec_desc!!}</p>
-                    <br>
-                </div>
-
-            </div>
-        </div>
-    </div>
-@endif
-    <div id="widget-call" class="call-to-action-area py-3 my-5 bg-cta">
+    @endif
+    <div id="widget-call" class="call-to-action-area  bg-cta">
         <div class="container opac">
             <div class="row items-cta">
-                <div class="cta-item col-3">
+                <div class="cta-item col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 my-2">
                     <a href="/assets/pdf/{{ $model->brochure_pdf }}" target="new">
-                        <span class="cta-item-info" >BROŠURA</span>
-                        <span class="cta-item-icon"><img src="/assets/images/content/buttons/sticky-cta-brochure.png"></span>
+                        <span class="cta-item-info">BROŠURA</span>
+                        <span class="cta-item-icon"><img
+                                src="/assets/images/content/buttons/sticky-cta-brochure.png"></span>
                     </a>
                 </div>
 
-                <div class="cta-item col-3">
+                <div class="cta-item col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 my-2">
                     <a href="/assets/pdf/{{ $model->price_pdf }}" target="new">
-                        <span class="cta-item-info" >CENOVNIK</span>
-                        <span class="cta-item-icon"><img src="/assets/images/content/buttons/sticky-cta-request-a-quote-new.png"></span>
+                        <span class="cta-item-info">CENOVNIK</span>
+                        <span class="cta-item-icon"><img
+                                src="/assets/images/content/buttons/sticky-cta-request-a-quote-new.png"></span>
                     </a>
                 </div>
 
-                <div class="cta-item col-3">
+                <div class="cta-item col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 my-2">
                     <a href="/test_drive" target="new">
-                        <span class="cta-item-info" >TEST VOŽNJA</span>
-                        <span class="cta-item-icon"><img src="/assets/images/content/buttons/sticky-cta-test-drive.png"></span>
+                        <span class="cta-item-info">TEST VOŽNJA</span>
+                        <span class="cta-item-icon"><img
+                                src="/assets/images/content/buttons/sticky-cta-test-drive.png"></span>
                     </a>
                 </div>
-        </div>
+            </div>
             <div class="row justify-content-xl-between justify-content-lg-center justify-content-center">
                 <div class="sticky-cta clearfix sideIcons">
                     <ul>
@@ -286,47 +289,50 @@
 
 
 
-              
+
             </div>
         </div>
     </div>
-    @if ($model->teh_desc)
-    <div id="why-us" class="wrap-bg-dark py-3 my-5">
-        <div class="row">
+    @if($model->teh_desc)
+        <div id="why-us" class="wrap-bg-dark py-3 my-5">
+            <div class="row">
 
-            <div class="col-xs-12 col-sm-12 col-md-7 col-xl-6 col-lg-6 wrap-padding text-left">
+                <div class="col-xs-12 col-sm-12 col-md-7 col-xl-6 col-lg-6 wrap-padding text-left">
 
-                <div class="section-title with-p">
-                    <div>
-                        <h2>Dizajn</h2>
+                    <div class="section-title with-p">
+                        <div>
+                            <h2>Dizajn</h2>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-12">
-                    <p>{!!$model->teh_desc!!}</p>
-                </div>
+                    <div class="col-md-12">
+                        <p>{!!$model->teh_desc!!}</p>
+                    </div>
 
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-5 col-xl-6 col-lg-6 services-detail-why  image-margin-50">
-                <img src="/assets/images/content/model/{{ $model->teh_image }}" class="imageFull" alt="">
-                <div class="sliderOverlay1"></div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-5 col-xl-6 col-lg-6 services-detail-why  image-margin-50">
+                    <img src="/assets/images/content/model/{{ $model->teh_image }}" class="imageFull" alt="">
+                    <div class="sliderOverlay1"></div>
 
+                </div>
             </div>
         </div>
-    </div>
     @endif
 
 
     <!-- Slider Start -->
-    <div class="relative py-3">
+
+
+
+    <div class="relative pt-5">
         <h2 class="text-center pt-5">Galerija</h2>
         <div class="owl-navigation owl-carousel gallery_owl owl-theme">
             @foreach($images as $image)
 
                 <!-- slider item 1 -->
-                <div class="item">
-                    <div class="header-content galleryS" role="banner">
+                <div class="item aaad">
+                    <div class="header-content galleryS " role="banner">
                         <img src="/assets/images/content/model/{{ $image->image }}" class="galeryFull slidfe" alt="">
-                        <div class="sliderOverlay1"></div>
+                        <div class="sliderOverlay"></div>
 
                     </div>
                 </div><!-- end slider item 1 -->
@@ -337,9 +343,6 @@
         </div>
     </div>
     <!-- Slider End-->
-
-
-
 
 </main>
 

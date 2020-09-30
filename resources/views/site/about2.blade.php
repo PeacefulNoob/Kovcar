@@ -4,12 +4,14 @@
 <main>
     <div class="headerspace"></div>
     <!-- why-us area start -->
-    <div id="slider-modern" class="">
+    <div  class="">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-5">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-xl-7 col-lg-7">
+                    <img src="/assets/images/content/firma.jpeg" class="aboutPageImage"alt="">
+
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-7">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-xl-5 col-lg-5">
                     <div class="section-title">
                         <div class="container-black">
                             <span>O nama</span>
@@ -41,37 +43,39 @@
             </div>
         </div>
     </div>
+
     <!-- features area start -->
-    <div id="features" class="wrap-bg">
+    <div id="features" class="wrap-bg wrap-bg-dark">
         <!-- .container -->
         <div class="container">
+            <div class="post-heading-center section-title mb-60">
+                <h2>Vrste usluga <br>
+                  </h2>
+            </div>
             <!-- .row -->
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mbt30">
                     <!-- 1 -->
-                    <div class="single-features-light"><!-- single features -->
+                    <div class="single-features-light text-center"><!-- single features -->
                         <!-- uses solid style -->
-                        <img class="icon-svg" alt="icon" src="images/content/flaticon/024-excavator.svg">
-                        <h4>Modern Construction Made by Lucru HTML.</h4>
-                        <p>Lorem ipsum dolor sit amet, conset etur sadips cing elitr, sed diam nonumy eirmod tempor invi dunt ut labore buy it.</p>
+                        <img class="icon-svg" alt="icon" src="/assets/images/content/image001.png">
+                        <h4>PRODAJA NOVIH VOZILA</h4>
                     </div><!--   -->
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mbt30">
                     <!-- 2 -->
-                    <div class="single-features-light"><!-- single features -->
+                    <div class="single-features-light text-center"><!-- single features -->
                         <!-- uses solid style -->
-                        <img class="icon-svg" alt="icon" src="images/content/flaticon/027-building.svg">
-                        <h4>Complex Problems Change House dramatically.</h4>
-                        <p>Lorem ipsum dolor sit amet, conset etur sadips cing elitr, sed diam nonumy eirmod tempor invi dunt ut labore buy it.</p>
+                        <img class="icon-svg m-auto" alt="icon" src="/assets/images/content/image002.png">
+                        <h4>PRODAJA POLOVNIH VOZILA</h4>
                     </div><!--   -->
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mbt30">
                     <!-- 3 -->
-                    <div class="single-features-light"><!-- single features -->
+                    <div class="single-features-light text-center"><!-- single features -->
                         <!-- uses solid style -->
-                        <img class="icon-svg" alt="icon" src="images/content/flaticon/019-engineer-1.svg">
-                        <h4>House Renovation Speed your Construction.</h4>
-                        <p>Lorem ipsum dolor sit amet, conset etur sadips cing elitr, sed diam nonumy eirmod tempor invi dunt ut labore buy it.</p>
+                        <img class="icon-svg" alt="icon" src="/assets/images/content/image003.png">
+                        <h4>SERVIS VOZILA</h4>
                     </div><!--   -->
                 </div>
             </div>
@@ -80,29 +84,26 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mbt30">
                     <!-- 1 -->
-                    <div class="single-features-light"><!-- single features -->
+                    <div class="single-features-light text-center"><!-- single features -->
                         <!-- uses solid style -->
-                        <img class="icon-svg" alt="icon" src="images/content/flaticon/014-concrete-mixer.svg">
-                        <h4>Modern Construction Made by Lucru HTML.</h4>
-                        <p>Lorem ipsum dolor sit amet, conset etur sadips cing elitr, sed diam nonumy eirmod tempor invi dunt ut labore buy it.</p>
+                        <img class="icon-svg" alt="icon" src="/assets/images/content/image004.png">
+                        <h4>POSTPRODAJNE USLUGE</h4>
                     </div><!--   -->
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mbt30">
                     <!-- 2 -->
-                    <div class="single-features-light"><!-- single features -->
+                    <div class="single-features-light text-center"><!-- single features -->
                         <!-- uses solid style -->
-                        <img class="icon-svg" alt="icon" src="images/content/flaticon/013-blueprint.svg">
-                        <h4>Complex Problems Change House dramatically.</h4>
-                        <p>Lorem ipsum dolor sit amet, conset etur sadips cing elitr, sed diam nonumy eirmod tempor invi dunt ut labore buy it.</p>
+                        <img class="icon-svg" alt="icon" src="/assets/images/content/image005.png">
+                        <h4>TEHNICKI PREGLED</h4>
                     </div><!--   -->
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mbt30">
                     <!-- 3 -->
-                    <div class="single-features-light"><!-- single features -->
+                    <div class="single-features-light text-center"><!-- single features -->
                         <!-- uses solid style -->
-                        <img class="icon-svg" alt="icon" src="images/content/flaticon/012-brickwall.svg">
-                        <h4>House Renovation Speed your Construction.</h4>
-                        <p>Lorem ipsum dolor sit amet, conset etur sadips cing elitr, sed diam nonumy eirmod tempor invi dunt ut labore buy it.</p>
+                        <img class="icon-svg" alt="icon" src="/assets/images/content/image005.png">
+                        <h4>REGISTRACIJA VOZILA</h4>
                     </div><!--   -->
                 </div>
             </div>
@@ -111,7 +112,6 @@
         <!-- .container end -->
     </div>
     <!-- features area end -->
-
 
  
 

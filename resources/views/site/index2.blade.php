@@ -11,7 +11,7 @@
                 <img src="/assets/images/content/slider/{{$slider->cover_image}}" alt="" class="sliderImg">
                 <div class="container tekstSlider opac">
                     <div class="col-xs-12 col-sm-8  header-area">
-                        <div class="header-area-inner header-text"> <!-- single content header -->
+                        <div class="header-area-inner header-text manufH"> <!-- single content header -->
                             <h1 class="title">{{$slider->cover_image_text}}</h1>
                             <p>Započnite vaše putovanje u vozilu koje je opremljeno za gotovo sve. Kontaktirajte nas !</p>
                             <div class="btn-section text-center">
@@ -30,7 +30,7 @@
     
                 <div class="container tekstSlider opac">
                     <div class="col-xs-12 col-sm-8  header-area">
-                        <div class="header-area-inner header-text"> <!-- single content header -->
+                        <div class="header-area-inner header-text manufH"> <!-- single content header -->
                             <h1 class="title">{{$slider->cover_image1_text}}</h1>
                             <p>Započnite vaše putovanje u vozilu koje je opremljeno za gotovo sve. Kontaktirajte nas !</p>
                             <div class="btn-section text-center">
@@ -49,7 +49,7 @@
     
                 <div class="container tekstSlider opac">
                     <div class="col-xs-12 col-sm-8  header-area">
-                        <div class="header-area-inner header-text"> <!-- single content header -->
+                        <div class="header-area-inner header-text manufH"> <!-- single content header -->
                             <h1 class="title">{{$slider->cover_image2_text}}</h1>
                             <p>Započnite vaše putovanje u vozilu koje je opremljeno za gotovo sve. Kontaktirajte nas !</p>
                             <div class="btn-section text-center">
@@ -106,8 +106,8 @@
         <!-- .container -->
         <div class="container">
             <div class="post-heading-center section-title mb-60">
-                <h2>Vrste usluga <br>
-                  </h2>
+                <h3>Vrste usluga <br>
+                  </h3>
             </div>
             <!-- .row -->
             <div class="row">
@@ -123,7 +123,7 @@
                     <!-- 2 -->
                     <div class="single-features-light text-center"><!-- single features -->
                         <!-- uses solid style -->
-                        <img class="icon-svg m-auto" alt="icon" src="/assets/images/content/image002.png">
+                        <img class="icon-svg m-auto" alt="icon" src="/assets/images/content/image001.png">
                         <h4>PRODAJA POLOVNIH VOZILA</h4>
                     </div><!--   -->
                 </div>
@@ -131,7 +131,7 @@
                     <!-- 3 -->
                     <div class="single-features-light text-center"><!-- single features -->
                         <!-- uses solid style -->
-                        <img class="icon-svg" alt="icon" src="/assets/images/content/image003.png">
+                        <img class="icon-svg" alt="icon" src="/assets/images/content/image002.png">
                         <h4>SERVIS VOZILA</h4>
                     </div><!--   -->
                 </div>
@@ -143,7 +143,7 @@
                     <!-- 1 -->
                     <div class="single-features-light text-center"><!-- single features -->
                         <!-- uses solid style -->
-                        <img class="icon-svg" alt="icon" src="/assets/images/content/image004.png">
+                        <img class="icon-svg" alt="icon" src="/assets/images/content/image003.png">
                         <h4>POSTPRODAJNE USLUGE</h4>
                     </div><!--   -->
                 </div>
@@ -151,7 +151,7 @@
                     <!-- 2 -->
                     <div class="single-features-light text-center"><!-- single features -->
                         <!-- uses solid style -->
-                        <img class="icon-svg" alt="icon" src="/assets/images/content/image005.png">
+                        <img class="icon-svg" alt="icon" src="/assets/images/content/image004.png">
                         <h4>TEHNICKI PREGLED</h4>
                     </div><!--   -->
                 </div>
@@ -172,15 +172,19 @@
 
 
   
+<div class="parralaxD">
 
+<div class="overlayMopar"></div>
+
+</div>
     <div id="why-us" class="slider-bg11 ">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-xl-7 col-lg-7">
                     
-                    <img src="/assets/images/content/firma.jpeg" class="aboutImage"alt="">
+                    <img src="/assets/images/content/firma.jpeg" class=""alt="">
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-xl-5 col-lg-5 mt-4 mb-5">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-xl-5 col-lg-5 ">
                     <div class="section-title">
                         <div class="container-black oNama">
                             <span>O nama</span>

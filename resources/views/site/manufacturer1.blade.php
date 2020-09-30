@@ -11,7 +11,7 @@
             <img src="/assets/images/content/slider/{{$slider->cover_image}}" alt="" class="sliderImg">
             <div class="container tekstSlider opac">
                 <div class="col-xs-12 col-sm-8  header-area">
-                    <div class="header-area-inner header-text"> <!-- single content header -->
+                    <div class="header-area-inner header-text manufH"> <!-- single content header -->
                         <h1 class="title">SVET AVANTURA ČEKA NA NAS</h1>
                         <p>Započnite vaše putovanje u vozilu koje je opremljeno za gotovo sve.</p>
                         <div class="btn-section text-center">
@@ -30,7 +30,7 @@
 
             <div class="container tekstSlider opac">
                 <div class="col-xs-12 col-sm-8  header-area">
-                    <div class="header-area-inner header-text"> <!-- single content header -->
+                    <div class="header-area-inner header-text manufH"> <!-- single content header -->
                         <h1 class="title">SVET AVANTURA ČEKA NA NAS</h1>
                         <p>Započnite vaše putovanje u vozilu koje je opremljeno za gotovo sve.</p>
                         <div class="btn-section text-center">
@@ -49,7 +49,7 @@
 
             <div class="container tekstSlider opac">
                 <div class="col-xs-12 col-sm-8  header-area">
-                    <div class="header-area-inner header-text"> <!-- single content header -->
+                    <div class="header-area-inner header-text manufH"> <!-- single content header -->
                         <h1 class="title">SVET AVANTURA ČEKA NA NAS</h1>
                         <p>Započnite vaše putovanje u vozilu koje je opremljeno za gotovo sve.</p>
                         <div class="btn-section text-center">
@@ -65,12 +65,12 @@
 <!-- Slider End-->
 @if ($manuf->id=='5')
    <!-- projects area start -->
-   <div id="projects-slider" class="wrap-bg wrap-bg-dark text-left">
+   <div id="projects-slider" class="wrap-bg wrap-bg-dark text-left dark">
     <div class="fullcontainer">
         <div class="row carousel-slider projects-slider-alfa">
             <!-- .row -->
             @foreach ($models as $model)
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 course-single mb20">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 course-single ">
                 <!-- 1 -->
                 <div class="themeioan_services">
                     <article><!-- single services -->
@@ -100,7 +100,7 @@
             <div class="row carousel-slider projects-slider">
                 <!-- .row -->
                 @foreach ($models as $model)
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 course-single mb20">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 course-single ">
                     <!-- 1 -->
                     <div class="themeioan_services">
                         <article><!-- single services -->
@@ -119,11 +119,15 @@
                 </div>
                 @endforeach
                 <!-- .row end -->
+       
             </div>
         </div>
     </div>
    <!-- projects area end -->
    @endif
+   @if ($manuf->description1)
+       
+   
 <!-- features area start -->
 <div id="features" class="wrap-bg">
     <!-- .container -->
@@ -149,9 +153,9 @@
     <!-- .container end -->
 </div>
 <!-- features area end -->
-
+@endif
 <!-- projects area end -->
-<div id="why-us" class="wrap-bg-dark my-5">
+<div id="why-us" class="wrap-bg-dark py-5">
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-5 col-xl-6 col-lg-6 s  image-margin-50">
             <img src="/assets/images/content/model/{{$manuf->image2}}" class="sliderImg" alt="">
@@ -169,8 +173,9 @@
         </div>
     </div>
 </div>
-
-
+@if ($manuf->id=='4')
+    @include('components.fiatp')
+@else
  <!-- Slider Start -->
 <div class="relative pt-5">
     <h2 class = "text-center pt-5">Galerija</h2>
@@ -191,8 +196,7 @@
     </div>
 </div>
 <!-- Slider End-->
-
-@include('layouts.test_drive')
+@endif
 
 
 

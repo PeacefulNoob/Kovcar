@@ -8,7 +8,7 @@
                
    
 
-                <div class="col-xs-12 col-sm-6 col-md-3 col-xl-3"><!-- footer widget -->
+                <div class="col-xs-12 col-sm-6 col-md-2 col-xl-2"><!-- footer widget -->
                     <div class="left-55  footerMap text-center">
                         <div class="f-widget-title">
                             <h4>Danilovgrad</h4>
@@ -31,7 +31,7 @@
                         </div>
                     </div>
                 </div><!-- footer widget -->
-                <div class="col-xs-12 col-sm-6 col-md-3 col-xl-3"><!-- footer widget -->
+                <div class="col-xs-12 col-sm-6 col-md-2 col-xl-2"><!-- footer widget -->
                     <div class="left-55 footerMap text-center">
                         <div class="f-widget-title">
                             <h4>Kotor</h4>
@@ -52,6 +52,24 @@
                             <p>077 20 00 50</p>
                             
                         </div>
+                    </div>
+                </div><!-- footer widget -->  
+                <div class="col-xs-12 col-sm-6 col-md-2 col-xl-2"><!-- footer widget -->
+                    <div class="left-55 footerMap text-center">
+                        <div class="f-widget-title">
+                            <h4>Vrijeme</h4>
+                        </div>
+                        <div class="sigle-address">
+                            <p>Pon - Pet <br>
+                                08:00 - 16:00
+                            </p>
+                        </div>
+                        <div class="sigle-address">
+                            <p>Sub <br>
+                                08:00 - 12:00
+                            </p>
+                        </div>
+                        
                     </div>
                 </div><!-- footer widget -->  
                 <div class="col-xs-12 col-sm-12 col-md-6 col-xl-6"><!-- footer widget -->

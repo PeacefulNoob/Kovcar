@@ -97,13 +97,14 @@ window.jQuery(document).ready(function ($) {
 
     // Projects Slider Slick
     $('.carousel-slider.projects-slider').slick({
-        arrows: false,
+        arrows: true,
         dots: true,
         slidesToShow: 4,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 6000,
         draggable: true,
+
         responsive: [{
                 breakpoint: 1200,
                 settings: {
@@ -152,7 +153,11 @@ window.jQuery(document).ready(function ($) {
 
 
 
-
+    $(document).ready(function () {
+        setTimeout(function () {
+            $("body").addClass("loaded");
+        }, 200);
+    });
 
 
     // Navigation Burger animation //

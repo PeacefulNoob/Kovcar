@@ -29,14 +29,18 @@
     <link rel="stylesheet" href="/assets/css/magnific-popup.css">
 
 
+
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 
 </head>
 <body>
 @include('layouts.header')
-
+<div id="loader-wrapper">
+    <img id="loader" src="/assets/images/content/site/output-onlinepngtools.png " /> 
+  </div>
 
 @yield('content')
+@include('layouts.test_drive')
 
 
 @include('layouts.footer')

@@ -1,7 +1,6 @@
-
 @extends('layouts.main')
 @section('content')
-  <main>
+<main>
 
     <!-- breadcrumb banner content area start -->
     <div class="banner-text-left lernen_banner large bg-contact">
@@ -11,58 +10,63 @@
                     <h1>Test Vožnja: Kov-Car</h1>
                     <div class="lernen_breadcrumb">
                         <div class="breadcrumbs">
-									<span class="first-item">
-									<a href="/">Početna</a></span>
+                            <span class="first-item">
+                                <a href="/">Početna</a></span>
                             <span class="separator">&gt;</span>
                             <span class="last-item">Test Vožnja</span>
                         </div>
                     </div>
                 </div>
-             
+
 
             </div>
             @include('components.message')
         </div>
     </div>
     <!-- end breadcrumb banner content area start -->
-<div class="container">
-     
-     
+    <div class="container">
+
+
         <div class="row promo my-5">
-          
-      
+
+
             <div class="col-12">
                 <div class="col-md-6 m-auto col-md-offset-3">
                     <p class="hide-on-submit"><span>Molimo popunite polja ispod kako bi zakazali test vožnju:</span>
                         <div class="success-div"></div>
                         <br>
-                        <form action="{{route('test.drive')}}" method="post">
-                            {{ csrf_field() }}  
+                        <form action="{{ route('test.drive') }}" method="post">
+                            {{ csrf_field() }}
                             <div class="form-group">
 
                                 <div class="col-md-12">
-                                    <input type="text" class="form-control" name="name" id="firstName" placeholder="Unesite Vaše ime">
+                                    <input type="text" class="form-control" name="name" id="firstName"
+                                        placeholder="Unesite Vaše ime">
                                 </div>
                             </div>
                             <div class="form-group">
 
                                 <div class="col-md-12">
-                                    <input type="text" class="form-control" name="surname" id="lastName" placeholder="Unesite Vaše prezime">
+                                    <input type="text" class="form-control" name="surname" id="lastName"
+                                        placeholder="Unesite Vaše prezime">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-md-12">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Unesite Vaš email (ovo polje je obavezno)">
+                                    <input type="email" class="form-control" name="email" id="email"
+                                        placeholder="Unesite Vaš email (ovo polje je obavezno)">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-md-12">
-                                    <input type="text" class="form-control" name="city" id="city" placeholder="Unesite Vaš grad">
+                                    <input type="text" class="form-control" name="city" id="city"
+                                        placeholder="Unesite Vaš grad">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-md-12">
-                                    <input type="text" class="form-control" name="tel" id="tel" placeholder="Unesite Vaš telefon">
+                                    <input type="text" class="form-control" name="tel" id="tel"
+                                        placeholder="Unesite Vaš telefon">
                                 </div>
                             </div>
                             <div class="form-group">
@@ -172,35 +176,80 @@
                                 </div>
                             </div>
                             <!-- <input type="hidden" name="model" value=" ">-->
-                                                        <div class="form-group">
+                            <div class="form-group">
                                 <div class="">
                                     <div class="clearfix fiat-radio">
 
                                         <div class="col-md-12">
-                                            <label for="model" class="control-label">Zainteresovan sam za model<sup>*</sup></label>
+                                            <label for="model" class="control-label">Zainteresovan sam za
+                                                model<sup>*</sup></label>
                                             <select id="model" name="model" class="form-control">
                                                 <option value="">Izaberite model</option>
-                                                                                                <optgroup label="Jeep">
-                                                                                                        <option value="Renegade" 
-                                                       
-                                                        >
-                                                        Renegade                                                    </option>
-                                                                                                        <option value="Cherokee" 
-                                                        
-                                                     >
-                                                        Cherokee                                                    </option>
-                                                                                                        <option value="Grand Cherokee"
-                                                     
-                                                       >
-                                                        Grand Cherokee                                                    </option>
-                                                                                                        <option value="Wrangler"
-                                                       >
-                                                        Wrangler                                                    </option>
-                                                                                                        <option value="Compass" 
-                                                       >
-                                                        Compass                                                    </option>
-                                                                                                    </optgroup>
-                                                                                            </select>
+                                       
+                                                <optgroup label="Fiat">
+                                                    <option value="Fiat 500">
+                                                        Fiat 500 </option>
+                                                    <option value="Fiat 500c">
+                                                        Fiat 500c </option>
+                                                    <option value="Fiat 500x">
+                                                        Fiat 500x </option>
+                                                    <option value="Fiat 500L">
+                                                        Fiat 500L </option>
+                                                    <option value="Fiat 500L Cross">
+                                                        Fiat 500L Cross </option>
+                                                    <option value="Fiat 500L Wagon">
+                                                        Fiat 500L Wagon </option>
+                                                    <option value="Fiat TIPO HB">
+                                                        Fiat TIPO HB </option>
+                                                    <option value="Fiat TIPO SEDAN">
+                                                        Fiat TIPO SEDAN </option>
+                                                    <option value="Fiat TIPO SW">
+                                                        Fiat TIPO SW </option>
+                                                    <option value="Fiat PANDA">
+                                                        Fiat PANDA </option>
+                                                </optgroup>
+                                                <optgroup label="Jeep">
+                                                    <option value="Renegade">
+                                                        Renegade </option>
+                                                    <option value="Cherokee">
+                                                        Cherokee </option>
+                                                    <option value="Grand Cherokee">
+                                                        Grand Cherokee </option>
+                                                    <option value="Wrangler">
+                                                        Wrangler </option>
+                                                    <option value="Compass">
+                                                        Compass </option>
+                                                </optgroup>
+                                                <optgroup label="Alfa Romeo">
+                                                    <option value="Giulia">
+                                                        Giulia </option>
+                                                    <option value="Stelvio">
+                                                        Stelvio </option>
+                                                </optgroup>
+                                                <optgroup label="Abarth">
+                                                    <option value="Abarth 595">
+                                                        Abarth 595 </option>
+                                                    <option value="Abarth 595 PISTA">
+                                                        Abarth 595 PISTA </option>
+                                                    <option value="Abarth 595 TURISMO">
+                                                        Abarth 595 TURISMO </option>
+                                                    <option value="Abarth 595 COMPETIZIONE">
+                                                        Abarth 595 COMPETIZIONE </option>
+                                                   
+                                                </optgroup>
+                                                <optgroup label="Fiat Professional">
+                                                    <option value="Renegade">
+                                                        Renegade </option>
+                                                    <option value="Cherokee">
+                                                        Cherokee </option>
+                                                    <option value="Grand Cherokee">
+                                                        Grand Cherokee </option>
+                                                    <option value="Wrangler">
+                                                        Wrangler </option>
+                                                    <option value="Compass">
+                                                        Compass </option>
+                                                </optgroup>
+                                            </select>
                                         </div>
                                     </div>
                                 </div>
@@ -208,14 +257,16 @@
                             <div class="form-group">
                                 <div class="col-md-12">
 
-                            Predstavnici Kovcar-a će Vas kontaktirati radi
-                            preciziranja termina.
-                            </div>    </div>
+                                    Predstavnici Kovcar-a će Vas kontaktirati radi
+                                    preciziranja termina.
+                                </div>
+                            </div>
                             <div class="form-group">
                                 <div class="col-md-12">
-                                        <button type="submit" name="Submit" id="form-btn" class="btn btn-default form-btn">Pošalji
-                                            <i class="fa fa-paper-plane"></i>
-                                        </button>
+                                    <button type="submit" name="Submit" id="form-btn"
+                                        class="btn btn-default form-btn">Pošalji
+                                        <i class="fa fa-paper-plane"></i>
+                                    </button>
                                 </div>
                             </div>
                         </form>
@@ -225,8 +276,8 @@
             <br>
             <br>
         </div>
-    
+
 
     </div>
-    </main>
+</main>
 @endsection
