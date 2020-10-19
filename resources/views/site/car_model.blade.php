@@ -1,4 +1,30 @@
 @extends('layouts.main')
+@section('head_index')
+<title>  Kov Car | {{ $model->title }} </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Zvanična Kov-Car® stranica. Saznajte više o najnovijim Jeep® modelima i promocijama, specifikacijama i performansama. Zakažite test ..."/>
+<meta name="keywords" content="modeli,vozila,automobili,jeep,wrangler,fiat,fiat500,abarth,alfa,romeo,giulia,stelvio"/>
+<meta name="author" content="PeacefulNoob"/>
+
+<meta property="og:image" content="http://kov-car.me/assets/images/content/site/output-onlinepngtools.png" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://kov-car.me/model/". {{ $model->id }}/>
+<meta property="og:title" content="Kov Car | ". {{ $model->title }}  />
+<meta property="og:description" content=" Saznajte više o najnovijim modelima i promocijama. " />
+
+
+<link rel="icon" type="image/png" href="/assets/images/content/site/output-onlinepngtools.png" />
+<link rel="apple-touch-icon-precomposed" href="/assets/images/content/site/output-onlinepngtools.png" type="image/png" sizes="152x152" />
+<link rel="apple-touch-icon-precomposed" href="/assets/images/content/site/output-onlinepngtools.png" type="image/png" sizes="120x120" />
+<link rel="apple-touch-icon" href="/assets/images/content/site/output-onlinepngtools.png" sizes="180x180" />
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@nytimesbits" />
+<meta name="twitter:creator" content="@nickbilton" />
+
+@endsection
 @section('content')
 
 
@@ -9,7 +35,7 @@
 
         <div class="row">
 
-            <div class="col-xs-12 col-sm-12 col-md-12 col-xl-5 col-lg-5 naSliderCarH">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-xl-4 col-lg-4 naSliderCarH">
                 <div class="section-title">
                     <div class="container-black op9">
                         <span>{{ $model->manufacturer }}</span>
@@ -134,7 +160,7 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mbt30">
                                 <!-- 1 -->
-                                <div class="single-features-light">
+                                <div class="single-features-light greenBK">
                                     <!-- single features -->
                                     <!-- uses solid style -->
 
@@ -158,7 +184,7 @@
             <img src="/assets/images/content/model/{{ $model->interior_image }}" alt="" class="imageFull">
             <div class="sliderOverlay12"></div>
 
-            <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-7 naSliderCar">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-xl-5 col-lg-5 naSliderCar">
                 <div class="section-title">
                     <div class="container-black">
                         <span>{{ $model->title }}</span>
@@ -297,7 +323,8 @@
         <div id="why-us" class="wrap-bg-dark py-3 my-5">
             <div class="row">
 
-                <div class="col-xs-12 col-sm-12 col-md-7 col-xl-6 col-lg-6 wrap-padding text-left">
+                <div class="col-xs-12 col-sm-12 col-md-7 col-xl-6 col-lg-6 wrap-padding text-left position-relative">
+                    <img src="/assets/images/content/manuf_logo/{{$manuf->logo_image}}" alt="" class="logoBack">
 
                     <div class="section-title with-p">
                         <div>

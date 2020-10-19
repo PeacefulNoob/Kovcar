@@ -33,6 +33,9 @@ Route::get('/car', function () {
 Route::get('/test_drive', function () {
     return view('site.test_drive');
 });
+Route::get('/service', function () {
+    return view('site.service');
+});
 
 Route::get('/contact', "ContactMessageController@create");
 Route::post('Kovcar-Contact', [
@@ -42,4 +45,8 @@ Route::post('Kovcar-Contact', [
 Route::post('Kovcar-Contact_testDrive', [
     'uses' => 'ContactMessageController@test_drive',
     'as' => 'test.drive'
+]);
+Route::post('Kovcar-Contact_service', [
+    'uses' => 'ContactMessageController@service',
+    'as' => 'service'
 ]);

@@ -1,4 +1,30 @@
 @extends('layouts.main')
+@section('head_index')
+<title>  Kov Car | {{$manuf->title}} </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Zvanična Kov-Car® stranica. Saznajte više o najnovijim Jeep® modelima i promocijama, specifikacijama i performansama. Zakažite test ..."/>
+<meta name="keywords" content="modeli,vozila,automobili,jeep,wrangler,fiat,fiat500,abarth,alfa,romeo,giulia,stelvio"/>
+<meta name="author" content="PeacefulNoob"/>
+
+<meta property="og:image" content="http://kov-car.me/assets/images/content/site/output-onlinepngtools.png" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://kov-car.me/manufacturer/". {{$manuf->id}} />
+<meta property="og:title" content="Kov Car |   " . {{$manuf->title}}/>
+<meta property="og:description" content=" Saznajte više o najnovijim modelima i promocijama. " />
+
+
+<link rel="icon" type="image/png" href="/assets/images/content/site/output-onlinepngtools.png" />
+<link rel="apple-touch-icon-precomposed" href="/assets/images/content/site/output-onlinepngtools.png" type="image/png" sizes="152x152" />
+<link rel="apple-touch-icon-precomposed" href="/assets/images/content/site/output-onlinepngtools.png" type="image/png" sizes="120x120" />
+<link rel="apple-touch-icon" href="/assets/images/content/site/output-onlinepngtools.png" sizes="180x180" />
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@nytimesbits" />
+<meta name="twitter:creator" content="@nickbilton" />
+
+@endsection
 @section('content')
     
 
@@ -12,8 +38,7 @@
             <div class="container tekstSlider opac">
                 <div class="col-xs-12 col-sm-8  header-area">
                     <div class="header-area-inner header-text manufH"> <!-- single content header -->
-                        <h1 class="title">SVET AVANTURA ČEKA NA NAS</h1>
-                        <p>Započnite vaše putovanje u vozilu koje je opremljeno za gotovo sve.</p>
+                        <h1 class="title">{{$slider->cover_image_text}}</h1>
                         <div class="btn-section text-center">
                             <a href="/contact" class="color-two btn-custom">Kontakt <i class="fas fa-arrow-right"></i></a>
                             <a href="/contact" class="join-button"><i class="fab fa-telegram-plane"></i> +382 69 09 55 81</a>
@@ -31,8 +56,7 @@
             <div class="container tekstSlider opac">
                 <div class="col-xs-12 col-sm-8  header-area">
                     <div class="header-area-inner header-text manufH"> <!-- single content header -->
-                        <h1 class="title">SVET AVANTURA ČEKA NA NAS</h1>
-                        <p>Započnite vaše putovanje u vozilu koje je opremljeno za gotovo sve.</p>
+                        <h1 class="title">{{$slider->cover_image1_text}}</h1>
                         <div class="btn-section text-center">
                             <a href="/contact" class="color-two btn-custom">Kontakt <i class="fas fa-arrow-right"></i></a>
                             <a href="/contact" class="join-button"><i class="fab fa-telegram-plane"></i> +382 69 09 55 81</a>
@@ -50,9 +74,8 @@
             <div class="container tekstSlider opac">
                 <div class="col-xs-12 col-sm-8  header-area">
                     <div class="header-area-inner header-text manufH"> <!-- single content header -->
-                        <h1 class="title">SVET AVANTURA ČEKA NA NAS</h1>
-                        <p>Započnite vaše putovanje u vozilu koje je opremljeno za gotovo sve.</p>
-                        <div class="btn-section text-center">
+                        <h1 class="title">{{$slider->cover_image2_text}}</h1>
+                                <div class="btn-section text-center">
                             <a href="/contact" class="color-two btn-custom">Kontakt <i class="fas fa-arrow-right"></i></a>
                             <a href="/contact" class="join-button"><i class="fab fa-telegram-plane"></i> +382 69 09 55 81</a>
                         </div>
@@ -131,10 +154,11 @@
 <!-- features area start -->
 <div id="features" class="wrap-bg">
     <!-- .container -->
-    <img src="/assets/images/content/model/{{$manuf->brochure_pdf}}" class="backgroundImage" alt="">
-    <div class="container">
+    <div class="overlayHistory"></div>
+    <img src="/assets/images/content/model/history/{{$manuf->brochure_pdf}}" class="backgroundImage" alt="">
+    <div class="container ">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 zi3">
                 <!-- .row -->
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mbt30">
@@ -161,6 +185,8 @@
             <img src="/assets/images/content/model/{{$manuf->image2}}" class="sliderImg" alt="">
         </div>
         <div class="col-xs-12 col-sm-12 col-md-7 col-xl-6 col-lg-6 wrap-padding text-left">
+            <img src="/assets/images/content/manuf_logo/{{$manuf->logo_image}}" alt="" class="logoBack">
+
             <div class="width400">
                 <div class="section-title with-p">
                     <div>
@@ -177,7 +203,7 @@
     @include('components.fiatp')
 @else
  <!-- Slider Start -->
-<div class="relative pt-5">
+<div class="relative pt-3">
     <h2 class = "text-center pt-5">Galerija</h2>
     <div class="owl-navigation owl-carousel gallery_owl owl-theme">
         @foreach ($images as $image)

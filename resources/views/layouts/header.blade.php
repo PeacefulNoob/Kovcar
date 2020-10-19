@@ -27,8 +27,6 @@
                 <div class="navbar-brand logosB"><a href="/manufacturer/2"><img src="/assets/images/content/manuf_logo/logoAbarth.png" alt="Logo"/></a></div>
                 <div class="navbar-brand logosB"><a href="/manufacturer/4"><img src="/assets/images/content/manuf_logo/logoFiatP.png" alt="Logo"/></a></div>
                 <div class="navbar-brand logosB"><a href="#"><img src="/assets/images/content/manuf_logo/signature (1) (1).png" alt="Logo"/></a></div>
-
-                <!-- site logo -->
             </div>
             <div class="navbar-header mainLogo">
                 <div class="navbar-brand"><a href="/"><img src="/assets/images/content/site/output-onlinepngtools.png" alt="Logo"/></a></div>
@@ -41,7 +39,7 @@
                     <div class="bar3"></div>
                 </div>
             <div class="collapse navbar-collapse " id="navbarCollapse">
-                <ul class="nav navbar-nav ml-auto mr-0">
+                <ul class="nav navbar-nav ml-auto mr-0 ">
                     <!-- Menu Link -->
                     <li >
                         <a href="/">Početna</a>
@@ -59,14 +57,17 @@
                  
                    
                      <li><a href="/about">O nama</a></li>
+                     <li><a href="#features">Usluge</a></li>
 
-                     <li><a href="/contact" class="nav-link ">Kontakt</a></li>
+                     <li><a href="/contact" >Kontakt</a></li>
+{{--                      <li><a href="/service">Tehnicki pregled</a></li>
+ --}}
 {{--                      <li><a href="/faq">FAQ</a></li>
  --}}                       
                 </ul>
-                {{-- <div class="header-cta">
-                    <a href="/contact" class="btn btn-1c">Get Appointment</a>
-                </div> --}}
+         {{--         <div class="header-cta">
+                    <a href="/contact" class="btn btn-1c"> <img src="/assets/images/content/image004.png" class="imgHeader" alt=""></a>
+                </div>  --}}
             </div>
             <!-- Menu Toogle end -->
         </div>

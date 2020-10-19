@@ -2,13 +2,8 @@
 <html lang="en">
 <head>
     <!-- Metas Basic -->
-    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-    <meta name="description" content="Zvanična Kov-Car® stranica. Saznajte više o najnovijim Jeep® modelima i promocijama, specifikacijama i performansama. Zakažite test ..."/>
-    <meta name="keywords" content="Landing Page, Services, Learning"/>
-    <meta name="author" content="PeacefulNoob"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <!-- Title -->
-    <title>Kov-Car</title>
+    @yield('head_index')
+
     <!-- Favicon -->
     <link rel="shortcut icon" href="/assets/images/content/site/logoBrowser.png" type="image/x-icon">
     <!-- Bootstrap  -->

@@ -80,4 +80,38 @@ class ContactMessageController extends Controller
 
         return redirect()->back()->with('test_drive', 'Uspesno ste poslali poruku! ');
     }
+    public function service(Request $request)
+    {
+    
+
+        $validator = Validator::make($request->all(), [
+            'name' => 'required',
+            'surname' => 'required',
+            'email' => 'required|email',
+            'city' => 'required',
+            'tel' => 'required',
+           
+
+        ]);
+    
+        if ($validator->fails()) {
+            return redirect()->back()
+                        ->withErrors($validator)
+                        ->withInput();
+        }
+        
+        $data['title'] = $request->message;
+        $data['email'] = $request->email;
+
+        Mail::send('emails.service', $data, function ($message) use ($request) {
+
+            $message->to('kovcar.info@gmail.com', 'Receiver Name')
+                ->from($request->email, $request->fname)
+                ->subject('Kov-Car Test Drive ');
+        });
+
+
+
+        return redirect()->back()->with('service', 'Uspesno ste poslali poruku! ');
+    }
 }

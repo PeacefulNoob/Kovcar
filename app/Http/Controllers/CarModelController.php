@@ -48,9 +48,11 @@ class CarModelController extends Controller
      */
     public function show($id)
     {
+        
         $images = DB::table('model_images')->where('car_models_id', '=', $id)->get();
         $model = Car_Model::findOrFail($id);
-        return view('site.car_model',compact('model','images'));
+        $manuf = Manufacturer::where('id',$model->manufacturers_id)->first();
+        return view('site.car_model',compact('model','images','manuf'));
 
 
     }

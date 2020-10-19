@@ -403,15 +403,17 @@ figure iframe {
 
 .bg-cta {
     background: #222222;
-    padding: 45px 0px 45px 0px;
-    margin: 40px 0px;
+    padding: 30px 0px 30px 0px;
+    margin: 20px 0px;
 }
 
 .slider-bg11 {
-    margin: 40px 0px;
+    margin: 2% 0% 0% 0%;
 
 }
-
+#projects-slider{
+    padding: 50px 0px !important;
+}
 #loader-wrapper {
     position: fixed;
     background-color: #222222;
@@ -511,7 +513,7 @@ figure iframe {
 }
 
 .logoImg {
-    height: 30vh;
+    height: 17vh;
     -o-object-fit: contain;
     object-fit: contain;
 }
@@ -525,6 +527,11 @@ figure iframe {
     border-radius: 10px;
     padding: 5% 5% !important;
 }
+.serviceT{
+  border-top: 1px solid #f6423552;
+  border-bottom:1px solid #f6423552;
+}
+
 
 .themeioan_services .blog-content {
     position: relative;
@@ -558,7 +565,7 @@ figure iframe {
     top: 0px;
     left: 0px;
     z-index: 1;
-    background-color: #569132;
+    background-color: #569132b3;
     -webkit-transform-origin: right top;
     transform-origin: right top;
     -webkit-transform: scale(0, 1);
@@ -675,11 +682,11 @@ figure iframe {
 }
 
 .mb20 {
-    margin-bottom: 60px !important;
+    margin-bottom: 30px !important;
 }
 
 .mb25 {
-    margin-bottom: 25px !important;
+    margin-bottom: 15px !important;
 }
 
 .mbt30 {
@@ -1284,9 +1291,17 @@ select:focus {
 
 #header .navbar-nav {
     margin-top: 0px;
+    margin-right: 13%;
     margin-bottom: 0px;
 }
+.imgHeader{
+    
 
+    height: 100%;
+    width: 78%;
+    height: auto;
+
+}
 #header .navbar-default .navbar-nav>li>a {
     background: none;
     font-size: 18px;
@@ -1612,12 +1627,12 @@ main {
 
 /* 3.1. ========================= Wrap Background ========================= */
 .wrap-bg {
-    padding: 60px 10px;
+    padding: 30px 10px;
     position: relative;
 }
 
 .wrap-bg-small {
-    padding: 60px 0px;
+    padding: 20px 0px;
 }
 
 .wrap-bg.wrap-bg-dark,
@@ -1748,8 +1763,10 @@ main {
 }
 
 .allTime {
-    background-color: #222222;
+    background-color: #222222e6;
     border-radius: 10px;
+    z-index: 4;
+
 }
 
 .allTime:hover {
@@ -1782,7 +1799,9 @@ main {
     padding: 1% 5%;
     border-radius: 5px;
 }
-
+.greenBK{
+    background-color: #528a3157;
+}
 .single-features-light:hover {
     background-color: #222222;
 }
@@ -1973,7 +1992,7 @@ main {
 .btn-1c {
     color: #fff;
     background: #f64235;
-    padding: 30px 25px 29px 25px;
+    padding: 15px 25px 15px 25px;
 }
 
 .btn-1c:hover {
@@ -2185,14 +2204,19 @@ main {
 }
 
 /* 3.12. ========================= WHY US ========================= */
-#why-us .wrap-padding,
+/* #why-us .wrap-padding,
 #why-us-two .wrap-padding {
     max-width: 750px;
+} */
+.z1{
+    z-index: 1 !important;
 }
-
+.z2{
+    z-index: 2;
+}
 .container-white,
 .container-black {
-    padding: 35px 55px 35px 55px;
+    padding: 25px 35px 25px 35px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -2214,15 +2238,8 @@ main {
 }
 
 .lernen_banner {
-    padding: 230px 0 130px;
-    background-image: -webkit-gradient(linear,
-            left top,
-            right top,
-            from(#121a2f),
-            to(rgba(20, 41, 65, 0.81)));
-    background-image: linear-gradient(to right,
-            #121a2f,
-            rgba(20, 41, 65, 0.81));
+    background-image: url('/assets/images/content/testdrive.jpg');
+   
     background-size: cover !important;
     background-repeat: no-repeat;
     background-position: center center !important;
@@ -2303,7 +2320,7 @@ main {
 
 .banner-text-left.lernen_banner.large,
 .lernen_banner.large {
-    padding: 350px 0 60px;
+    padding: 17% 16% 5% 16%;
     background-position: center center;
 }
 
@@ -2706,6 +2723,13 @@ a {
 
 /* 6.2. ========================= Media Queries Normal Screen v2  ========================= */
 @media (min-width: 992px) and (max-width: 1199px) {
+.logos{
+    display: none;
+}
+    .mainLogo {
+       
+        transform: translate(-50%, 0%);
+    }
     .course-bottom-list {
         font-size: 13px;
     }
@@ -2758,6 +2782,13 @@ a {
 
 /* 6.3. ========================= Media Queries Laptop ========================= */
 @media (min-width: 768px) and (max-width: 991px) {
+    .logos{
+        display: none;
+    }
+        .mainLogo {
+           
+            transform: translate(-50%, 0%);
+        }
     .wrap-padding {
         padding: 45px;
     }
@@ -3333,7 +3364,7 @@ a {
     }
 
     .naSliderCar {
-        top: 1% !important;
+        bottom: 1% !important;
     }
 
     .naSliderCarLeft {
@@ -3407,113 +3438,7 @@ a {
     z-index: 2;
 }
 
-.bg-events {
-    background: -webkit-gradient(linear,
-            left top,
-            left bottom,
-            from(rgba(0, 0, 0, 0.6)),
-            to(rgba(0, 0, 0, 0.2))),
-        url(../images/content/breadcrumb/events.jpg);
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),
-        url(../images/content/breadcrumb/events.jpg);
-}
 
-.bg-events-detail {
-    background: -webkit-gradient(linear,
-            left top,
-            left bottom,
-            from(rgba(0, 0, 0, 0.6)),
-            to(rgba(0, 0, 0, 0.2))),
-        url(../images/content/breadcrumb/event-detail.jpg);
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),
-        url(../images/content/breadcrumb/event-detail.jpg);
-    background-position: bottom center !important;
-}
-
-.bg-project {
-    background: -webkit-gradient(linear,
-            left top,
-            left bottom,
-            from(rgba(0, 0, 0, 0.6)),
-            to(rgba(0, 0, 0, 0.2))),
-        url(../images/content/breadcrumb/project-detail.jpg);
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),
-        url(../images/content/breadcrumb/project-detail.jpg);
-    background-position: left !important;
-}
-
-.bg-project2 {
-    background: -webkit-gradient(linear,
-            left top,
-            left bottom,
-            from(rgba(0, 0, 0, 0.5)),
-            to(rgba(0, 0, 0, 0.5))),
-        url(../images/content/breadcrumb/bgprojects.jpg);
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(../images/content/breadcrumb/bgprojects.jpg);
-    background-position: left !important;
-}
-
-.bg-project-detail {
-    background: -webkit-gradient(linear,
-            left top,
-            left bottom,
-            from(rgba(0, 0, 0, 0.6)),
-            to(rgba(0, 0, 0, 0.2))),
-        url(../images/content/breadcrumb/project-detail.jpg);
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),
-        url(../images/content/breadcrumb/project-detail.jpg);
-    background-position: left !important;
-}
-
-.banner-text-left.lernen_banner.bg-services {
-    background: -webkit-gradient(linear,
-            left top,
-            left bottom,
-            from(rgba(0, 0, 0, 0.6)),
-            to(rgba(0, 0, 0, 0.2))),
-        url(../images/content/breadcrumb/services-bg.jpg);
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),
-        url(../images/content/breadcrumb/services-bg.jpg);
-    background-position: top center !important;
-}
-
-.bg-contact {
-    background: -webkit-gradient(linear,
-            left top,
-            left bottom,
-            from(rgba(0, 0, 0, 0.6)),
-            to(rgba(0, 0, 0, 0.2))),
-        url(../images/content/breadcrumb/contact.jpg);
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),
-        url(../images/content/breadcrumb/contact.jpg);
-}
-
-.bg-detail {
-    background: -webkit-gradient(linear,
-            left top,
-            left bottom,
-            from(rgba(0, 0, 0, 0.6)),
-            to(rgba(0, 0, 0, 0.2))),
-        url(../images/content/breadcrumb/blog-detail.jpg);
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),
-        url(../images/content/breadcrumb/blog-detail.jpg);
-}
-
-.bg-blog-detail {
-    background: url(../images/content/breadcrumb/blog-detail.jpg);
-}
-
-.bg-about {
-    background: -webkit-gradient(linear,
-            left top,
-            left bottom,
-            from(rgba(0, 0, 0, 0.6)),
-            to(rgba(0, 0, 0, 0.2))),
-        url(../images/content/breadcrumb/about.jpg);
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),
-        url(../images/content/breadcrumb/about.jpg);
-}
 
 #contact input,
 #contact textarea {
@@ -4025,7 +3950,11 @@ h1+p {
     display: table;
     clear: both;
 }
-
+@media only screen and (min-width: 1800px) {
+/*     .imageFull{
+        height: 60vh !important;
+    } */
+}
 @media only screen and (min-width: 1000px) {
     .sticky-cta {
         display: none;
@@ -4191,11 +4120,13 @@ h1+p {
     -webkit-box-shadow: 10px 10px 23px -8px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 23px -8px rgba(0, 0, 0, 0.75);
 }
-
+.usluge{
+    padding: 30px 10px !important;
+}
 .imageFull {
     display: block;
     width: 100%;
-    height: 82vh;
+    height: 100vh;
     -o-object-fit: cover;
     object-fit: cover;
     box-shadow: 10px 10px 23px -8px rgba(0, 0, 0, 0.75);
@@ -4226,7 +4157,7 @@ h1+p {
 .naSliderCar {
     z-index: 2;
     position: absolute;
-    top: 5%;
+    bottom: 5%;
     right: 1%;
 }
 
@@ -4249,7 +4180,7 @@ h1+p {
     z-index: 100;
     top: 16%;
     left: 3%;
-   
+ 
 }
 
 .parralaxD {
@@ -4258,14 +4189,28 @@ h1+p {
     /* The image used */
     background-image: url('/assets/images/content/mopar.jpg');
     /* Full height */
-    height: 450px;
+    height: 400px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
-
+.zi3{
+    z-index: 3;
+}
+.h20{
+    height: 20vh;
+}
+.logoBack{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    top: 0;
+    opacity: 0.11;
+    left: 0;
+}
 .overlayMopar {
     height: 100%;
     position: absolute;
@@ -4275,13 +4220,23 @@ h1+p {
     bottom: 0;
     background-color: black;
 }
-
+.overlayHistory{
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    margin-left: -10px;
+    overflow: hidden;
+    opacity: 0.6;
+    bottom: 0;
+    background-color: black;
+}
 .sliderOverlay {
     height: 100%;
     position: absolute;
     z-index: 2;
     width: 100vw;
-    opacity: 0.3;
+    opacity: 0.1;
     bottom: 0;
     background-color: black;
 }
@@ -4359,8 +4314,7 @@ h1+p {
 
 .sideIcons {
     display: block;
-    -webkit-transform: translate(27%, 15%);
-    transform: translate(27%, 15%);
+   
 }
 
 ::-webkit-scrollbar {
@@ -4424,3 +4378,18 @@ h1+p {
     border:0px solid black;
 }
 .owl-prev i, .owl-next i {transform : scale(1,6); color: #ccc;}
+
+.Tlogos{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    opacity: 0.3;
+    display: table;
+    height: 100%;
+}
+.testL{
+    position: relative;
+    display: table-cell;
+}

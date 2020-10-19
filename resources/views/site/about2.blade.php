@@ -1,4 +1,31 @@
 @extends('layouts.main')
+@section('head_index')
+<title>  Kov Car | O Nama </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Zvanična Kov-Car® stranica. Saznajte više o najnovijim Jeep® modelima i promocijama, specifikacijama i performansama. Zakažite test ..."/>
+<meta name="keywords" content="modeli,vozila,automobili,jeep,wrangler,fiat,fiat500,abarth,alfa,romeo,giulia,stelvio"/>
+<meta name="author" content="PeacefulNoob"/>
+
+<meta property="og:image" content="http://kov-car.me/assets/images/content/site/output-onlinepngtools.png" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://kov-car.me/about" />
+<meta property="og:title" content="Kov Car | O Nama  " />
+<meta property="og:description" content=" Saznajte više o najnovijim modelima i promocijama. " />
+
+
+<link rel="icon" type="image/png" href="/assets/images/content/site/output-onlinepngtools.png" />
+<link rel="apple-touch-icon-precomposed" href="/assets/images/content/site/output-onlinepngtools.png" type="image/png" sizes="152x152" />
+<link rel="apple-touch-icon-precomposed" href="/assets/images/content/site/output-onlinepngtools.png" type="image/png" sizes="120x120" />
+<link rel="apple-touch-icon" href="/assets/images/content/site/output-onlinepngtools.png" sizes="180x180" />
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@nytimesbits" />
+<meta name="twitter:creator" content="@nickbilton" />
+
+@endsection
+
 @section('content')
     
 <main>
@@ -43,9 +70,10 @@
             </div>
         </div>
     </div>
+    @include('layouts.service')
 
     <!-- features area start -->
-    <div id="features" class="wrap-bg wrap-bg-dark">
+    <div id="features" class="wrap-bg wrap-bg-dark usluge">
         <!-- .container -->
         <div class="container">
             <div class="post-heading-center section-title mb-60">
@@ -95,7 +123,7 @@
                     <div class="single-features-light text-center"><!-- single features -->
                         <!-- uses solid style -->
                         <img class="icon-svg" alt="icon" src="/assets/images/content/image005.png">
-                        <h4>TEHNICKI PREGLED</h4>
+                        <h4>TEHNIČKI PREGLED</h4>
                     </div><!--   -->
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mbt30">

@@ -15,7 +15,7 @@
                         </div>
                         <div class="sigle-address">
                             <p>Nikšićki put <br>
-                                bb
+                                
                             </p>
                         </div>
                         <div class="sigle-address">
@@ -38,7 +38,7 @@
                         </div>
                         <div class="sigle-address">
                             <p>Radanovići <br>
-                                bb
+                                
                             </p>
                         </div>
                         <div class="sigle-address">
