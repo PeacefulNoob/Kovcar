@@ -123,23 +123,25 @@
             <div class="row carousel-slider projects-slider">
                 <!-- .row -->
                 @foreach ($models as $model)
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 course-single ">
-                    <!-- 1 -->
-                    <div class="themeioan_services">
-                        <article><!-- single services -->
-                            <div class="blog-photo">
-                                <a href="/model/{{$model->id}}"><img class="modelLogo" src="/assets/images/content/model/logo/{{$model->logo_image}}" alt="Logo {{$model->title}}"></a>
-                            </div>
-                            <div class="blog-content">
-                                <h5 class="title"><a href="/model/{{$model->id}}">{{$model->title}}</a>
-                                </h5>
-                                <div class="my-2">
-                                    <a href="/model/{{$model->id}}" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
+                @if (($model->isActive) === 1)
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 course-single ">
+                        <!-- 1 -->
+                        <div class="themeioan_services">
+                            <article><!-- single services -->
+                                <div class="blog-photo">
+                                    <a href="/model/{{$model->id}}"><img class="modelLogo" src="/assets/images/content/model/logo/{{$model->logo_image}}" alt="Logo {{$model->title}}"></a>
                                 </div>
-                            </div>
-                        </article><!-- end single services -->
+                                <div class="blog-content">
+                                    <h5 class="title"><a href="/model/{{$model->id}}">{{$model->title}}</a>
+                                    </h5>
+                                    <div class="my-2">
+                                        <a href="/model/{{$model->id}}" class="button-light"><i class="fas fa-arrow-right"></i> Saznaj vise</a>
+                                    </div>
+                                </div>
+                            </article><!-- end single services -->
+                        </div>
                     </div>
-                </div>
+                @endif
                 @endforeach
                 <!-- .row end -->
        

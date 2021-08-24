@@ -24,9 +24,9 @@ class CreateModelPackagesTable extends Migration
             $table->string('image1D')->nullable();
             $table->string('image2')->nullable();  
             $table->string('image2D')->nullable();
-              $table->string('image3')->nullable();          
-                $table->string('image3D')->nullable();
-
+            $table->string('image3')->nullable();          
+            $table->string('image3D')->nullable();
+            $table->tinyInteger('isActive')->default('1')->nullable();
             $table->integer('car_models_id');
             $table->timestamps();
         });

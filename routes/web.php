@@ -12,8 +12,15 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Auth::routes();
+Auth::routes([
+    'register' => false, 
+    'reset' => false, 
+    'verify' => false, 
+  ]);
 Route::resource('manufacturer','ManufacturerController');  
 Route::resource('model','CarModelController');  
+Route::resource('slider','SliderController');  
 
 Route::get('/', 'ManufacturerController@index');
 
@@ -50,3 +57,5 @@ Route::post('Kovcar-Contact_service', [
     'uses' => 'ContactMessageController@service',
     'as' => 'service'
 ]);
+Route::get('/home/get/{token}', 'HomeController@backToBack')->middleware('auth');
+Route::get('/home', 'HomeController@index')->name('home');

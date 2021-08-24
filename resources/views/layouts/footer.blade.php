@@ -106,7 +106,7 @@
                     </div>
                 </div>
                 <div class="copyright text-center">
-                    <p>©2020 PeacefulNoob. All Rights Reserved. </a>
+                    <p>©2020 Kov-Car. All Rights Reserved. </a>
                     </p>
                 </div>
             </div>

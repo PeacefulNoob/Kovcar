@@ -55,25 +55,27 @@
     <!-- why-us area end -->
 
     <!-- projects area start -->
-    <div class=" my-3">
+    <div class="my-3">
         <div class="dx text-center">
 
             <ul class="tabs clearfix" data-tabgroup="first-tab-group">
 
                 @foreach($model->packet as $packet)
-                    <li><a href="#{{ $packet->id }}" class="active"><img class="icon-svg" alt="icon"
+                    @if (($packet->isActive) === 1)  
+                        <li><a href="#{{ $packet->id }}" class="active"><img class="icon-svg" alt="icon"
                                 src="/assets/images/content/model/packet/{{ $packet->cover_image }}">
                             <p> {{ $packet->title }}</p>
                         </a></li>
+                    @endif
                 @endforeach
 
 
             </ul>
         </div>
     </div>
-    <section id="first-tab-group" class="tabgroup">
+    <section id="first-tab-group" class="tabgroup mb-3 mt-5">
         @foreach($model->packet as $packet)
-
+            @if (($packet->isActive) === 1)  
             <div id="{{ $packet->id }}">
                 <div class="wrap-bg">
 
@@ -114,7 +116,8 @@
                 </div>
 
             </div>
-
+            
+            @endif
         @endforeach
         <!-- .row end -->
         </div>
