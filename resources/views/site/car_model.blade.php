@@ -259,25 +259,27 @@
             </div>
         </div>
     @endif
-    <div id="widget-call" class="call-to-action-area  bg-cta">
+    <div id="widget-call" class="call-to-action-area bg-cta">
         <div class="container opac">
             <div class="row items-cta">
-                <div class="cta-item col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 my-2">
-                    <a href="/assets/pdf/{{ $model->brochure_pdf }}" target="new">
-                        <span class="cta-item-info">BROŠURA</span>
-                        <span class="cta-item-icon"><img
-                                src="/assets/images/content/buttons/sticky-cta-brochure.png"></span>
-                    </a>
-                </div>
-
-                <div class="cta-item col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 my-2">
-                    <a href="/assets/pdf/{{ $model->price_pdf }}" target="new">
-                        <span class="cta-item-info">CENOVNIK</span>
-                        <span class="cta-item-icon"><img
-                                src="/assets/images/content/buttons/sticky-cta-request-a-quote-new.png"></span>
-                    </a>
-                </div>
-
+                @if($model->brochure_pdf)
+                        <div class="cta-item col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 my-2">
+                            <a href="/assets/pdf/{{ $model->brochure_pdf }}" target="new">
+                                <span class="cta-item-info">BROŠURA</span>
+                                <span class="cta-item-icon"><img
+                                        src="/assets/images/content/buttons/sticky-cta-brochure.png"></span>
+                            </a>
+                        </div>
+                @endif
+                @if($model->price_pdf)
+                        <div class="cta-item col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 my-2">
+                            <a href="/assets/pdf/{{ $model->price_pdf }}" target="new">
+                                <span class="cta-item-info">CENOVNIK</span>
+                                <span class="cta-item-icon"><img
+                                        src="/assets/images/content/buttons/sticky-cta-request-a-quote-new.png"></span>
+                            </a>
+                        </div>
+                @endif
                 <div class="cta-item col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 my-2">
                     <a href="/test_drive" target="new">
                         <span class="cta-item-info">TEST VOŽNJA</span>
@@ -289,6 +291,8 @@
             <div class="row justify-content-xl-between justify-content-lg-center justify-content-center">
                 <div class="sticky-cta clearfix sideIcons">
                     <ul>
+                        @if($model->brochure_pdf)
+
                         <li class="sticky-cta-item visible-mobile">
                             <a href="/assets/pdf/{{ $model->brochure_pdf }}" target="new">
                                 <span class="sticky-cta-item-info" style="display: none;">BROŠURA</span>
@@ -296,7 +300,9 @@
                                         src="/assets/images/content/buttons/sticky-cta-brochure.png"></span>
                             </a>
                         </li>
+                        @endif
 
+                        @if($model->price_pdf)
                         <li class="sticky-cta-item visible-mobile">
                             <a href="/assets/pdf/{{ $model->price_pdf }}" target="new">
                                 <span class="sticky-cta-item-info" style="display: none;">CENOVNIK</span>
@@ -304,6 +310,7 @@
                                         src="/assets/images/content/buttons/sticky-cta-request-a-quote-new.png"></span>
                             </a>
                         </li>
+                        @endif
 
                         <li class="sticky-cta-item visible-mobile">
                             <a href="/test_drive" target="new">

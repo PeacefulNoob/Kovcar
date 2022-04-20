@@ -12,15 +12,16 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Auth::routes();
+/* Auth::routes();
 Auth::routes([
     'register' => false, 
     'reset' => false, 
     'verify' => false, 
-  ]);
+  ]); */
+  
 Route::resource('manufacturer','ManufacturerController');  
 Route::resource('model','CarModelController');  
-Route::resource('slider','SliderController');  
+Route::resource('slider','SliderController');
 
 Route::get('/', 'ManufacturerController@index');
 

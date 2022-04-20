@@ -13,12 +13,13 @@
                             <span>Fiat Professional</span>
                             <h2>500L VAN
                             </h2>
-                            <li class="cta-item e">
+                            {{-- <li class="cta-item e">
                                 <a href="/assets/images/content/fp/500L/FIAT 500L VAN CJENOVNIK.pdf" target="new">
                                     <span class="cta-item-info">CENOVNIK</span>
                                     <span class="cta-item-icon w43"><img
                                             src="/assets/images/content/buttons/sticky-cta-request-a-quote-new.png"></span>
                                 </a>
+                            </li> --}}
                         </div>
                     </div>
                 </div>
@@ -43,13 +44,13 @@
                                         src="/assets/images/content/buttons/sticky-cta-brochure.png"></span>
                             </a>
                         </li>
-                        <li class="cta-item e">
+                        {{-- <li class="cta-item e">
                             <a href="/assets/images/content/fp/DOBLO CARGO/FIAT DOBLO CARGO CJENOVNIK.pdf" target="new">
                                 <span class="cta-item-info" >CJENOVNIK</span>
                                 <span class="cta-item-icon w43"><img
                                         src="/assets/images/content/buttons/sticky-cta-brochure.png"></span>
                             </a>
-                        </li>
+                        </li> --}}
                     </div>
                 </div>
             </div>
@@ -73,12 +74,13 @@
                                         src="/assets/images/content/buttons/sticky-cta-brochure.png"></span>
                             </a>
                         </li>
-                        <li class="cta-item e">
+                        {{-- <li class="cta-item e">
                             <a href="/assets/images/content/fp/DOBLO COMBI/FIAT DOBLO COMBI CJENOVNIK.pdf" target="new">
                                 <span class="cta-item-info">CENOVNIK</span>
                                 <span class="cta-item-icon w43"><img
                                         src="/assets/images/content/buttons/sticky-cta-request-a-quote-new.png"></span>
                             </a>
+                        </li> --}}
                     </div>
                 </div>
             </div>
@@ -103,14 +105,14 @@
                                     src="/assets/images/content/buttons/sticky-cta-brochure.png"></span>
                         </a>
                     </li>
-                    <li class="cta-item e">
+                    {{-- <li class="cta-item e">
                         <a href="/assets/images/content/fp/DOBLO WORK-UP/FIAT DOBLO CARGO CJENOVNIK OTVORENI.pdf"
                             target="new">
                             <span class="cta-item-info" >CJENOVNIK</span>
                             <span class="cta-item-icon w43"><img
                                     src="/assets/images/content/buttons/sticky-cta-brochure.png"></span>
                         </a>
-                    </li>
+                    </li> --}}
                 </div>
             </div>
         </div>
@@ -134,12 +136,13 @@
                                     src="/assets/images/content/buttons/sticky-cta-brochure.png"></span>
                         </a>
                     </li>
-                    <li class="cta-item e">
+                   {{--  <li class="cta-item e">
                         <a href="/assets/images/content/fp/DUCATO FURGON/FIAT DUCATO FURGON CJENOVNIK.pdf" target="new">
                             <span class="cta-item-info">CENOVNIK</span>
                             <span class="cta-item-icon w43"><img
                                     src="/assets/images/content/buttons/sticky-cta-request-a-quote-new.png"></span>
                         </a>
+                    </li> --}}
                 </div>
             </div>
         </div>
@@ -164,14 +167,14 @@
                                 src="/assets/images/content/buttons/sticky-cta-brochure.png"></span>
                     </a>
                 </li>
-                <li class="cta-item e">
+                {{-- <li class="cta-item e">
                     <a href="/assets/images/content/fp/DUCATO PREVOZ PUTNIKA/Ducato_prevoz putnika BROSURA.pdf"
                         target="new">
                         <span class="cta-item-info" >CJENOVNIK</span>
                         <span class="cta-item-icon w43"><img
                                 src="/assets/images/content/buttons/sticky-cta-brochure.png"></span>
                     </a>
-                </li>
+                </li> --}}
             </div>
         </div>
     </div>
@@ -195,12 +198,13 @@
                                 src="/assets/images/content/buttons/sticky-cta-brochure.png"></span>
                     </a>
                 </li>
-                <li class="cta-item e">
+              {{--   <li class="cta-item e">
                     <a href="/assets/images/content/fp/DUCATO SASIJA/FIAT DUCATO SASIJA CJENOVNIK.pdf" target="new">
                         <span class="cta-item-info">CENOVNIK</span>
                         <span class="cta-item-icon w43"><img
                                 src="/assets/images/content/buttons/sticky-cta-request-a-quote-new.png"></span>
                     </a>
+                </li> --}}
             </div>
         </div>
     </div>
@@ -224,13 +228,13 @@
                                 src="/assets/images/content/buttons/sticky-cta-brochure.png"></span>
                     </a>
                 </li>
-                <li class="cta-item e">
+               {{--  <li class="cta-item e">
                     <a href="/assets/images/content/fp/FIORINO CARGO/FIAT FIORINO CARGO CJENOVNIK.pdf" target="new">
                         <span class="cta-item-info" >CJENOVNIK</span>
                         <span class="cta-item-icon w43"><img
                                 src="/assets/images/content/buttons/sticky-cta-brochure.png"></span>
                     </a>
-                </li>
+                </li> --}}
             </div>
         </div>
     </div>
@@ -254,12 +258,13 @@
                                 src="/assets/images/content/buttons/sticky-cta-brochure.png"></span>
                     </a>
                 </li>
-                <li class="cta-item e">
+               {{--  <li class="cta-item e">
                     <a href="/assets/images/content/fp/FIORINO COMBI/FIAT FIORINO COMBI CJENOVNIK.pdf" target="new">
                         <span class="cta-item-info">CENOVNIK</span>
                         <span class="cta-item-icon w43"><img
                                 src="/assets/images/content/buttons/sticky-cta-request-a-quote-new.png"></span>
                     </a>
+                </li> --}}
             </div>
         </div>
     </div>
@@ -275,13 +280,13 @@
                 <span>Fiat Professional</span>
                 <h2>PANDA VAN
                 </h2>
-                <li class="cta-item e">
+               {{--  <li class="cta-item e">
                     <a href="/assets/images/content/fp/PANDA VAN/FIAT PANDA VAN CJENOVNIK.pdf" target="new">
                         <span class="cta-item-info" >CJENOVNIK</span>
                         <span class="cta-item-icon w43"><img
                                 src="/assets/images/content/buttons/sticky-cta-brochure.png"></span>
                     </a>
-                </li>
+                </li> --}}
             </div>
         </div>
     </div>
@@ -305,13 +310,13 @@
                                 src="/assets/images/content/buttons/sticky-cta-brochure.png"></span>
                     </a>
                 </li>
-                <li class="cta-item e">
+                {{-- <li class="cta-item e">
                     <a href="/assets/images/content/fp/TALENTO COMBI/FIAT TALENTO COMBI CJENOVNIK.pdf" target="new">
                         <span class="cta-item-info" >CJENOVNIK</span>
                         <span class="cta-item-icon w43"><img
                                 src="/assets/images/content/buttons/sticky-cta-brochure.png"></span>
                     </a>
-                </li>
+                </li> --}}
             </div>
         </div>
     </div>
@@ -335,13 +340,13 @@
                                 src="/assets/images/content/buttons/sticky-cta-brochure.png"></span>
                     </a>
                 </li>
-                <li class="cta-item e">
+               {{--  <li class="cta-item e">
                     <a href="/assets/images/content/fp/TALENTO FURGON/FIAT TALENTO FURGON CJENOVNIK.pdf" target="new">
                         <span class="cta-item-info" >CJENOVNIK</span>
                         <span class="cta-item-icon w43"><img
                                 src="/assets/images/content/buttons/sticky-cta-brochure.png"></span>
                     </a>
-                </li>
+                </li> --}}
             </div>
         </div>
     </div>

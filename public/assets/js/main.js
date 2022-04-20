@@ -134,7 +134,7 @@ window.jQuery(document).ready(function ($) {
     $('.carousel-slider.projects-slider-alfa').slick({
         arrows: false,
         dots: true,
-        slidesToShow: 2,
+        slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 6000,
